@@ -238,11 +238,11 @@ const gifts=[
     "group": "books",
     "image": null,
     "photoClass": "book-photo",
-    "price": null,
-    "budget": "Chưa đặt ngân sách",
+    "price": 60000,
+    "budget": "60.000 ₫",
     "category": "books / big brain shelf",
-    "condition": "Book wishlist · cover edition is a reference; confirm language and translation",
-    "note": "Liễu Phàm Tứ Huấn — Viên Liễu Phàm. Please check edition, translator, and condition before buying. Budget not set yet.",
+    "condition": "Vietnamese 2025 reprint · screenshot edition reference",
+    "note": "Liễu Phàm Tứ Huấn — Vietnamese 2025 reprint shown in your screenshot. The displayed sale price was 60,000 ₫ (75,000 ₫ regular); check the current price and edition at Fahasa.",
     "url": "https://www.google.com/search?q=Li%E1%BB%85u%20Ph%C3%A0m%20T%E1%BB%A9%20Hu%E1%BA%A5n%20Vi%E1%BB%87t%20Nam",
     "source": "https://openlibrary.org/search?q=Li%E1%BB%85u%20Ph%C3%A0m%20T%E1%BB%A9%20Hu%E1%BA%A5n%20Vi%C3%AAn%20Li%E1%BB%85u%20Ph%C3%A0m",
     "author": "Viên Liễu Phàm",
@@ -251,7 +251,13 @@ const gifts=[
       "title": "Liễu Phàm Tứ Huấn",
       "author": "Viên Liễu Phàm"
     },
-    "alternateTitle": ""
+    "alternateTitle": "",
+    "priceSource": {
+      "status": "user-supplied screenshot",
+      "providedOn": "2026-11-04",
+      "price_vnd": 60000,
+      "note": "Fahasa screenshot; live price and shipping not verified."
+    }
   },
   {
     "id": "book-quy-coc-tu",
@@ -661,15 +667,15 @@ const gifts=[
     "price": 1794000,
     "budget": "1.794.000 ₫",
     "photoClass": "cutout-photo",
-    "condition": "Blue dial · exact retailer link saved",
+    "condition": "Green dial MQ-24DA-3A · retailer screenshot",
     "id": "casio-mq",
-    "name": "Casio MQ-24DA-2A",
+    "name": "Casio MQ-24DA-3A · green dial",
     "image": null,
     "category": "watches / another little obsession",
-    "note": "Blue-dial MQ-24DA-2A as shown in your screenshot. The displayed retailer price is 1,794,000 ₫; your target remains below 2,000,000 ₫. Confirm the current price before buying.",
-    "url": "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/",
-    "source": "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/",
-    "shopLabel": "open the exact watch ↗",
+    "note": "Your latest reference shows the green dial MQ-24DA-3A at 1,794,000 ₫. The earlier direct retailer link is for the blue 2A variant; use it to compare color options and confirm the model and price. Your target remains below 2,000,000 ₫.",
+    "url": "https://www.google.com/search?q=Casio%20MQ-24DA-3A%20xanh%20l%C3%A1%20casio%20vietnam",
+    "source": "https://www.google.com/search?q=Casio%20MQ-24DA-3A%20xanh%20l%C3%A1%20casio%20vietnam",
+    "shopLabel": "find the green 3A ↗",
     "x": 45,
     "y": 84,
     "size": 140,
@@ -687,10 +693,17 @@ const gifts=[
       "providedOn": "2026-11-04",
       "price_vnd": 1794000,
       "url": "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/",
-      "note": "Displayed screenshot price; availability and price may change. Shipping may be extra."
+      "note": "Green MQ-24DA-3A price 1,794,000 VND visible in user screenshot; earlier URL points to blue 2A. Check actual retailer variant and current price."
     },
     "imageStatus": "User screenshot received; an accurate cutout remains pending.",
-    "linkOnly": true
+    "linkOnly": true,
+    "sourceLabel": "Find the green 3A ↗",
+    "links": [
+      {
+        "label": "Earlier blue 2A retailer page ↗",
+        "url": "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/"
+      }
+    ]
   },
   {
     "id": "lego-ferrari-sf24",
@@ -775,15 +788,15 @@ const gifts=[
   },
   {
     "id": "lepin-super-escrdt-07101",
-    "name": "LEPIN superhero building set · 07101",
+    "name": "LEPIN Hulkbuster building set · 07101",
     "group": "builds",
     "image": null,
     "photoClass": "cutout-photo",
     "price": null,
     "budget": "Giá chưa xác minh",
     "category": "build it / tiny things, big happiness",
-    "condition": "LEPIN · not an official LEGO product",
-    "note": "Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "condition": "LEPIN 07101 · Hulkbuster-style building set · not official LEGO",
+    "note": "The LEPIN 07101 Hulkbuster-style build shown in your photo. Choose the correct listing variant; its screenshot does not show a price.",
     "url": "https://shopee.vn/bộ-lepin-07101-bộ-lắp-ráp-siêu-nhân-Lego-SUPER-ESCDRT-GIÚP-BÉ-PHÁT-TRIỂN-TRÍ-TUỆ-MỘT-CÁCH-TOÀN-DIỆN.-i.86752477.1624647819?extraParams=%7B%22display_model_id%22%3A62118460075%2C%22model_selection_logic%22%3A3%7D&image_ids=16fd7c8c47deeca096650d45d53f287e",
     "source": "https://shopee.vn/bộ-lepin-07101-bộ-lắp-ráp-siêu-nhân-Lego-SUPER-ESCDRT-GIÚP-BÉ-PHÁT-TRIỂN-TRÍ-TUỆ-MỘT-CÁCH-TOÀN-DIỆN.-i.86752477.1624647819?extraParams=%7B%22display_model_id%22%3A62118460075%2C%22model_selection_logic%22%3A3%7D&image_ids=16fd7c8c47deeca096650d45d53f287e",
     "sourceLabel": "Product listing ↗",
@@ -1123,7 +1136,7 @@ function openGift(g,b){
  if(selected===g){closeDetail();return;}const sceneRect=playground.getBoundingClientRect();if(Math.min(innerHeight,sceneRect.bottom)-Math.max(0,sceneRect.top)<360)window.scrollTo({top:window.scrollY+sceneRect.top,behavior:'instant'});selected=g;previous=b;
  for(const item of buttons.values()){item.classList.toggle('selected',item===b);item.setAttribute('aria-expanded',String(item===b));item.tabIndex=item===b?0:-1;}
  $('#detail-number').textContent='WISH '+String(gifts.indexOf(g)+1).padStart(2,'0')+' / '+gifts.length;
- $('#detail-favorite').hidden=!g.favorite;$('#detail-title').textContent=g.name;$('#detail-category').textContent=g.category;$('#detail-price').textContent=g.budget;$('#detail-condition').textContent=g.condition;$('#detail-note').textContent=g.note;
+ $('#detail-favorite').hidden=!g.favorite;$('#detail-title').textContent=g.name;$('#detail-category').textContent=g.category;$('#detail-price').textContent=g.budget;$('#detail-price-label').textContent=g.priceType==='listing-range'?'khoảng giá · VND':g.priceSource?.status==='user-supplied screenshot'?'giá trong ảnh · VND':'ngân sách · VND';$('#detail-condition').textContent=g.condition;$('#detail-note').textContent=g.note;
  const outfit=$('#detail-outfit'),frameSlot=$('#detail-outfit-frame');frameSlot.replaceChildren();outfit.hidden=!g.outfitReference;
  if(g.outfitReference&&/^\d+$/.test(g.outfitReference.pinId)){
   const ref=g.outfitReference,frame=document.createElement('iframe');frame.title=ref.title;frame.src='https://assets.pinterest.com/ext/embed.html?id='+ref.pinId;frame.loading='lazy';frame.referrerPolicy='no-referrer';frame.setAttribute('sandbox','allow-scripts allow-same-origin allow-popups');frameSlot.append(frame);$('#detail-outfit-link').href=ref.url;

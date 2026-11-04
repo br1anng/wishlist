@@ -109,3 +109,9 @@ A transparent cutout is derived from the main ship photo in the screenshot, remo
 Updated prices from user screenshots: Sasuke and Blokees Spider-Man 499,000 VND each, Iron Spider 699,000 VND, Ferrari 751,200 VND, Naruto/Hinata wedding 400,000 VND, and Casio MQ-24DA-2A 1,794,000 VND. Prices are screenshot observations and may change. Iron Spider screenshot says 1606-12 while the original URL says 1602-12; confirm the model and price. The dragon price is partly obscured, so it remains unconfirmed. Porsche and Batmobile screenshots show no readable price.
 
 The Messi shirt and Naruto/Hinata wedding cutouts and both headline dogs are derived from user-provided images. Other requested product images remain pending: the image editor can receive only five recent images at a time; two edit attempts were blocked, and one output did not faithfully match the supplied dragon set and was rejected.
+
+## Refined screenshot wishes — 4 November 2026
+
+Named the LEPIN 07101 wish as Hulkbuster, updated the Casio wish to the green MQ-24DA-3A pictured by the user (the previous direct retailer URL is for blue 2A and remains a clearly labeled alternate), and recorded the 60,000 VND Fahasa screenshot price for Liễu Phàm Tứ Huấn. The detail panel distinguishes screenshot prices, listing-wide ranges and budget targets. Screenshot prices are not live verification.
+
+The supplied book-cover references were submitted for background removal, but the generated edits altered fine cover artwork or lettering. They are not included as exact product photographs. Source images for the other requested products remain inaccessible to the editor beyond its five-image input limit.

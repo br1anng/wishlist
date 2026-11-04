@@ -173,7 +173,9 @@
     "budget_note": "Wishlist budget, not a live seller price",
     "image_url": null,
     "file": null,
-    "status": "exact title/author cover lookup when online; labeled title link otherwise"
+    "status": "exact title/author cover lookup when online; labeled title link otherwise",
+    "observed_price_vnd": 60000,
+    "observed_price_source": "User-supplied Fahasa screenshot, 2026-11-04"
   },
   {
     "id": "book-quy-coc-tu",
@@ -378,18 +380,18 @@
   },
   {
     "id": "casio-mq",
-    "model": "Casio MQ-24DA-2A",
+    "model": "Casio MQ-24DA-3A · green dial",
     "source": "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/",
-    "product_url": "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/",
+    "product_url": "https://www.google.com/search?q=Casio%20MQ-24DA-3A%20xanh%20l%C3%A1%20casio%20vietnam",
     "budget_vnd": 2000000,
     "budget_note": "Screenshot price; not verified live. Shipping may be extra.",
-    "status": "User screenshot supplied; accurate cutout remains pending.",
+    "status": "Green 3A image pending; prior retailer link is blue 2A.",
     "file": null,
     "group": "watches",
     "image_url": null,
     "image_source": "User-supplied image in chat, 2026-11-04",
     "observed_price_vnd": 1794000,
-    "observed_price_source": "User-supplied screenshot, 2026-11-04"
+    "observed_price_source": "User-supplied screenshot of green 3A, 2026-11-04"
   },
   {
     "id": "spain-pedri-shirt",
@@ -503,7 +505,7 @@
   },
   {
     "id": "lepin-super-escrdt-07101",
-    "model": "LEPIN superhero building set · 07101",
+    "model": "LEPIN Hulkbuster building set · 07101",
     "group": "builds",
     "source": "https://shopee.vn/bộ-lepin-07101-bộ-lắp-ráp-siêu-nhân-Lego-SUPER-ESCDRT-GIÚP-BÉ-PHÁT-TRIỂN-TRÍ-TUỆ-MỘT-CÁCH-TOÀN-DIỆN.-i.86752477.1624647819?extraParams=%7B%22display_model_id%22%3A62118460075%2C%22model_selection_logic%22%3A3%7D&image_ids=16fd7c8c47deeca096650d45d53f287e",
     "product_url": "https://shopee.vn/bộ-lepin-07101-bộ-lắp-ráp-siêu-nhân-Lego-SUPER-ESCDRT-GIÚP-BÉ-PHÁT-TRIỂN-TRÍ-TUỆ-MỘT-CÁCH-TOÀN-DIỆN.-i.86752477.1624647819?extraParams=%7B%22display_model_id%22%3A62118460075%2C%22model_selection_logic%22%3A3%7D&image_ids=16fd7c8c47deeca096650d45d53f287e",

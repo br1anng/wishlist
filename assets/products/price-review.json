@@ -132,9 +132,11 @@
       "id": "book-lieu-pham",
       "name": "Liễu Phàm Tứ Huấn",
       "budget_vnd": null,
-      "display": "Chưa đặt ngân sách",
-      "status": "not priced",
-      "lookup_url": "https://www.google.com/search?q=Li%E1%BB%85u%20Ph%C3%A0m%20T%E1%BB%A9%20Hu%E1%BA%A5n%20Vi%E1%BB%87t%20Nam"
+      "display": "60.000 ₫",
+      "status": "Fahasa sale price in user screenshot; not verified live",
+      "lookup_url": "https://www.google.com/search?q=Li%E1%BB%85u%20Ph%C3%A0m%20T%E1%BB%A9%20Hu%E1%BA%A5n%20Vi%E1%BB%87t%20Nam",
+      "observed_price_vnd": 60000,
+      "price_source": "User screenshot provided 2026-11-04"
     },
     {
       "id": "book-quy-coc-tu",
@@ -282,11 +284,11 @@
     },
     {
       "id": "casio-mq",
-      "name": "Casio MQ-24DA-2A",
+      "name": "Casio MQ-24DA-3A · green dial",
       "budget_vnd": null,
       "display": "1.794.000 ₫",
       "status": "Price shown in user screenshot; not verified live",
-      "lookup_url": "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/",
+      "lookup_url": "https://www.google.com/search?q=Casio%20MQ-24DA-3A%20xanh%20l%C3%A1%20casio%20vietnam",
       "observed_price_vnd": 1794000,
       "price_source": "User screenshot provided 2026-11-04"
     },
@@ -318,7 +320,7 @@
     },
     {
       "id": "lepin-super-escrdt-07101",
-      "name": "LEPIN superhero building set · 07101",
+      "name": "LEPIN Hulkbuster building set · 07101",
       "budget_vnd": null,
       "display": "Giá chưa xác minh",
       "status": "current shop price not verified",
