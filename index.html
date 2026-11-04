@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f3f1ec">
+<title>Things to get me</title>
+<link rel="stylesheet" href="./style.css">
+<script type="module" src="./app.js"></script>
+</head>
+<body>
+<header class="hero">
+ <div class="hero-row">
+  <p class="kicker"><span id="count">43</span> WISHES · <span id="kicker-state">TAP TO EXPLORE</span></p>
+  <button id="share" class="icon-pill" aria-label="Send a hint">hint <span aria-hidden="true">↗</span></button>
+ </div>
+ <img class="headline-dog headline-dog-reading" src="./assets/products/headline-dog-reading.webp" alt="" aria-hidden="true">
+ <img class="headline-dog headline-dog-bowl" src="./assets/products/headline-dog-bowl.webp" alt="" aria-hidden="true">
+ <a class="logo" href="./" aria-label="Things to get me home">
+  <h1><span class="headline-top">Things to</span><br><span class="headline-bottom">get me</span></h1>
+ </a>
+ <p class="headline-note">a very subtle hint, actually.</p>
+</header>
+<div class="masthead">
+ <span class="mini-title" aria-hidden="true">Things to get me</span>
+ <nav id="categories" class="chips" aria-label="Wishlist categories"></nav>
+</div>
+
+<main>
+ <section class="playground" aria-label="Floating gift scene">
+  <div id="scene">
+   <div id="gifts"></div>
+   <div id="veil" aria-hidden="true"></div>
+  </div>
+  <div id="empty" hidden>love is free.<small>unfortunately, none of these are. try a bigger budget?</small></div>
+ </section>
+
+ <div id="callouts" aria-hidden="true"></div>
+
+ <aside id="detail" class="sheet" hidden aria-labelledby="detail-title">
+  <div class="sheet-grip" aria-hidden="true"></div>
+  <div class="sheet-top">
+   <span class="mono"><b id="detail-number">WISH 01</b> <span id="detail-total">/ 43</span></span>
+   <span id="detail-group" class="mono muted-ink"></span>
+   <button id="close" class="close" aria-label="Back to all gifts">×</button>
+  </div>
+  <span id="detail-favorite" class="fave-flag mono" hidden>♥ a favorite</span>
+  <h2 id="detail-title"></h2>
+  <ol class="spec">
+   <li><span id="detail-price-label" class="mono">01 · BUDGET</span><em id="detail-price"></em></li>
+   <li><span class="mono">02 · DETAILS</span><em id="detail-condition"></em></li>
+  </ol>
+  <section id="detail-outfit" class="outfit-reference" hidden aria-label="Preferred outfit reference">
+   <a id="detail-outfit-link" class="mono" target="_blank" rel="noopener noreferrer">THE OUTFIT I MEAN ↗</a>
+   <div id="detail-outfit-frame"></div>
+   <small>Pinterest preview needs internet. Open the link if it doesn’t appear.</small>
+  </section>
+  <p id="detail-note"></p>
+  <div id="detail-links" class="detail-links"></div>
+  <div class="sheet-actions">
+   <a id="detail-shop" class="pill-dark" target="_blank" rel="noopener noreferrer">tìm món này ở Việt Nam ↗</a>
+   <a id="detail-source" class="pill-line" target="_blank" rel="noopener noreferrer">source ↗</a>
+  </div>
+  <div class="sheet-nav">
+   <button id="prev" class="nav-btn mono" aria-label="Previous wish">← PREV</button>
+   <span class="progress" aria-hidden="true"><span id="progress-bar"></span></span>
+   <button id="next" class="nav-btn mono" aria-label="Next wish">NEXT →</button>
+  </div>
+  <small class="fine">Wishlist budgets, not verified seller prices. Photos show the model, not a specific sale listing.</small>
+ </aside>
+
+ <button id="dock" class="dock mono" type="button">TAP ANY WISH TO SHOP</button>
+
+ <section class="budget" aria-label="Price filter">
+  <span class="mono muted-ink">THE DAMAGE LIMIT</span>
+  <h2 id="budget-title">financially irresponsible</h2>
+  <p class="budget-disclaimer">your presence is the present. (but also these.)</p>
+  <div class="range-label">
+   <label for="price" class="mono">NGÂN SÁCH CHIỀU CHUỘNG</label>
+   <output id="price-value" for="price" class="mono">NO LIMIT</output>
+  </div>
+  <input id="price" type="range" min="0" max="5000000" value="5000000" step="10000">
+  <div class="range-ends mono"><span>a lil treat</span><span>rent can wait</span></div>
+  <p id="budget-note" class="mono muted-ink budget-note"></p>
+  <div class="budget-actions">
+   <button id="back-to-wishes" class="pill-line mono">BACK TO WISHES ↑</button>
+   <button id="reset" class="pill-line mono" aria-label="Reset price filter">RESET ↺</button>
+   <button id="reset-turns" class="pill-line mono" type="button" title="Reset all photo rotations">FACE FRONT ↺</button>
+  </div>
+ </section>
+
+ <footer class="mono">
+  <span>the official delulu registry</span>
+  <span>not sponsored. unfortunately.</span>
+  <span>made with ♡ &amp; unrealistic expectations</span>
+ </footer>
+</main>
+<div id="toast" role="status"></div>
+</body>
+</html>
