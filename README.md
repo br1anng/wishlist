@@ -10,11 +10,13 @@ The file contains the current 30-item wishlist and embedded local photos/styles.
 
 # Things to get me
 
-A personal floating wishlist with 30 wishes, category scenes, pagination, product-reference images, scene zoom, and a VND budget slider. Requires Node.js 18+; no dependencies. Run `npm start` (port 3000; override with `PORT`).
+A personal floating wishlist with 30 wishes, one editorial collage, drag-to-turn photos, product-reference images, scene zoom, and a VND budget slider. Requires Node.js 18+; no dependencies. Run `npm start` (port 3000; override with `PORT`).
 
 ## Collections
 
-Everything, figures, 1/64 garage, books, clothing/fragrance, watches, and tech. Each scene shows at most 12 wishes, with keyboard-accessible previous/next controls. Selecting a category resets its page. The price slider filters across the active category; unpriced wishes are labeled and excluded by finite budgets.
+All 30 gifts occupy a single art-directed canvas: varied sizes, angles and overlaps, with no pages or grid. Category and VND budget controls spotlight matching gifts without changing their positions. Unpriced wishes are dimmed for finite budgets. All active gifts are keyboard accessible.
+
+Drag any gift horizontally to rotate its flat photograph, or use Left/Right arrow keys while focused. Home resets that gift; “face front” resets every photo. A short click opens the zoomed details. Touch users can still scroll vertically. These are playful photo rotations, not true multi-angle product photography or 3D models.
 
 The 19 latest additions are two Blokees figures, six diecast wishes (Roxy and Rexy are separate), a 30,000 VND Naruto brick-compatible minifigure, and ten books. Existing wishes and Instagram links remain.
 
@@ -24,9 +26,9 @@ Books: On Writing Well (William Zinsser); Distinction (Pierre Bourdieu); Một l
 
 ## Images and network access
 
-Existing cutouts, six car references, and three book references are local and embedded in the single-file preview. Background removal used ImageGen; small decals or occluded areas may have been reconstructed, so edited cutouts are not pixel-exact proof of a product listing. Original source photos remain in assets/products. Lossless WebP copies are checked against PNG decoded RGBA pixels to reduce the download size.
+Existing cutouts, six car references, and five book references are local and embedded in the single-file preview. Background removal used ImageGen; small decals or occluded areas may have been reconstructed, so edited cutouts are not pixel-exact proof of a product listing. Original source photos remain in assets/products. Lossless WebP copies are checked against PNG decoded RGBA pixels to reduce the download size.
 
-Two Blokees reference photos and four ISBN cover references are online images. Three books with no local cover use an optional Open Library title/author lookup, requiring an exact normalized title and author match before displaying a cover. These network sources were identified but cannot be fetched/verified under the current workspace network policy. When a cover is unavailable, a clearly labeled title/author link appears instead of a fabricated edition cover. The cheap Naruto minifigure and the existing MQ-24DA-2A are product links without substitute imagery.
+Two Blokees reference photos and two ISBN cover references are online images. Three books with no local cover use an optional Open Library title/author lookup, requiring an exact normalized title and author match before displaying a cover. These network sources were identified but cannot be fetched/verified under the current workspace network policy. When a cover is unavailable, a clearly labeled title/author link appears instead of a fabricated edition cover. The cheap Naruto minifigure and the existing MQ-24DA-2A are product links without substitute imagery.
 
 Remote photos need Internet access even in the downloadable preview. Network domain additions are saved in the environment draft, but that does not apply or publish them. The existing runtime still blocks these sources. User review/save and environment publication are required to enable them in cloud checks.
 
@@ -71,3 +73,9 @@ Once the saved bindings and HTTP policy are applied, run `python3 scripts/deploy
 ## Price correction — 4 November 2026
 
 Casio LTP-V007D-1E is now budgeted below 1,000,000 VND, correcting the earlier 2,000,000 VND ceiling. This is a user-confirmed budget, not a verified shop quote. The runtime still denies external retailer/search requests with HTTP CONNECT 403, so no new prices were invented for the remaining gifts. Existing unspecified budgets stay unspecified. The Mac HTML is rebuilt after this correction; previously downloaded copies need replacing to receive it.
+
+## Editorial update — 4 November 2026
+
+Added locally verified real English covers for The Wealth of Nations and The Fountainhead, bringing local images to 21 of 30 wishes. The remaining nine use online image references or clearly labeled product/title links. Direct retailer, cover and search access is still blocked by the environment; no product photo or missing edition was invented.
+
+Verified in Chromium at 1440px and 390px: 30 gifts on one canvas, fixed-position category/budget spotlighting, pointer rotation without accidental detail opening, keyboard rotation/reset, mobile horizontal overflow and detail-panel bounds.

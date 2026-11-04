@@ -266,15 +266,15 @@ const gifts=[
     "id": "book-wealth-of-nations",
     "name": "Của cải của các dân tộc",
     "group": "books",
-    "image": "https://covers.openlibrary.org/b/isbn/9780553585971-L.jpg?default=false",
+    "image": "/assets/products/book-wealth-of-nations.jpg",
     "photoClass": "book-photo",
     "price": null,
     "budget": "Chưa đặt ngân sách",
     "category": "books / big brain shelf",
-    "condition": "Book wishlist · cover edition is a reference; confirm language and translation",
+    "condition": "English edition cover reference · choose the language and edition before buying",
     "note": "Của cải của các dân tộc — Adam Smith. Also known as The Wealth of Nations. Please check edition, translator, and condition before buying. Budget not set yet.",
     "url": "https://www.google.com/search?q=C%E1%BB%A7a%20c%E1%BA%A3i%20c%E1%BB%A7a%20c%C3%A1c%20d%C3%A2n%20t%E1%BB%99c%20Vi%E1%BB%87t%20Nam",
-    "source": "https://openlibrary.org/isbn/9780553585971",
+    "source": "https://github.com/cosmic-glitch/book-summarizer-2/blob/e61a45fe908c9d6ac3ac80231b408e06be193ca0/summaries/covers/The_Wealth_of_Nations.jpg",
     "author": "Adam Smith",
     "externalImage": true,
     "coverSearch": null,
@@ -284,15 +284,15 @@ const gifts=[
     "id": "book-fountainhead",
     "name": "Suối nguồn",
     "group": "books",
-    "image": "https://covers.openlibrary.org/b/isbn/9780451191151-L.jpg?default=false",
+    "image": "/assets/products/book-fountainhead.jpg",
     "photoClass": "book-photo",
     "price": null,
     "budget": "Chưa đặt ngân sách",
     "category": "books / big brain shelf",
-    "condition": "Book wishlist · cover edition is a reference; confirm language and translation",
+    "condition": "English edition cover reference · choose the language and edition before buying",
     "note": "Suối nguồn — Ayn Rand. Also known as The Fountainhead. Please check edition, translator, and condition before buying. Budget not set yet.",
     "url": "https://www.google.com/search?q=Su%E1%BB%91i%20ngu%E1%BB%93n%20Vi%E1%BB%87t%20Nam",
-    "source": "https://openlibrary.org/isbn/9780451191151",
+    "source": "https://github.com/YoannaP/yoannap.github.io/blob/bb43c4ae27e3aa52a3e63e96303957f3573f523c/static/books/covers/the-fountainhead.jpg",
     "author": "Ayn Rand",
     "externalImage": true,
     "coverSearch": null,
@@ -611,10 +611,59 @@ const gifts=[
 const $=selector=>document.querySelector(selector);
 const money=value=>new Intl.NumberFormat('vi-VN',{style:'currency',currency:'VND',maximumFractionDigits:0}).format(value);
 const groups=[['all','Everything'],['figures','Tiny people'],['diecast','1/64 garage'],['books','Books'],['style','Wear it'],['watches','Watches'],['tech','Tech & play']];
-const PAGE_SIZE=12,MAX_BUDGET=5000000;
+const MAX_BUDGET=5000000;
 const scene=$('#scene'),playground=$('.playground'),detail=$('#detail'),buttons=new Map();
-let activeCategory='all',activePage=0,visibleWishes=[],selected=null,previous=null,focusTimer,resizeTimer;
-const desktopSlots=[[6,170,-14],[29,145,10],[53,190,-8],[77,155,13],[9,420,10],[31,395,-13],[53,445,12],[77,405,-9],[6,675,-8],[29,700,11],[53,680,-13],[77,700,8]];
+let activeCategory='all',selected=null,previous=null,focusTimer,resizeTimer;
+const turns=new Map();
+// An art-directed composition: centers, widths, angles and depth, never rows.
+const composition={
+ 'barcelona-shirt':[17,9,270,-24,4], 'quarter-zip':[55,25,270,22,6],
+ 'henley':[10,46,230,-18,5], 'loafers':[59,76,285,-25,7],
+ 'kindle':[65,8,155,18,3], 'le-male':[43,17,135,-11,5],
+ 'xbox':[77,43,245,32,3], 'naruto':[39,38,155,-14,7],
+ 'blokees-naruto':[8,27,170,24,6], 'blokees-spider':[82,21,140,-20,4],
+ 'naruto-minifigure':[87,65,100,15,8],
+ 'casio-ltp':[29,25,155,35,8], 'casio-mtp':[49,54,165,-26,6],
+ 'casio-mq':[18,79,125,16,3],
+ 'diecast-rx7-niles':[42,4,260,-20,4], 'diecast-kaido-r34':[12,66,235,20,6],
+ 'diecast-roxy':[32,68,210,-20,5], 'diecast-rexy':[76,31,220,-15,8],
+ 'diecast-porsche-gt3r':[29,49,245,27,2], 'diecast-darwin-supra':[73,88,235,-16,7],
+ 'book-on-writing-well':[5,9,110,-8,2], 'book-distinction':[37,87,115,14,2],
+ 'book-moral-animal':[85,6,110,-18,2], 'book-wholeness':[51,74,110,-9,3],
+ 'book-lieu-pham':[26,37,110,-26,2], 'book-quy-coc-tu':[16,57,110,18,8],
+ 'book-wealth-of-nations':[84,54,115,21,2], 'book-fountainhead':[63,47,105,-17,3],
+ 'book-siddhartha':[8,91,120,-12,4], 'book-bup-sen-xanh':[57,13,105,26,2]
+};
+function applyTurn(g,button,yaw,tilt=0){
+ turns.set(g.id,{yaw,tilt});button.style.setProperty('--yaw',yaw+'deg');button.style.setProperty('--tilt',tilt+'deg');
+}
+function enableTurning(g,button){
+ let drag=null,suppressUntil=0;
+ button.addEventListener('pointerdown',e=>{
+  if(e.button!==0||button.disabled)return;
+  const turn=turns.get(g.id)||{yaw:0,tilt:0};drag={id:e.pointerId,x:e.clientX,y:e.clientY,...turn,moved:false};button.setPointerCapture(e.pointerId);
+ });
+ button.addEventListener('pointermove',e=>{
+  if(!drag||e.pointerId!==drag.id)return;
+  const dx=e.clientX-drag.x,dy=e.clientY-drag.y;
+  if(!drag.moved&&Math.hypot(dx,dy)<7)return;
+  drag.moved=true;button.classList.add('is-dragging');
+  applyTurn(g,button,drag.yaw+dx*1.5,Math.max(-40,Math.min(40,drag.tilt-dy*.35)));
+ });
+ const finish=e=>{
+  if(!drag||e.pointerId!==drag.id)return;
+  if(drag.moved)suppressUntil=performance.now()+400;
+  drag=null;button.classList.remove('is-dragging');
+  if(button.hasPointerCapture(e.pointerId))button.releasePointerCapture(e.pointerId);
+ };
+ button.addEventListener('pointerup',finish);button.addEventListener('pointercancel',finish);
+ button.addEventListener('click',e=>{if(performance.now()<suppressUntil){e.preventDefault();e.stopImmediatePropagation();}},true);
+ button.addEventListener('keydown',e=>{
+  if(e.key!=='ArrowLeft'&&e.key!=='ArrowRight'&&e.key!=='Home')return;
+  e.preventDefault();const turn=turns.get(g.id)||{yaw:0,tilt:0};
+  applyTurn(g,button,e.key==='Home'?0:turn.yaw+(e.key==='ArrowLeft'?-15:15),0);
+ });
+}
 function titleReference(g){
  const tag=document.createElement('span');tag.className=g.group==='books'?'book-title-card':'product-link-tag';
  const title=document.createElement('strong');title.textContent=g.name;tag.append(title);
@@ -622,7 +671,7 @@ function titleReference(g){
  const label=document.createElement('span');label.className='reference-label';label.textContent=g.group==='books'?'TITLE LINK · EDITION TO CHOOSE':'PRODUCT LINK';tag.append(label);return tag;
 }
 function renderImage(g,container,url){
- const img=document.createElement('img');img.alt=g.name+(g.author?' — '+g.author:'');img.src=url;img.decoding='async';img.referrerPolicy='no-referrer';
+ const img=document.createElement('img');img.alt=g.name+(g.author?' — '+g.author:'');img.src=url;img.decoding='async';img.draggable=false;img.referrerPolicy='no-referrer';
  img.addEventListener('error',()=>{container.replaceChildren(titleReference(g));container.classList.add('has-title-reference');});
  container.replaceChildren(img);container.classList.remove('has-title-reference');
 }
@@ -636,32 +685,38 @@ async function lookUpCover(g){
   const data=await response.json(),normalize=s=>String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/đ/g,'d').replace(/[^a-z0-9 ]/g,'').trim();
   const title=normalize(g.name),author=normalize(g.author);
   const match=(data.docs||[]).find(d=>d.cover_i&&normalize(d.title)===title&&(d.author_name||[]).some(a=>normalize(a)===author));
-  if(match){g.resolvedCover='https://covers.openlibrary.org/b/id/'+match.cover_i+'-L.jpg?default=false';renderImage(g,buttons.get(g.id).querySelector('.gift-inner'),g.resolvedCover);}
+  if(match){g.resolvedCover='https://covers.openlibrary.org/b/id/'+match.cover_i+'-L.jpg?default=false';renderImage(g,buttons.get(g.id).querySelector('.gift-art'),g.resolvedCover);}
  }catch{}finally{clearTimeout(timer);}
 }
 for(const g of gifts){
  const button=document.createElement('button');button.className='gift '+(g.photoClass||'cutout-photo');button.dataset.id=g.id;button.dataset.price=g.price===null?'':g.price;button.hidden=true;
- button.setAttribute('aria-label',g.name+', '+g.budget+'. Open wish details');button.setAttribute('aria-controls','detail');button.setAttribute('aria-expanded','false');
+ button.setAttribute('aria-label',g.name+', '+g.budget+'. Click for details. Drag or use left and right arrows to turn the photo; Home resets it.');button.setAttribute('aria-controls','detail');button.setAttribute('aria-expanded','false');
  const inner=document.createElement('span');inner.className='gift-inner';
- if(g.image)renderImage(g,inner,g.image);else inner.append(titleReference(g));
+ const art=document.createElement('span');art.className='gift-art';inner.append(art);
+ if(g.image)renderImage(g,art,g.image);else art.append(titleReference(g));
+ enableTurning(g,button);
  const label=document.createElement('span');label.className='gift-label';label.textContent=g.name+' · '+g.budget;
  button.append(inner,label);button.onclick=()=>openGift(g,button);$('#gifts').append(button);buttons.set(g.id,button);
 }
 for(const[key,label]of groups){
  const button=document.createElement('button');button.className='category-tab';button.dataset.category=key;button.setAttribute('aria-pressed',String(key==='all'));
  button.textContent=label+' '+(key==='all'?gifts.length:gifts.filter(g=>g.group===key).length);
- button.onclick=()=>{activeCategory=key;activePage=0;updateView();};$('#categories').append(button);
+ button.onclick=()=>{activeCategory=key;updateView();};$('#categories').append(button);
 }
 function layoutScene(){
- const mobile=playground.clientWidth<650,count=visibleWishes.length,rows=Math.ceil(count/(mobile?2:4));
- playground.style.height=(mobile?Math.max(680,170+rows*190):Math.max(680,190+rows*250))+'px';
- visibleWishes.forEach((g,i)=>{
-  const b=buttons.get(g.id),slot=desktopSlots[i],isBook=g.group==='books',isCar=g.group==='diecast',isWatch=g.group==='watches';
-  const width=isBook?125:isCar?225:isWatch?205:g.group==='figures'?160:195;
-  const mobileWidth=isBook?95:isCar?155:isWatch?140:g.group==='figures'?120:140;
-  b.style.setProperty('--x',slot[0]+'%');b.style.setProperty('--y',(slot[1]-70)+'px');b.style.setProperty('--size',width+'px');
-  b.style.setProperty('--mx',(i%2?54:5)+'%');b.style.setProperty('--my',(75+Math.floor(i/2)*190+(i%2?-12:10))+'px');b.style.setProperty('--ms',mobileWidth+'px');
-  b.style.setProperty('--gift-wash',['#ffc4da','#ffeb83','#c3d4ff','#c6ebc9','#dfcff6','#ffd0ad'][i%6]);b.style.setProperty('--rotation',slot[2]+'deg');b.style.setProperty('--delay',(-i*.7)+'s');b.style.setProperty('--duration',(5+i*.25)+'s');
+ const w=playground.clientWidth,mobile=w<650,artTop=mobile?95:110,artHeight=w*(mobile?3.45:1.25),scale=w/(mobile?710:1120);
+ playground.style.height=(artTop+artHeight+110)+'px';
+ gifts.forEach((g,i)=>{
+  const b=buttons.get(g.id),slot=composition[g.id];
+  if(!slot)throw new Error('Missing composition: '+g.id);
+  const [cx,cy,size,angle,depth]=slot;
+  const width=size*scale,ratio=g.group==='books'?1.5:g.group==='diecast'?.64:g.group==='watches'?1.25:g.id==='le-male'?1.5:g.id==='kindle'?1.45:g.id==='loafers'?.65:1.12,height=width*ratio;
+  const a=Math.abs(angle)*Math.PI/180,halfX=(width*Math.cos(a)+height*Math.sin(a))/2,halfY=(height*Math.cos(a)+width*Math.sin(a))/2;
+  const x=Math.max(halfX+10,Math.min(w-halfX-10,w*cx/100));
+  const y=artTop+Math.max(halfY+10,Math.min(artHeight-halfY-10,artHeight*cy/100));
+  b.style.setProperty('--x',(x-width/2)+'px');b.style.setProperty('--y',(y-height/2)+'px');
+  b.style.setProperty('--size',width+'px');b.style.setProperty('--height',height+'px');b.style.setProperty('--depth',depth);
+  b.style.setProperty('--gift-wash',['#ffc4da','#ffeb83','#c3d4ff','#c6ebc9','#dfcff6','#ffd0ad'][i%6]);b.style.setProperty('--rotation',angle+'deg');b.style.setProperty('--delay',(-i*.7)+'s');b.style.setProperty('--duration',(5+i*.25)+'s');
  });
 }
 function updateView(){
@@ -669,17 +724,15 @@ function updateView(){
  const max=Number($('#price').value),unlimited=max===MAX_BUDGET;
  const category=gifts.filter(g=>activeCategory==='all'||g.group===activeCategory);
  const eligible=category.filter(g=>unlimited||(g.price!==null&&g.price<=max));
- const pages=Math.max(1,Math.ceil(eligible.length/PAGE_SIZE));activePage=Math.min(activePage,pages-1);
- visibleWishes=eligible.slice(activePage*PAGE_SIZE,(activePage+1)*PAGE_SIZE);const ids=new Set(visibleWishes.map(g=>g.id));
- for(const g of gifts){const b=buttons.get(g.id);b.hidden=!ids.has(g.id);b.disabled=false;b.tabIndex=0;}
+ const ids=new Set(eligible.map(g=>g.id));
+ for(const g of gifts){const b=buttons.get(g.id),matches=ids.has(g.id);b.hidden=false;b.disabled=!matches;b.tabIndex=matches?0:-1;b.classList.toggle('muted',!matches);}
  for(const tab of document.querySelectorAll('.category-tab'))tab.setAttribute('aria-pressed',String(tab.dataset.category===activeCategory));
  $('#count').textContent=gifts.length;$('#empty').hidden=eligible.length>0;$('#scene-hint').hidden=eligible.length===0;
- $('#scene-result').textContent=eligible.length?(activePage*PAGE_SIZE+1)+'–'+Math.min((activePage+1)*PAGE_SIZE,eligible.length)+' of '+eligible.length+' wishes':'No wishes in this budget';
- $('#scene-pager').hidden=pages<=1;$('#page-label').textContent=(activePage+1)+' / '+pages;$('#prev-page').disabled=activePage===0;$('#next-page').disabled=activePage===pages-1;
+ $('#scene-result').textContent=eligible.length===gifts.length?'30 wishes · one big hint':eligible.length+' of 30 in the spotlight';
  $('#price').style.setProperty('--range-progress',(max/MAX_BUDGET*100)+'%');$('#price-value').textContent=unlimited?'no limit, baby':'tối đa '+money(max);$('#price').setAttribute('aria-valuetext',unlimited?'No price limit':'Tối đa '+money(max));
- const unpriced=category.filter(g=>g.price===null).length;$('#budget-note').textContent=unlimited?unpriced+' món chưa đặt ngân sách':unpriced+' món chưa có ngân sách đang ẩn';
+ const unpriced=category.filter(g=>g.price===null).length;$('#budget-note').textContent=unlimited?unpriced+' món chưa đặt ngân sách':unpriced+' món chưa có ngân sách được làm mờ';
  $('#budget-title').textContent=unlimited?'financially irresponsible ♡':max<=30000?'tiny ninja money ☻':max<500000?'love on a budget ☻':max<1000000?'a lil treat territory':max<2000000?'okay, you really like me':'sugar partner energy ✦';
- layoutScene();visibleWishes.forEach(lookUpCover);
+ layoutScene();eligible.forEach(lookUpCover);
 }
 function placeDetail(){
  if(!selected)return;
@@ -693,7 +746,7 @@ function placeDetail(){
 }
 function closeDetail(restore=true){
  clearTimeout(focusTimer);$('#detail-outfit-frame').replaceChildren();$('#detail-outfit').hidden=true;detail.hidden=true;detail.classList.remove('visible');$('#overview').hidden=true;playground.classList.remove('zoomed');scene.style.transform='';
- for(const b of buttons.values()){b.classList.remove('selected');b.setAttribute('aria-expanded','false');b.tabIndex=0;}selected=null;if(restore)previous?.focus({preventScroll:true});
+ for(const b of buttons.values()){b.classList.remove('selected');b.setAttribute('aria-expanded','false');b.tabIndex=b.disabled?-1:0;}selected=null;if(restore)previous?.focus({preventScroll:true});
 }
 function openGift(g,b){
  if(selected===g){closeDetail();return;}const sceneRect=playground.getBoundingClientRect();if(Math.min(innerHeight,sceneRect.bottom)-Math.max(0,sceneRect.top)<360)window.scrollTo({top:window.scrollY+sceneRect.top,behavior:'instant'});selected=g;previous=b;
@@ -708,10 +761,10 @@ function openGift(g,b){
  const links=$('#detail-links');links.replaceChildren();for(const ref of g.links||[]){const a=document.createElement('a');a.href=ref.url;a.textContent=ref.label;a.target='_blank';a.rel='noopener noreferrer';links.append(a);}
  detail.hidden=false;detail.classList.remove('visible');$('#overview').hidden=false;playground.classList.add('zoomed');placeDetail();clearTimeout(focusTimer);focusTimer=setTimeout(()=>{detail.classList.add('visible');$('#close').focus({preventScroll:true});},matchMedia('(prefers-reduced-motion: reduce)').matches?0:180);
 }
-$('#price').oninput=()=>{activePage=0;updateView();};$('#reset').onclick=()=>{$('#price').value=MAX_BUDGET;activePage=0;updateView();};
-$('#prev-page').onclick=()=>{activePage=Math.max(0,activePage-1);updateView();};$('#next-page').onclick=()=>{activePage++;updateView();};
+$('#price').oninput=updateView;$('#reset').onclick=()=>{$('#price').value=MAX_BUDGET;updateView();};
 $('#budget-jump').onclick=()=>$('.budget').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'center'});
 $('#back-to-wishes').onclick=()=>playground.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
+$('#reset-turns').onclick=()=>{for(const g of gifts)applyTurn(g,buttons.get(g.id),0);toast('all photos facing front ☻');};
 $('#close').onclick=()=>closeDetail();$('#overview').onclick=()=>closeDetail();
 playground.addEventListener('click',e=>{if(selected&&!e.target.closest('button, a, .detail-card'))closeDetail();});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&selected)closeDetail();});
 window.addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{layoutScene();placeDetail();},100);});

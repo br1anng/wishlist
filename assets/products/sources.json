@@ -203,25 +203,25 @@
     "id": "book-wealth-of-nations",
     "model": "Của cải của các dân tộc",
     "group": "books",
-    "source": "https://openlibrary.org/isbn/9780553585971",
+    "source": "https://github.com/cosmic-glitch/book-summarizer-2/blob/e61a45fe908c9d6ac3ac80231b408e06be193ca0/summaries/covers/The_Wealth_of_Nations.jpg",
     "product_url": "https://www.google.com/search?q=C%E1%BB%A7a%20c%E1%BA%A3i%20c%E1%BB%A7a%20c%C3%A1c%20d%C3%A2n%20t%E1%BB%99c%20Vi%E1%BB%87t%20Nam",
     "budget_vnd": null,
     "budget_note": "Wishlist budget, not a live seller price",
-    "image_url": "https://covers.openlibrary.org/b/isbn/9780553585971-L.jpg?default=false",
-    "file": null,
-    "status": "online reference URL identified; external loading blocked in current cloud instance; requires Internet"
+    "image_url": null,
+    "file": "assets/products/book-wealth-of-nations.jpg",
+    "status": "Real English edition cover downloaded from public GitHub reference; included locally and in offline HTML. Vietnamese edition still to choose."
   },
   {
     "id": "book-fountainhead",
     "model": "Suối nguồn",
     "group": "books",
-    "source": "https://openlibrary.org/isbn/9780451191151",
+    "source": "https://github.com/YoannaP/yoannap.github.io/blob/bb43c4ae27e3aa52a3e63e96303957f3573f523c/static/books/covers/the-fountainhead.jpg",
     "product_url": "https://www.google.com/search?q=Su%E1%BB%91i%20ngu%E1%BB%93n%20Vi%E1%BB%87t%20Nam",
     "budget_vnd": null,
     "budget_note": "Wishlist budget, not a live seller price",
-    "image_url": "https://covers.openlibrary.org/b/isbn/9780451191151-L.jpg?default=false",
-    "file": null,
-    "status": "online reference URL identified; external loading blocked in current cloud instance; requires Internet"
+    "image_url": null,
+    "file": "assets/products/book-fountainhead.jpg",
+    "status": "Real English edition cover downloaded from public GitHub reference; included locally and in offline HTML. Vietnamese edition still to choose."
   },
   {
     "id": "book-siddhartha",
