@@ -67,3 +67,7 @@ The draft now declares CLOUDFLARE_API_TOKEN (secure environment secret bound onl
 The intended project is br1anng-wishlist, preview branch codex-preview. Neither the Cloudflare project nor a deployment has been created. The GitHub Pages workflow is only a local alternative and has not been pushed/run; Cloudflare is the selected route.
 
 Once the saved bindings and HTTP policy are applied, run `python3 scripts/deploy-cloudflare.py`. It rebuilds the static site, creates the dedicated Pages project only if absent, and publishes the `codex-preview` branch using the existing proxy. It does not alter production project settings or delete resources. `--check` validates local prerequisite presence without network requests. Its current check exits 2 because both Cloudflare bindings are missing. Wrangler's version and supported Pages command options were verified, including its recognition of the environment HTTPS proxy. No credential values are stored in the repository.
+
+## Price correction — 4 November 2026
+
+Casio LTP-V007D-1E is now budgeted below 1,000,000 VND, correcting the earlier 2,000,000 VND ceiling. This is a user-confirmed budget, not a verified shop quote. The runtime still denies external retailer/search requests with HTTP CONNECT 403, so no new prices were invented for the remaining gifts. Existing unspecified budgets stay unspecified. The Mac HTML is rebuilt after this correction; previously downloaded copies need replacing to receive it.

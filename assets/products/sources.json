@@ -309,14 +309,19 @@
     "model": "Casio LTP-V007D-1E",
     "source": "https://github.com/codewithelvin/casio-collection/blob/bd6cb53be22dc1ad2040d6951d6c50c097a96cd9/public/img/models/ltp-v007d-1e@2x.webp",
     "product_url": "https://www.casio.com/intl/watches/casio/product.LTP-V007D-1E/",
-    "budget_vnd": 2000000,
-    "budget_note": "Wishlist budget, not a live seller price",
+    "budget_vnd": 1000000,
+    "budget_note": "User-confirmed ceiling under 1,000,000 VND, updated 2026-11-04; not a verified seller quote.",
     "file": "casio-ltp-v007d-1e.webp",
     "sha256": "205080f2a39f3832159833204fbf3c0bba3ca249fdf2a9d2a809b9373e7d73d5",
     "status": "local image; visually inspected",
     "processing": "Original source asset with native transparency",
     "group": "watches",
-    "image_url": "/assets/products/casio-ltp-v007d-1e.webp"
+    "image_url": "/assets/products/casio-ltp-v007d-1e.webp",
+    "retailer_price_check": {
+      "date": "2026-11-04",
+      "status": "blocked by runtime HTTP CONNECT 403",
+      "amount_vnd": null
+    }
   },
   {
     "id": "casio-mtp",

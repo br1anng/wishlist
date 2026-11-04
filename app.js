@@ -422,15 +422,15 @@ const gifts=[
     "group": "style"
   },
   {
-    "price": 2000000,
-    "budget": "< 2.000.000 ₫",
+    "price": 1000000,
+    "budget": "< 1.000.000 ₫",
     "photoClass": "cutout-photo",
-    "condition": "Rectangular black dial · stainless bracelet",
+    "condition": "LTP-V007D-1E · black rectangular dial · target under 1m",
     "id": "casio-ltp",
     "name": "Casio LTP-V007D-1E",
     "image": "/assets/products/casio-ltp-v007d-1e.webp",
     "category": "watches / small watch, big agenda",
-    "note": "The rectangular black dial on a silver bracelet. Quietly pretending I have my life together. LTP-V007D-1E, exactly.",
+    "note": "The rectangular black dial on a silver bracelet. Quietly pretending I have my life together. LTP-V007D-1E, exactly. Target budget: under 1 million VND; confirm the current seller price before buying.",
     "url": "https://www.casio.com/intl/watches/casio/product.LTP-V007D-1E/",
     "source": "https://github.com/codewithelvin/casio-collection/blob/bd6cb53be22dc1ad2040d6951d6c50c097a96cd9/public/img/models/ltp-v007d-1e@2x.webp",
     "x": 23,
@@ -440,7 +440,11 @@ const gifts=[
     "mx": 2,
     "my": 35,
     "ms": 150,
-    "group": "watches"
+    "group": "watches",
+    "budgetSource": {
+      "type": "user-confirmed target",
+      "date": "2026-11-04"
+    }
   },
   {
     "price": 2000000,
