@@ -736,13 +736,13 @@ const gifts=[
     "id": "lepin-porsche-20001",
     "name": "LEPIN Porsche 911 GT3 RS · 20001",
     "group": "builds",
-    "image": null,
+    "image": "https://down-vn.img.susercontent.com/file/864e00fe62c0c736aca7d5482cd8a317",
     "photoClass": "cutout-photo",
     "price": null,
     "budget": "Giá chưa xác minh",
     "category": "build it / tiny things, big happiness",
     "condition": "LEPIN · not an official LEGO product",
-    "note": "LEPIN 20001 Porsche 911 GT3 RS. This wish links to the LEPIN product. Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "note": "LEPIN 20001 Porsche 911 GT3 RS. This wish links to the LEPIN product. Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller. Seller photo is loaded online from the image ID in your Shopee link; if unavailable, use the product link. Some of the seller image background may still appear.",
     "url": "https://shopee.vn/Lego-Lepin-20001-Siêu-Xe-Porsche-911-GT3-RS-i.86752477.1628207675?extraParams=%7B%22display_model_id%22%3A52118478471%2C%22model_selection_logic%22%3A3%7D&image_ids=864e00fe62c0c736aca7d5482cd8a317",
     "source": "https://shopee.vn/Lego-Lepin-20001-Siêu-Xe-Porsche-911-GT3-RS-i.86752477.1628207675?extraParams=%7B%22display_model_id%22%3A52118478471%2C%22model_selection_logic%22%3A3%7D&image_ids=864e00fe62c0c736aca7d5482cd8a317",
     "sourceLabel": "Product listing ↗",
@@ -755,26 +755,26 @@ const gifts=[
       "status": "blocked",
       "error": "HTTP CONNECT 403; no current price read"
     },
-    "imageStatus": "User screenshot received; an accurate cutout remains pending.",
+    "imageStatus": "Direct seller image URL constructed from image ID supplied in the user’s Shopee link; requires Internet and has not been loaded in this restricted environment.",
     "requestedImageId": "864e00fe62c0c736aca7d5482cd8a317",
-    "linkOnly": true
+    "externalImage": true,
+    "imagePresentation": "light-background"
   },
   {
     "id": "lele-white-dragon-31186",
     "name": "LELE white dragon · 31186",
     "group": "builds",
-    "image": null,
+    "image": "https://down-vn.img.susercontent.com/file/a72dc934e679318815e28842a20bd468",
     "photoClass": "cutout-photo",
     "price": null,
     "budget": "Giá chưa xác minh",
     "category": "build it / tiny things, big happiness",
     "condition": "LELE · not an official LEGO product",
-    "note": "Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "note": "Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller. Seller photo is loaded online from the image ID in your Shopee link; if unavailable, use the product link. Some of the seller image background may still appear.",
     "url": "https://shopee.vn/Non-LEgo-Ninjago-Rồng-trắng-lele31186-i.86752477.1906093178?extraParams=%7B%22display_model_id%22%3A72118469085%2C%22model_selection_logic%22%3A3%7D&image_ids=a72dc934e679318815e28842a20bd468",
     "source": "https://shopee.vn/Non-LEgo-Ninjago-Rồng-trắng-lele31186-i.86752477.1906093178?extraParams=%7B%22display_model_id%22%3A72118469085%2C%22model_selection_logic%22%3A3%7D&image_ids=a72dc934e679318815e28842a20bd468",
     "sourceLabel": "Product listing ↗",
     "shopLabel": "open this exact listing ↗",
-    "linkOnly": true,
     "modelCode": "31186",
     "brand": "LELE",
     "priceSource": {
@@ -783,25 +783,26 @@ const gifts=[
       "status": "blocked",
       "error": "HTTP CONNECT 403; no current price read"
     },
-    "imageStatus": "Listing image unavailable; background cutout pending source access",
-    "requestedImageId": "a72dc934e679318815e28842a20bd468"
+    "imageStatus": "Direct seller image URL constructed from image ID supplied in the user’s Shopee link; requires Internet and has not been loaded in this restricted environment.",
+    "requestedImageId": "a72dc934e679318815e28842a20bd468",
+    "externalImage": true,
+    "imagePresentation": "light-background"
   },
   {
     "id": "lepin-super-escrdt-07101",
     "name": "LEPIN Hulkbuster building set · 07101",
     "group": "builds",
-    "image": null,
+    "image": "https://down-vn.img.susercontent.com/file/16fd7c8c47deeca096650d45d53f287e",
     "photoClass": "cutout-photo",
     "price": null,
     "budget": "Giá chưa xác minh",
     "category": "build it / tiny things, big happiness",
     "condition": "LEPIN 07101 · Hulkbuster-style building set · not official LEGO",
-    "note": "The LEPIN 07101 Hulkbuster-style build shown in your photo. Choose the correct listing variant; its screenshot does not show a price.",
+    "note": "The LEPIN 07101 Hulkbuster-style build shown in your photo. Choose the correct listing variant; its screenshot does not show a price. Seller photo is loaded online from the image ID in your Shopee link; if unavailable, use the product link. Some of the seller image background may still appear.",
     "url": "https://shopee.vn/bộ-lepin-07101-bộ-lắp-ráp-siêu-nhân-Lego-SUPER-ESCDRT-GIÚP-BÉ-PHÁT-TRIỂN-TRÍ-TUỆ-MỘT-CÁCH-TOÀN-DIỆN.-i.86752477.1624647819?extraParams=%7B%22display_model_id%22%3A62118460075%2C%22model_selection_logic%22%3A3%7D&image_ids=16fd7c8c47deeca096650d45d53f287e",
     "source": "https://shopee.vn/bộ-lepin-07101-bộ-lắp-ráp-siêu-nhân-Lego-SUPER-ESCDRT-GIÚP-BÉ-PHÁT-TRIỂN-TRÍ-TUỆ-MỘT-CÁCH-TOÀN-DIỆN.-i.86752477.1624647819?extraParams=%7B%22display_model_id%22%3A62118460075%2C%22model_selection_logic%22%3A3%7D&image_ids=16fd7c8c47deeca096650d45d53f287e",
     "sourceLabel": "Product listing ↗",
     "shopLabel": "open this exact listing ↗",
-    "linkOnly": true,
     "modelCode": "07101",
     "brand": "LEPIN",
     "priceSource": {
@@ -810,25 +811,26 @@ const gifts=[
       "status": "blocked",
       "error": "HTTP CONNECT 403; no current price read"
     },
-    "imageStatus": "Listing image unavailable; background cutout pending source access",
-    "requestedImageId": "16fd7c8c47deeca096650d45d53f287e"
+    "imageStatus": "Direct seller image URL constructed from image ID supplied in the user’s Shopee link; requires Internet and has not been loaded in this restricted environment.",
+    "requestedImageId": "16fd7c8c47deeca096650d45d53f287e",
+    "externalImage": true,
+    "imagePresentation": "light-background"
   },
   {
     "id": "lepin-ultimate-batmobile-07077",
     "name": "LEPIN The Ultimate Batmobile · 07077",
     "group": "builds",
-    "image": null,
+    "image": "https://down-vn.img.susercontent.com/file/81f555ef8ff80304542a2ee0fc7b0bfb",
     "photoClass": "cutout-photo",
     "price": null,
     "budget": "Giá chưa xác minh",
     "category": "build it / tiny things, big happiness",
     "condition": "LEPIN · not an official LEGO product",
-    "note": "LEPIN 07077 listing with LEGO 70917 mentioned for comparison. This wish links to the LEPIN product. Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "note": "LEPIN 07077 listing with LEGO 70917 mentioned for comparison. This wish links to the LEPIN product. Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller. Seller photo is loaded online from the image ID in your Shopee link; if unavailable, use the product link. Some of the seller image background may still appear.",
     "url": "https://shopee.vn/Bộ-Đồ-Chơi-lắp-Ráp-Lego-Xe-Super-Heroes-Genuine-Movie-The-Ultimate-Batmobile-70917-Lepin-07077-Siêu-Xe-Của-Người-Dơi-i.86752477.1673884184?extraParams=%7B%22display_model_id%22%3A42118488841%2C%22model_selection_logic%22%3A3%7D&image_ids=81f555ef8ff80304542a2ee0fc7b0bfb",
     "source": "https://shopee.vn/Bộ-Đồ-Chơi-lắp-Ráp-Lego-Xe-Super-Heroes-Genuine-Movie-The-Ultimate-Batmobile-70917-Lepin-07077-Siêu-Xe-Của-Người-Dơi-i.86752477.1673884184?extraParams=%7B%22display_model_id%22%3A42118488841%2C%22model_selection_logic%22%3A3%7D&image_ids=81f555ef8ff80304542a2ee0fc7b0bfb",
     "sourceLabel": "Product listing ↗",
     "shopLabel": "open this exact listing ↗",
-    "linkOnly": true,
     "modelCode": "07077",
     "brand": "LEPIN",
     "priceSource": {
@@ -837,8 +839,10 @@ const gifts=[
       "status": "blocked",
       "error": "HTTP CONNECT 403; no current price read"
     },
-    "imageStatus": "Listing image unavailable; background cutout pending source access",
-    "requestedImageId": "81f555ef8ff80304542a2ee0fc7b0bfb"
+    "imageStatus": "Direct seller image URL constructed from image ID supplied in the user’s Shopee link; requires Internet and has not been loaded in this restricted environment.",
+    "requestedImageId": "81f555ef8ff80304542a2ee0fc7b0bfb",
+    "externalImage": true,
+    "imagePresentation": "light-background"
   },
   {
     "id": "going-merry-one-piece",
@@ -1073,7 +1077,7 @@ async function lookUpCover(g){
  }catch{}finally{clearTimeout(timer);}
 }
 for(const g of gifts){
- const button=document.createElement('button');button.className='gift '+(g.photoClass||'cutout-photo');button.dataset.id=g.id;button.dataset.price=g.price===null?'':g.price;button.hidden=true;
+ const button=document.createElement('button');button.className='gift '+(g.photoClass||'cutout-photo')+(g.imagePresentation==='light-background'?' seller-photo':'');button.dataset.id=g.id;button.dataset.price=g.price===null?'':g.price;button.hidden=true;
  button.setAttribute('aria-label',(g.favorite?'Favorite. ':'')+g.name+', '+g.budget+'. Click for details. Drag or use left and right arrows to turn the photo; Home resets it.');button.setAttribute('aria-controls','detail');button.setAttribute('aria-expanded','false');
  const inner=document.createElement('span');inner.className='gift-inner';
  const art=document.createElement('span');art.className='gift-art';inner.append(art);

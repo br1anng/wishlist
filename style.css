@@ -282,3 +282,6 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 33px
  .headline-dog-reading { left:4%; }
  .headline-dog-bowl { right:4%; }
 }
+
+/* Blend white seller-photo backgrounds into the paper when the image loads. */
+.gift.seller-photo img { mix-blend-mode: multiply; }

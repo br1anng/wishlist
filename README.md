@@ -115,3 +115,7 @@ The Messi shirt and Naruto/Hinata wedding cutouts and both headline dogs are der
 Named the LEPIN 07101 wish as Hulkbuster, updated the Casio wish to the green MQ-24DA-3A pictured by the user (the previous direct retailer URL is for blue 2A and remains a clearly labeled alternate), and recorded the 60,000 VND Fahasa screenshot price for Liễu Phàm Tứ Huấn. The detail panel distinguishes screenshot prices, listing-wide ranges and budget targets. Screenshot prices are not live verification.
 
 The supplied book-cover references were submitted for background removal, but the generated edits altered fine cover artwork or lettering. They are not included as exact product photographs. Source images for the other requested products remain inaccessible to the editor beyond its five-image input limit.
+
+## Shopee image references
+
+Porsche 20001, LELE white dragon 31186, LEPIN Hulkbuster 07101 and LEPIN Batmobile 07077 now try online seller images using the exact image IDs in the user-provided links. They require Internet; the current environment cannot access the Shopee image host to verify loading, and if an image fails the labeled product link remains. White seller-photo backgrounds are blended against the paper; the photos are not transparent cutouts and some background may remain. Other missing images still need their source photos.

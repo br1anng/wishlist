@@ -1,6 +1,6 @@
 {
   "requested": "2026-11-04",
-  "status": "Some user screenshots supplied product photos and prices; remaining blocked retailer pages and missing image cutouts are pending.",
+  "status": "Four Shopee photo URLs derived from the user-provided image IDs; online loading remains unverified due to network policy. Other missing photos still need accessible source images.",
   "items": [
     {
       "id": "lego-ferrari-sf24",
@@ -17,7 +17,9 @@
       "url": "https://shopee.vn/Lego-Lepin-20001-Siêu-Xe-Porsche-911-GT3-RS-i.86752477.1628207675?extraParams=%7B%22display_model_id%22%3A52118478471%2C%22model_selection_logic%22%3A3%7D&image_ids=864e00fe62c0c736aca7d5482cd8a317",
       "group": "builds",
       "code": "20001",
-      "imageId": "864e00fe62c0c736aca7d5482cd8a317"
+      "imageId": "864e00fe62c0c736aca7d5482cd8a317",
+      "image_url": "https://down-vn.img.susercontent.com/file/864e00fe62c0c736aca7d5482cd8a317",
+      "image_status": "Derived from user-provided Shopee image_id; not verified from this environment."
     },
     {
       "id": "lele-white-dragon-31186",
@@ -25,7 +27,9 @@
       "url": "https://shopee.vn/Non-LEgo-Ninjago-Rồng-trắng-lele31186-i.86752477.1906093178?extraParams=%7B%22display_model_id%22%3A72118469085%2C%22model_selection_logic%22%3A3%7D&image_ids=a72dc934e679318815e28842a20bd468",
       "group": "builds",
       "code": "31186",
-      "imageId": "a72dc934e679318815e28842a20bd468"
+      "imageId": "a72dc934e679318815e28842a20bd468",
+      "image_url": "https://down-vn.img.susercontent.com/file/a72dc934e679318815e28842a20bd468",
+      "image_status": "Derived from user-provided Shopee image_id; not verified from this environment."
     },
     {
       "id": "lepin-super-escrdt-07101",
@@ -33,7 +37,9 @@
       "url": "https://shopee.vn/bộ-lepin-07101-bộ-lắp-ráp-siêu-nhân-Lego-SUPER-ESCDRT-GIÚP-BÉ-PHÁT-TRIỂN-TRÍ-TUỆ-MỘT-CÁCH-TOÀN-DIỆN.-i.86752477.1624647819?extraParams=%7B%22display_model_id%22%3A62118460075%2C%22model_selection_logic%22%3A3%7D&image_ids=16fd7c8c47deeca096650d45d53f287e",
       "group": "builds",
       "code": "07101",
-      "imageId": "16fd7c8c47deeca096650d45d53f287e"
+      "imageId": "16fd7c8c47deeca096650d45d53f287e",
+      "image_url": "https://down-vn.img.susercontent.com/file/16fd7c8c47deeca096650d45d53f287e",
+      "image_status": "Derived from user-provided Shopee image_id; not verified from this environment."
     },
     {
       "id": "lepin-ultimate-batmobile-07077",
@@ -41,7 +47,9 @@
       "url": "https://shopee.vn/Bộ-Đồ-Chơi-lắp-Ráp-Lego-Xe-Super-Heroes-Genuine-Movie-The-Ultimate-Batmobile-70917-Lepin-07077-Siêu-Xe-Của-Người-Dơi-i.86752477.1673884184?extraParams=%7B%22display_model_id%22%3A42118488841%2C%22model_selection_logic%22%3A3%7D&image_ids=81f555ef8ff80304542a2ee0fc7b0bfb",
       "group": "builds",
       "code": "07077",
-      "imageId": "81f555ef8ff80304542a2ee0fc7b0bfb"
+      "imageId": "81f555ef8ff80304542a2ee0fc7b0bfb",
+      "image_url": "https://down-vn.img.susercontent.com/file/81f555ef8ff80304542a2ee0fc7b0bfb",
+      "image_status": "Derived from user-provided Shopee image_id; not verified from this environment."
     },
     {
       "id": "going-merry-one-piece",
