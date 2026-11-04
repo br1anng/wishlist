@@ -1,13 +1,15 @@
 {
   "requested": "2026-11-04",
-  "status": "Retailer-page access remains blocked. Going Merry now has user screenshot evidence for a listing price range and photo-derived cutout; the other ten requested listing photos/prices remain pending.",
+  "status": "Some user screenshots supplied product photos and prices; remaining blocked retailer pages and missing image cutouts are pending.",
   "items": [
     {
       "id": "lego-ferrari-sf24",
       "name": "LEGO Speed Champions Ferrari SF-24 F1 · 77242",
       "url": "https://www.mykingdom.com.vn/products/do-choi-lap-rap-xe-dua-ferrari-sf-24-f1-lego-speed-champions-77242",
       "group": "builds",
-      "code": "77242"
+      "code": "77242",
+      "observed_price_vnd": 751200,
+      "evidence": "User-supplied screenshot, not verified live"
     },
     {
       "id": "lepin-porsche-20001",
@@ -67,14 +69,19 @@
       "url": "https://saigonbrick.com.vn/san-pham/non-lego-keeppley-k20508-naruto-and-hinata-wedding-banquet-tiec-cuoi-cua-naruto-va-hinata-355pcs/",
       "group": "builds",
       "code": "K20508",
-      "favorite": true
+      "favorite": true,
+      "image_file": "assets/products/screenshot-wedding.webp",
+      "observed_price_vnd": 400000,
+      "evidence": "User-supplied screenshot, not verified live"
     },
     {
       "id": "blokees-spider",
       "name": "Blokees Marvel CC Spider-Man · 81118",
       "url": "https://www.mykingdom.com.vn/products/mo-hinh-marvel-cc-sieu-anh-hung-spiderman-blokees-81118",
       "group": "figures",
-      "code": "81118"
+      "code": "81118",
+      "observed_price_vnd": 499000,
+      "evidence": "User-supplied screenshot, not verified live"
     },
     {
       "id": "blokees-sasuke-75614",
@@ -82,14 +89,18 @@
       "url": "https://www.mykingdom.com.vn/products/mo-hinh-naruto-cc-nhan-vat-sasuke-uchiha-blokees-75614",
       "group": "figures",
       "code": "75614",
-      "favorite": true
+      "favorite": true,
+      "observed_price_vnd": 499000,
+      "evidence": "User-supplied screenshot, not verified live"
     },
     {
       "id": "zd-iron-spider-1602-12",
       "name": "ZD Toys Iron Spider with light-up base · 1602-12",
       "url": "https://www.mykingdom.com.vn/products/mo-hinh-tac-chien-iron-spiderman-tich-hop-be-anh-sang-zd-toy-1602-12",
       "group": "figures",
-      "code": "1602-12"
+      "code": "1602-12",
+      "observed_price_vnd": 699000,
+      "evidence": "User-supplied screenshot, not verified live"
     }
   ]
 }

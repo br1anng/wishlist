@@ -271,3 +271,14 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 33px
 .detail-favorite[hidden] { display:none; }
 .category-tab[data-category=favorites] { background:#ffc4da; }
 @media(max-width:650px) { .favorite-badge { font-size:11px; padding:3px 5px; top:-6px; right:-3px; } }
+
+/* The two supplied dogs frame the headline. */
+.headline-dog { position:absolute; width:clamp(110px,14vw,180px); height:auto; object-fit:contain; pointer-events:none; z-index:1; filter:drop-shadow(3px 5px 2px #29273b18); }
+.headline-dog-reading { left:max(3%,calc(50% - 610px)); top:115px; transform:rotate(-9deg); }
+.headline-dog-bowl { right:max(3%,calc(50% - 610px)); top:185px; transform:rotate(8deg); }
+@media(max-width:650px) {
+ .masthead { padding-bottom:95px; }
+ .headline-dog { width:78px; top:auto; bottom:18px; }
+ .headline-dog-reading { left:4%; }
+ .headline-dog-bowl { right:4%; }
+}

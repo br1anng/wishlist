@@ -382,11 +382,14 @@
     "source": "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/",
     "product_url": "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/",
     "budget_vnd": 2000000,
-    "budget_note": "Wishlist budget, not a live seller price",
-    "status": "product link only; no substitute photo",
+    "budget_note": "Screenshot price; not verified live. Shipping may be extra.",
+    "status": "User screenshot supplied; accurate cutout remains pending.",
     "file": null,
     "group": "watches",
-    "image_url": null
+    "image_url": null,
+    "image_source": "User-supplied image in chat, 2026-11-04",
+    "observed_price_vnd": 1794000,
+    "observed_price_source": "User-supplied screenshot, 2026-11-04"
   },
   {
     "id": "spain-pedri-shirt",
@@ -409,8 +412,9 @@
     "budget_vnd": 300000,
     "budget_note": "Carried over user football-shirt target, not a live seller price",
     "image_url": null,
-    "file": null,
-    "status": "Exact shirt photo still needed; clearly labeled product link, no substitute image. Budget unverified."
+    "file": "assets/products/screenshot-messi.webp",
+    "status": "Photo-derived cutout based on user-supplied image; fine details may be reconstructed.",
+    "image_source": "User-supplied image in chat, 2026-11-04"
   },
   {
     "id": "retro-barcelona-shirt",
@@ -443,12 +447,14 @@
     "source": "https://www.mykingdom.com.vn/products/mo-hinh-marvel-cc-sieu-anh-hung-spiderman-blokees-81118",
     "product_url": "https://www.mykingdom.com.vn/products/mo-hinh-marvel-cc-sieu-anh-hung-spiderman-blokees-81118",
     "budget_vnd": null,
-    "budget_note": "Current VND price not retrieved; do not substitute a budget or invented quote.",
+    "budget_note": "Screenshot price; not verified live. Shipping may be extra.",
     "image_url": null,
     "file": null,
     "status": "Listing blocked by current cloud HTTP policy (CONNECT 403); exact product image and background removal pending.",
     "favorite": false,
-    "requested_image_id": null
+    "requested_image_id": null,
+    "observed_price_vnd": 499000,
+    "observed_price_source": "User-supplied screenshot, 2026-11-04"
   },
   {
     "id": "lego-ferrari-sf24",
@@ -457,12 +463,14 @@
     "source": "https://www.mykingdom.com.vn/products/do-choi-lap-rap-xe-dua-ferrari-sf-24-f1-lego-speed-champions-77242",
     "product_url": "https://www.mykingdom.com.vn/products/do-choi-lap-rap-xe-dua-ferrari-sf-24-f1-lego-speed-champions-77242",
     "budget_vnd": null,
-    "budget_note": "Current VND price not retrieved; do not substitute a budget or invented quote.",
+    "budget_note": "Screenshot price; not verified live. Shipping may be extra.",
     "image_url": null,
     "file": null,
     "status": "Listing blocked by current cloud HTTP policy (CONNECT 403); exact product image and background removal pending.",
     "favorite": false,
-    "requested_image_id": null
+    "requested_image_id": null,
+    "observed_price_vnd": 751200,
+    "observed_price_source": "User-supplied screenshot, 2026-11-04"
   },
   {
     "id": "lepin-porsche-20001",
@@ -474,9 +482,10 @@
     "budget_note": "Current VND price not retrieved; do not substitute a budget or invented quote.",
     "image_url": null,
     "file": null,
-    "status": "Listing blocked by current cloud HTTP policy (CONNECT 403); exact product image and background removal pending.",
+    "status": "User screenshot supplied; accurate cutout remains pending.",
     "favorite": false,
-    "requested_image_id": "864e00fe62c0c736aca7d5482cd8a317"
+    "requested_image_id": "864e00fe62c0c736aca7d5482cd8a317",
+    "image_source": "User-supplied image in chat, 2026-11-04"
   },
   {
     "id": "lele-white-dragon-31186",
@@ -549,9 +558,10 @@
     "budget_note": "Current VND price not retrieved; do not substitute a budget or invented quote.",
     "image_url": null,
     "file": null,
-    "status": "Listing blocked by current cloud HTTP policy (CONNECT 403); exact product image and background removal pending.",
+    "status": "User screenshot supplied; accurate cutout remains pending.",
     "favorite": false,
-    "requested_image_id": null
+    "requested_image_id": null,
+    "image_source": "User-supplied image in chat, 2026-11-04"
   },
   {
     "id": "keeppley-naruto-hinata-k20508",
@@ -560,12 +570,15 @@
     "source": "https://saigonbrick.com.vn/san-pham/non-lego-keeppley-k20508-naruto-and-hinata-wedding-banquet-tiec-cuoi-cua-naruto-va-hinata-355pcs/",
     "product_url": "https://saigonbrick.com.vn/san-pham/non-lego-keeppley-k20508-naruto-and-hinata-wedding-banquet-tiec-cuoi-cua-naruto-va-hinata-355pcs/",
     "budget_vnd": null,
-    "budget_note": "Current VND price not retrieved; do not substitute a budget or invented quote.",
+    "budget_note": "Screenshot price; not verified live. Shipping may be extra.",
     "image_url": null,
-    "file": null,
-    "status": "Listing blocked by current cloud HTTP policy (CONNECT 403); exact product image and background removal pending.",
+    "file": "assets/products/screenshot-wedding.webp",
+    "status": "Photo-derived cutout based on user-supplied image; fine details may be reconstructed.",
     "favorite": true,
-    "requested_image_id": null
+    "requested_image_id": null,
+    "image_source": "User-supplied image in chat, 2026-11-04",
+    "observed_price_vnd": 400000,
+    "observed_price_source": "User-supplied screenshot, 2026-11-04"
   },
   {
     "id": "blokees-sasuke-75614",
@@ -574,12 +587,14 @@
     "source": "https://www.mykingdom.com.vn/products/mo-hinh-naruto-cc-nhan-vat-sasuke-uchiha-blokees-75614",
     "product_url": "https://www.mykingdom.com.vn/products/mo-hinh-naruto-cc-nhan-vat-sasuke-uchiha-blokees-75614",
     "budget_vnd": null,
-    "budget_note": "Current VND price not retrieved; do not substitute a budget or invented quote.",
+    "budget_note": "Screenshot price; not verified live. Shipping may be extra.",
     "image_url": null,
     "file": null,
     "status": "Listing blocked by current cloud HTTP policy (CONNECT 403); exact product image and background removal pending.",
     "favorite": true,
-    "requested_image_id": null
+    "requested_image_id": null,
+    "observed_price_vnd": 499000,
+    "observed_price_source": "User-supplied screenshot, 2026-11-04"
   },
   {
     "id": "zd-iron-spider-1602-12",
@@ -588,11 +603,13 @@
     "source": "https://www.mykingdom.com.vn/products/mo-hinh-tac-chien-iron-spiderman-tich-hop-be-anh-sang-zd-toy-1602-12",
     "product_url": "https://www.mykingdom.com.vn/products/mo-hinh-tac-chien-iron-spiderman-tich-hop-be-anh-sang-zd-toy-1602-12",
     "budget_vnd": null,
-    "budget_note": "Current VND price not retrieved; do not substitute a budget or invented quote.",
+    "budget_note": "Screenshot price; not verified live. Shipping may be extra.",
     "image_url": null,
     "file": null,
     "status": "Listing blocked by current cloud HTTP policy (CONNECT 403); exact product image and background removal pending.",
     "favorite": false,
-    "requested_image_id": null
+    "requested_image_id": null,
+    "observed_price_vnd": 699000,
+    "observed_price_source": "User-supplied screenshot, 2026-11-04"
   }
 ]

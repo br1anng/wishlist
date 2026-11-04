@@ -44,13 +44,13 @@ Customize the gifts array in app.js. Image sources and statuses are recorded in 
 
 ## Pending Pinterest art direction
 
-The headline is oversized and centered, using the existing bundled Lilita One font as an interim choice. The old headline smiley is removed. Exact font matching and the requested Nudaeng dog sticker replacement/accents await accessible source images: the workspace proxy returns HTTP 403 for Pinterest. No substitute dog was drawn or presented as the referenced character. Supplied pins: actual first link target 835488168417774119 (displayed label 1089097122422311502), dog reference 1013661828634973925, additional references 1021472759239980088, 799389002651132199, and 811703532876054507.
+The headline is oversized and centered, using the existing bundled Lilita One font as an interim choice. The old headline smiley is removed. Exact font matching still awaits access to the Pinterest font reference. Two user-supplied dog drawings now frame the headline as transparent cutouts. Supplied pins: actual first link target 835488168417774119 (displayed label 1089097122422311502), dog reference 1013661828634973925, additional references 1021472759239980088, 799389002651132199, and 811703532876054507.
 
 The quarter-zip detail card includes the exact requested outfit pin, https://www.pinterest.com/pin/1102889396316398041/, through Pinterest's public embed plus a direct-link fallback. Only the quarter-zip loads this embed, when opened; it is removed on close or switching wishes. Its live contents cannot be verified from this workspace. The floating cutout has not been replaced with an unseen outfit. A downloaded reference image is required for that replacement. The embed needs Internet even in the downloadable HTML.
 
 ## Colorful hand-drawn styling
 
-The site now uses a warm dotted paper surface, cobalt/coral headline, yellow marker highlight, irregular borders and hard-offset shadows, pastel category tabs, per-gift color washes, and inline original SVG flowers, stars, arrows and scribbles. Gift photographs and all catalogue data remain intact. Patrick Hand is embedded locally for handwritten labels, with its SIL license included in the ZIP. The supplied Pinterest style pin 934285885210907727 could not be inspected under the runtime policy, so this is an interpretation of the user's “colorful with imperfect handdraw” direction, not an exact reproduction of the unseen pin. Nudaeng dog assets still require accessible reference images.
+The site now uses a warm dotted paper surface, cobalt/coral headline, yellow marker highlight, irregular borders and hard-offset shadows, pastel category tabs, per-gift color washes, and inline original SVG flowers, stars, arrows and scribbles. Gift photographs and all catalogue data remain intact. Patrick Hand is embedded locally for handwritten labels, with its SIL license included in the ZIP. The supplied Pinterest style pin 934285885210907727 could not be inspected under the runtime policy, so this is an interpretation of the user's “colorful with imperfect handdraw” direction, not an exact reproduction of the unseen pin. The two headline dog illustrations come from the user-supplied images.
 
 ## Hosted preview preparation
 
@@ -103,3 +103,9 @@ The environment draft now adds www.mykingdom.com.vn, mykingdom.com.vn, shopee.vn
 The user supplied a Shopee screenshot for Going Merry. It shows a listing-wide range of 785,000–1,659,000 VND, with Going Merry/Baratie and with/without-box variants. The site displays that full range and explicitly leaves the exact ship/box price unconfirmed. Finite budget filters use the upper endpoint (1,659,000 VND); this is a conservative filter ceiling, not a claimed exact seller price or user budget. The listing title says 1372 pieces.
 
 A transparent cutout is derived from the main ship photo in the screenshot, removing the background, detached sticker, UI and supporting hand. Small hull areas hidden by the hand may be reconstructed. This is the 22nd embedded local image; all 43 wishes remain. The other ten newly requested listing images/prices still require accessible source pages or screenshots.
+
+## Screenshot references — 4 November 2026
+
+Updated prices from user screenshots: Sasuke and Blokees Spider-Man 499,000 VND each, Iron Spider 699,000 VND, Ferrari 751,200 VND, Naruto/Hinata wedding 400,000 VND, and Casio MQ-24DA-2A 1,794,000 VND. Prices are screenshot observations and may change. Iron Spider screenshot says 1606-12 while the original URL says 1602-12; confirm the model and price. The dragon price is partly obscured, so it remains unconfirmed. Porsche and Batmobile screenshots show no readable price.
+
+The Messi shirt and Naruto/Hinata wedding cutouts and both headline dogs are derived from user-provided images. Other requested product images remain pending: the image editor can receive only five recent images at a time; two edit attempts were blocked, and one output did not faithfully match the supplied dragon set and was rejected.

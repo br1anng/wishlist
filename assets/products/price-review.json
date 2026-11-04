@@ -34,9 +34,11 @@
       "id": "blokees-spider",
       "name": "Blokees Marvel CC Spider-Man · 81118",
       "budget_vnd": null,
-      "display": "Giá chưa xác minh",
-      "status": "current shop price not verified",
-      "lookup_url": "https://www.mykingdom.com.vn/products/mo-hinh-marvel-cc-sieu-anh-hung-spiderman-blokees-81118"
+      "display": "499.000 ₫",
+      "status": "Price shown in user screenshot; not verified live",
+      "lookup_url": "https://www.mykingdom.com.vn/products/mo-hinh-marvel-cc-sieu-anh-hung-spiderman-blokees-81118",
+      "observed_price_vnd": 499000,
+      "price_source": "User screenshot provided 2026-11-04"
     },
     {
       "id": "diecast-rx7-niles",
@@ -281,18 +283,22 @@
     {
       "id": "casio-mq",
       "name": "Casio MQ-24DA-2A",
-      "budget_vnd": 2000000,
-      "display": "< 2.000.000 ₫",
-      "status": "budget target; no verified seller quote",
-      "lookup_url": "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/"
+      "budget_vnd": null,
+      "display": "1.794.000 ₫",
+      "status": "Price shown in user screenshot; not verified live",
+      "lookup_url": "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/",
+      "observed_price_vnd": 1794000,
+      "price_source": "User screenshot provided 2026-11-04"
     },
     {
       "id": "lego-ferrari-sf24",
       "name": "LEGO Speed Champions Ferrari SF-24 F1 · 77242",
       "budget_vnd": null,
-      "display": "Giá chưa xác minh",
-      "status": "current shop price not verified",
-      "lookup_url": "https://www.mykingdom.com.vn/products/do-choi-lap-rap-xe-dua-ferrari-sf-24-f1-lego-speed-champions-77242"
+      "display": "751.200 ₫",
+      "status": "Price shown in user screenshot; not verified live",
+      "lookup_url": "https://www.mykingdom.com.vn/products/do-choi-lap-rap-xe-dua-ferrari-sf-24-f1-lego-speed-champions-77242",
+      "observed_price_vnd": 751200,
+      "price_source": "User screenshot provided 2026-11-04"
     },
     {
       "id": "lepin-porsche-20001",
@@ -352,25 +358,31 @@
       "id": "keeppley-naruto-hinata-k20508",
       "name": "Keeppley Naruto & Hinata wedding banquet · K20508",
       "budget_vnd": null,
-      "display": "Giá chưa xác minh",
-      "status": "current shop price not verified",
-      "lookup_url": "https://saigonbrick.com.vn/san-pham/non-lego-keeppley-k20508-naruto-and-hinata-wedding-banquet-tiec-cuoi-cua-naruto-va-hinata-355pcs/"
+      "display": "400.000 ₫",
+      "status": "Price shown in user screenshot; not verified live",
+      "lookup_url": "https://saigonbrick.com.vn/san-pham/non-lego-keeppley-k20508-naruto-and-hinata-wedding-banquet-tiec-cuoi-cua-naruto-va-hinata-355pcs/",
+      "observed_price_vnd": 400000,
+      "price_source": "User screenshot provided 2026-11-04"
     },
     {
       "id": "blokees-sasuke-75614",
       "name": "Blokees Naruto CC Sasuke Uchiha · 75614",
       "budget_vnd": null,
-      "display": "Giá chưa xác minh",
-      "status": "current shop price not verified",
-      "lookup_url": "https://www.mykingdom.com.vn/products/mo-hinh-naruto-cc-nhan-vat-sasuke-uchiha-blokees-75614"
+      "display": "499.000 ₫",
+      "status": "Price shown in user screenshot; not verified live",
+      "lookup_url": "https://www.mykingdom.com.vn/products/mo-hinh-naruto-cc-nhan-vat-sasuke-uchiha-blokees-75614",
+      "observed_price_vnd": 499000,
+      "price_source": "User screenshot provided 2026-11-04"
     },
     {
       "id": "zd-iron-spider-1602-12",
       "name": "ZD Toys Iron Spider with light-up base · 1602-12",
       "budget_vnd": null,
-      "display": "Giá chưa xác minh",
-      "status": "current shop price not verified",
-      "lookup_url": "https://www.mykingdom.com.vn/products/mo-hinh-tac-chien-iron-spiderman-tich-hop-be-anh-sang-zd-toy-1602-12"
+      "display": "699.000 ₫",
+      "status": "Price shown in user screenshot; not verified live",
+      "lookup_url": "https://www.mykingdom.com.vn/products/mo-hinh-tac-chien-iron-spiderman-tich-hop-be-anh-sang-zd-toy-1602-12",
+      "observed_price_vnd": 699000,
+      "price_source": "User screenshot provided 2026-11-04"
     }
   ]
 }

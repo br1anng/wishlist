@@ -21,11 +21,11 @@ const gifts=[
     "group": "figures",
     "image": null,
     "photoClass": "cutout-photo",
-    "price": null,
-    "budget": "Giá chưa xác minh",
+    "price": 499000,
+    "budget": "499.000 ₫",
     "category": "figures / desk heroes",
     "condition": "Blokees · exact model 81118",
-    "note": "Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "note": "Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller. Screenshot price provided 4 Nov 2026; verify the current price and shipping at the retailer.",
     "url": "https://www.mykingdom.com.vn/products/mo-hinh-marvel-cc-sieu-anh-hung-spiderman-blokees-81118",
     "source": "https://www.mykingdom.com.vn/products/mo-hinh-marvel-cc-sieu-anh-hung-spiderman-blokees-81118",
     "sourceLabel": "Product listing ↗",
@@ -34,10 +34,11 @@ const gifts=[
     "modelCode": "81118",
     "brand": "Blokees",
     "priceSource": {
+      "status": "user-supplied screenshot",
+      "providedOn": "2026-11-04",
+      "price_vnd": 499000,
       "url": "https://www.mykingdom.com.vn/products/mo-hinh-marvel-cc-sieu-anh-hung-spiderman-blokees-81118",
-      "checked": "2026-11-04",
-      "status": "blocked",
-      "error": "HTTP CONNECT 403; no current price read"
+      "note": "Displayed screenshot price; availability and price may change. Shipping may be extra."
     },
     "imageStatus": "Listing image unavailable; background cutout pending source access"
   },
@@ -372,21 +373,21 @@ const gifts=[
     "id": "argentina-messi-shirt",
     "name": "Argentina · Messi shirt",
     "group": "style",
-    "image": null,
+    "image": "/assets/products/screenshot-messi.webp",
     "photoClass": "cutout-photo",
     "price": 300000,
     "budget": "≈ 300.000 ₫",
     "category": "football / match-day main character",
-    "condition": "Fan / retro reproduction / second-hand · budget target, not a verified shop price",
-    "note": "Messi nameset · choose the season and size; check the number 10 and seller photos. The existing roughly 300k football-shirt budget is carried over to this wish; it is not a seller quote. Official or original vintage shirts may cost more.",
+    "condition": "Black/blue Messi 10 back design from your photo · team and exact version to confirm",
+    "note": "Your reference shows a black shirt with a blue design and MESSI 10 on the back. Team and release are not confirmed. The roughly 300k football-shirt budget remains a target, not a shop quote.",
     "url": "https://www.google.com/search?q=%C3%81o%20Argentina%20Messi%20s%E1%BB%91%2010%20fan%20300k",
     "source": "https://www.google.com/search?q=%C3%81o%20Argentina%20Messi%20s%E1%BB%91%2010%20fan%20300k",
-    "linkOnly": true,
     "budgetSource": {
       "type": "carried-over-user-budget",
       "checked": "2026-11-04",
       "note": "Existing user football-shirt target applied to this replacement wish; live retailer access blocked."
-    }
+    },
+    "imageStatus": "Photo-derived cutout based on user-supplied image; fine details may be reconstructed."
   },
   {
     "id": "retro-barcelona-shirt",
@@ -657,18 +658,17 @@ const gifts=[
     "group": "style"
   },
   {
-    "price": 2000000,
-    "budget": "< 2.000.000 ₫",
+    "price": 1794000,
+    "budget": "1.794.000 ₫",
     "photoClass": "cutout-photo",
     "condition": "Blue dial · exact retailer link saved",
     "id": "casio-mq",
     "name": "Casio MQ-24DA-2A",
     "image": null,
     "category": "watches / another little obsession",
-    "note": "The exact blue-dial model from your retailer link. Its photo could not be downloaded from this workspace, so this is a product link, not a substitute watch image.",
+    "note": "Blue-dial MQ-24DA-2A as shown in your screenshot. The displayed retailer price is 1,794,000 ₫; your target remains below 2,000,000 ₫. Confirm the current price before buying.",
     "url": "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/",
     "source": "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/",
-    "linkOnly": true,
     "shopLabel": "open the exact watch ↗",
     "x": 45,
     "y": 84,
@@ -677,7 +677,20 @@ const gifts=[
     "mx": 38,
     "my": 91,
     "ms": 135,
-    "group": "watches"
+    "group": "watches",
+    "wishlistBudget": {
+      "max_vnd": 2000000,
+      "display": "< 2.000.000 ₫"
+    },
+    "priceSource": {
+      "status": "user-supplied screenshot",
+      "providedOn": "2026-11-04",
+      "price_vnd": 1794000,
+      "url": "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/",
+      "note": "Displayed screenshot price; availability and price may change. Shipping may be extra."
+    },
+    "imageStatus": "User screenshot received; an accurate cutout remains pending.",
+    "linkOnly": true
   },
   {
     "id": "lego-ferrari-sf24",
@@ -685,11 +698,11 @@ const gifts=[
     "group": "builds",
     "image": null,
     "photoClass": "cutout-photo",
-    "price": null,
-    "budget": "Giá chưa xác minh",
+    "price": 751200,
+    "budget": "751.200 ₫",
     "category": "build it / tiny things, big happiness",
     "condition": "LEGO · LEGO Speed Champions",
-    "note": "Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "note": "Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller. Screenshot price provided 4 Nov 2026; verify the current price and shipping at the retailer. Screenshot shows 751,200 ₫ sale price (regular price 939,000 ₫).",
     "url": "https://www.mykingdom.com.vn/products/do-choi-lap-rap-xe-dua-ferrari-sf-24-f1-lego-speed-champions-77242",
     "source": "https://www.mykingdom.com.vn/products/do-choi-lap-rap-xe-dua-ferrari-sf-24-f1-lego-speed-champions-77242",
     "sourceLabel": "Product listing ↗",
@@ -698,10 +711,11 @@ const gifts=[
     "modelCode": "77242",
     "brand": "LEGO",
     "priceSource": {
+      "status": "user-supplied screenshot",
+      "providedOn": "2026-11-04",
+      "price_vnd": 751200,
       "url": "https://www.mykingdom.com.vn/products/do-choi-lap-rap-xe-dua-ferrari-sf-24-f1-lego-speed-champions-77242",
-      "checked": "2026-11-04",
-      "status": "blocked",
-      "error": "HTTP CONNECT 403; no current price read"
+      "note": "Displayed screenshot price; availability and price may change. Shipping may be extra."
     },
     "imageStatus": "Listing image unavailable; background cutout pending source access"
   },
@@ -720,7 +734,6 @@ const gifts=[
     "source": "https://shopee.vn/Lego-Lepin-20001-Siêu-Xe-Porsche-911-GT3-RS-i.86752477.1628207675?extraParams=%7B%22display_model_id%22%3A52118478471%2C%22model_selection_logic%22%3A3%7D&image_ids=864e00fe62c0c736aca7d5482cd8a317",
     "sourceLabel": "Product listing ↗",
     "shopLabel": "open this exact listing ↗",
-    "linkOnly": true,
     "modelCode": "20001",
     "brand": "LEPIN",
     "priceSource": {
@@ -729,8 +742,9 @@ const gifts=[
       "status": "blocked",
       "error": "HTTP CONNECT 403; no current price read"
     },
-    "imageStatus": "Listing image unavailable; background cutout pending source access",
-    "requestedImageId": "864e00fe62c0c736aca7d5482cd8a317"
+    "imageStatus": "User screenshot received; an accurate cutout remains pending.",
+    "requestedImageId": "864e00fe62c0c736aca7d5482cd8a317",
+    "linkOnly": true
   },
   {
     "id": "lele-white-dragon-31186",
@@ -864,7 +878,6 @@ const gifts=[
     "source": "https://saigonbrick.com.vn/san-pham/non-lego-dk-tec-creators-5007-dragon-ball-divine-dragon-7-vien-ngoc-rong-rong-tha-1826pcsn/",
     "sourceLabel": "Product listing ↗",
     "shopLabel": "open this exact listing ↗",
-    "linkOnly": true,
     "modelCode": "5007",
     "brand": "DK TEC",
     "priceSource": {
@@ -873,33 +886,34 @@ const gifts=[
       "status": "blocked",
       "error": "HTTP CONNECT 403; no current price read"
     },
-    "imageStatus": "Listing image unavailable; background cutout pending source access"
+    "imageStatus": "User screenshot received; an accurate cutout remains pending.",
+    "linkOnly": true
   },
   {
     "id": "keeppley-naruto-hinata-k20508",
     "name": "Keeppley Naruto & Hinata wedding banquet · K20508",
     "group": "builds",
-    "image": null,
+    "image": "/assets/products/screenshot-wedding.webp",
     "photoClass": "cutout-photo",
-    "price": null,
-    "budget": "Giá chưa xác minh",
+    "price": 400000,
+    "budget": "400.000 ₫",
     "category": "build it / tiny things, big happiness",
     "condition": "Keeppley · not an official LEGO product",
-    "note": "A favorite because it is Naruto: Naruto & Hinata wedding banquet, Keeppley K20508, listed as 355 pieces. Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "note": "A favorite because it is Naruto: Naruto & Hinata wedding banquet, Keeppley K20508, listed as 355 pieces. Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller. Screenshot price provided 4 Nov 2026; verify the current price and shipping at the retailer.",
     "url": "https://saigonbrick.com.vn/san-pham/non-lego-keeppley-k20508-naruto-and-hinata-wedding-banquet-tiec-cuoi-cua-naruto-va-hinata-355pcs/",
     "source": "https://saigonbrick.com.vn/san-pham/non-lego-keeppley-k20508-naruto-and-hinata-wedding-banquet-tiec-cuoi-cua-naruto-va-hinata-355pcs/",
     "sourceLabel": "Product listing ↗",
     "shopLabel": "open this exact listing ↗",
-    "linkOnly": true,
     "modelCode": "K20508",
     "brand": "Keeppley",
     "priceSource": {
+      "status": "user-supplied screenshot",
+      "providedOn": "2026-11-04",
+      "price_vnd": 400000,
       "url": "https://saigonbrick.com.vn/san-pham/non-lego-keeppley-k20508-naruto-and-hinata-wedding-banquet-tiec-cuoi-cua-naruto-va-hinata-355pcs/",
-      "checked": "2026-11-04",
-      "status": "blocked",
-      "error": "HTTP CONNECT 403; no current price read"
+      "note": "Displayed screenshot price; availability and price may change. Shipping may be extra."
     },
-    "imageStatus": "Listing image unavailable; background cutout pending source access",
+    "imageStatus": "Photo-derived cutout based on user-supplied image; fine details may be reconstructed.",
     "favorite": true
   },
   {
@@ -908,11 +922,11 @@ const gifts=[
     "group": "figures",
     "image": null,
     "photoClass": "cutout-photo",
-    "price": null,
-    "budget": "Giá chưa xác minh",
+    "price": 499000,
+    "budget": "499.000 ₫",
     "category": "figures / desk heroes",
     "condition": "Blokees · exact model 75614",
-    "note": "A favorite: Sasuke Uchiha from the Blokees Naruto CC series, model 75614. Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "note": "A favorite: Sasuke Uchiha from the Blokees Naruto CC series, model 75614. Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller. Screenshot price provided 4 Nov 2026; verify the current price and shipping at the retailer.",
     "url": "https://www.mykingdom.com.vn/products/mo-hinh-naruto-cc-nhan-vat-sasuke-uchiha-blokees-75614",
     "source": "https://www.mykingdom.com.vn/products/mo-hinh-naruto-cc-nhan-vat-sasuke-uchiha-blokees-75614",
     "sourceLabel": "Product listing ↗",
@@ -921,10 +935,11 @@ const gifts=[
     "modelCode": "75614",
     "brand": "Blokees",
     "priceSource": {
+      "status": "user-supplied screenshot",
+      "providedOn": "2026-11-04",
+      "price_vnd": 499000,
       "url": "https://www.mykingdom.com.vn/products/mo-hinh-naruto-cc-nhan-vat-sasuke-uchiha-blokees-75614",
-      "checked": "2026-11-04",
-      "status": "blocked",
-      "error": "HTTP CONNECT 403; no current price read"
+      "note": "Displayed screenshot price; availability and price may change. Shipping may be extra."
     },
     "imageStatus": "Listing image unavailable; background cutout pending source access",
     "favorite": true
@@ -935,11 +950,11 @@ const gifts=[
     "group": "figures",
     "image": null,
     "photoClass": "cutout-photo",
-    "price": null,
-    "budget": "Giá chưa xác minh",
+    "price": 699000,
+    "budget": "699.000 ₫",
     "category": "figures / desk heroes",
-    "condition": "ZD Toys · exact model 1602-12",
-    "note": "Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "condition": "Screenshot shows ZD Toys 1606-12; supplied link says 1602-12 · confirm model",
+    "note": "Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller. Screenshot price provided 4 Nov 2026; verify the current price and shipping at the retailer. The screenshot shows model 1606-12, but the linked URL says 1602-12. Confirm the correct version and price before buying.",
     "url": "https://www.mykingdom.com.vn/products/mo-hinh-tac-chien-iron-spiderman-tich-hop-be-anh-sang-zd-toy-1602-12",
     "source": "https://www.mykingdom.com.vn/products/mo-hinh-tac-chien-iron-spiderman-tich-hop-be-anh-sang-zd-toy-1602-12",
     "sourceLabel": "Product listing ↗",
@@ -948,10 +963,11 @@ const gifts=[
     "modelCode": "1602-12",
     "brand": "ZD Toys",
     "priceSource": {
+      "status": "user-supplied screenshot",
+      "providedOn": "2026-11-04",
+      "price_vnd": 699000,
       "url": "https://www.mykingdom.com.vn/products/mo-hinh-tac-chien-iron-spiderman-tich-hop-be-anh-sang-zd-toy-1602-12",
-      "checked": "2026-11-04",
-      "status": "blocked",
-      "error": "HTTP CONNECT 403; no current price read"
+      "note": "Displayed screenshot price; availability and price may change. Shipping may be extra."
     },
     "imageStatus": "Listing image unavailable; background cutout pending source access"
   }

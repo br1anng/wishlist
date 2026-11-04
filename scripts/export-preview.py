@@ -12,7 +12,9 @@ for path in (root / 'assets/products').iterdir():
     mime = {'.jpg':'image/jpeg','.png':'image/png','.webp':'image/webp'}[path.suffix]
     encoded = base64.b64encode(path.read_bytes()).decode()
     js = js.replace('/assets/products/' + path.name, 'data:' + mime + ';base64,' + encoded)
+    html = html.replace('/assets/products/' + path.name, 'data:' + mime + ';base64,' + encoded)
 js = js.replace("$('#share').onclick=async()=>{try{", "$('#share').onclick=async()=>{if(location.protocol==='file:'){toast('This is a local preview. Host the site to share a link.');return;}try{")
+assert '/assets/products/' not in html, 'A headline image is missing from the offline export'
 assert '/assets/products/' not in js, 'A product image is missing from the offline export'
 html = html.replace('<link rel="stylesheet" href="/style.css">', '<style>' + css + '</style>')
 html = html.replace('<script type="module" src="/app.js"></script>', '')

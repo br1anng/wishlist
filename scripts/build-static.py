@@ -32,6 +32,14 @@ html = (root / 'index.html').read_text()
 html = html.replace('href="/style.css"', 'href="./style.css"')
 html = html.replace('src="/app.js"', 'src="./app.js"')
 html = html.replace('href="/"', 'href="./"')
+for name in ['headline-dog-reading.webp', 'headline-dog-bowl.webp']:
+    source = root / 'assets/products' / name
+    if not source.is_file():
+        raise SystemExit('Missing headline image: ' + str(source))
+    target = out / 'assets/products' / name
+    target.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(source, target)
+    html = html.replace('/assets/products/' + name, './assets/products/' + name)
 (out / 'index.html').write_text(html)
 shutil.copyfile(root / 'style.css', out / 'style.css')
 (out / '.nojekyll').touch()
