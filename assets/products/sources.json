@@ -172,10 +172,11 @@
     "budget_vnd": null,
     "budget_note": "Wishlist budget, not a live seller price",
     "image_url": null,
-    "file": null,
-    "status": "exact title/author cover lookup when online; labeled title link otherwise",
+    "file": "assets/products/book-lieu-pham-reference.webp",
+    "status": "Edited reference from user-supplied cover image; small lettering and details may differ from original.",
     "observed_price_vnd": 60000,
-    "observed_price_source": "User-supplied Fahasa screenshot, 2026-11-04"
+    "observed_price_source": "User-supplied Fahasa screenshot, 2026-11-04",
+    "image_source": "User-supplied image in chat, 2026-11-04"
   },
   {
     "id": "book-quy-coc-tu",
@@ -186,8 +187,9 @@
     "budget_vnd": null,
     "budget_note": "Wishlist budget, not a live seller price",
     "image_url": null,
-    "file": null,
-    "status": "exact title/author cover lookup when online; labeled title link otherwise"
+    "file": "assets/products/book-quy-coc-tu-reference.webp",
+    "status": "Edited reference from user-supplied cover image; small lettering and details may differ from original.",
+    "image_source": "User-supplied image in chat, 2026-11-04"
   },
   {
     "id": "book-wealth-of-nations",
@@ -235,8 +237,9 @@
     "budget_vnd": null,
     "budget_note": "Wishlist budget, not a live seller price",
     "image_url": null,
-    "file": null,
-    "status": "exact title/author cover lookup when online; labeled title link otherwise"
+    "file": "assets/products/book-bup-sen-xanh-reference.webp",
+    "status": "Edited reference from user-supplied cover image; small lettering and details may differ from original.",
+    "image_source": "User-supplied image in chat, 2026-11-04"
   },
   {
     "id": "xbox",

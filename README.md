@@ -119,3 +119,7 @@ The supplied book-cover references were submitted for background removal, but th
 ## Shopee image references
 
 Porsche 20001, LELE white dragon 31186, LEPIN Hulkbuster 07101 and LEPIN Batmobile 07077 now try online seller images using the exact image IDs in the user-provided links. They require Internet; the current environment cannot access the Shopee image host to verify loading, and if an image fails the labeled product link remains. White seller-photo backgrounds are blended against the paper; the photos are not transparent cutouts and some background may remain. Other missing images still need their source photos.
+
+## Book cover references
+
+At the user’s request, the previously produced cover edits for Búp sen xanh, Liễu Phàm Tứ Huấn and Quỷ Cốc Tử are now included in the website and standalone HTML. They are edited from the supplied covers; small lettering and visual details may differ from the originals, so check the seller’s edition. Their existing prices and links are preserved.

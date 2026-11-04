@@ -236,49 +236,45 @@ const gifts=[
     "id": "book-lieu-pham",
     "name": "Liễu Phàm Tứ Huấn",
     "group": "books",
-    "image": null,
+    "image": "/assets/products/book-lieu-pham-reference.webp",
     "photoClass": "book-photo",
     "price": 60000,
     "budget": "60.000 ₫",
     "category": "books / big brain shelf",
-    "condition": "Vietnamese 2025 reprint · screenshot edition reference",
-    "note": "Liễu Phàm Tứ Huấn — Vietnamese 2025 reprint shown in your screenshot. The displayed sale price was 60,000 ₫ (75,000 ₫ regular); check the current price and edition at Fahasa.",
+    "condition": "Edited cover reference · confirm exact edition and lettering",
+    "note": "Liễu Phàm Tứ Huấn — Vietnamese 2025 reprint shown in your screenshot. The displayed sale price was 60,000 ₫ (75,000 ₫ regular); check the current price and edition at Fahasa. The cover preview is edited from your supplied reference; small lettering and details may differ. Check the seller’s actual cover before buying.",
     "url": "https://www.google.com/search?q=Li%E1%BB%85u%20Ph%C3%A0m%20T%E1%BB%A9%20Hu%E1%BA%A5n%20Vi%E1%BB%87t%20Nam",
     "source": "https://openlibrary.org/search?q=Li%E1%BB%85u%20Ph%C3%A0m%20T%E1%BB%A9%20Hu%E1%BA%A5n%20Vi%C3%AAn%20Li%E1%BB%85u%20Ph%C3%A0m",
     "author": "Viên Liễu Phàm",
     "externalImage": false,
-    "coverSearch": {
-      "title": "Liễu Phàm Tứ Huấn",
-      "author": "Viên Liễu Phàm"
-    },
+    "coverSearch": null,
     "alternateTitle": "",
     "priceSource": {
       "status": "user-supplied screenshot",
       "providedOn": "2026-11-04",
       "price_vnd": 60000,
       "note": "Fahasa screenshot; live price and shipping not verified."
-    }
+    },
+    "imageStatus": "Edited cover reference made from the user-supplied image; small text or details can differ from the original."
   },
   {
     "id": "book-quy-coc-tu",
     "name": "Quỷ Cốc Tử",
     "group": "books",
-    "image": null,
+    "image": "/assets/products/book-quy-coc-tu-reference.webp",
     "photoClass": "book-photo",
     "price": null,
     "budget": "Chưa đặt ngân sách",
     "category": "books / big brain shelf",
-    "condition": "Book wishlist · cover edition is a reference; confirm language and translation",
-    "note": "Quỷ Cốc Tử — Quỷ Cốc Tử. Please check edition, translator, and condition before buying. Budget not set yet.",
+    "condition": "Edited cover reference · confirm exact edition and lettering",
+    "note": "Quỷ Cốc Tử — Quỷ Cốc Tử. Please check edition, translator, and condition before buying. Budget not set yet. The cover preview is edited from your supplied reference; small lettering and details may differ. Check the seller’s actual cover before buying.",
     "url": "https://www.google.com/search?q=Qu%E1%BB%B7%20C%E1%BB%91c%20T%E1%BB%AD%20Vi%E1%BB%87t%20Nam",
     "source": "https://openlibrary.org/search?q=Qu%E1%BB%B7%20C%E1%BB%91c%20T%E1%BB%AD%20Qu%E1%BB%B7%20C%E1%BB%91c%20T%E1%BB%AD",
     "author": "Quỷ Cốc Tử",
     "externalImage": false,
-    "coverSearch": {
-      "title": "Quỷ Cốc Tử",
-      "author": "Quỷ Cốc Tử"
-    },
-    "alternateTitle": ""
+    "coverSearch": null,
+    "alternateTitle": "",
+    "imageStatus": "Edited cover reference made from the user-supplied image; small text or details can differ from the original."
   },
   {
     "id": "book-wealth-of-nations",
@@ -338,22 +334,20 @@ const gifts=[
     "id": "book-bup-sen-xanh",
     "name": "Búp sen xanh",
     "group": "books",
-    "image": null,
+    "image": "/assets/products/book-bup-sen-xanh-reference.webp",
     "photoClass": "book-photo",
     "price": null,
     "budget": "Chưa đặt ngân sách",
     "category": "books / big brain shelf",
-    "condition": "Book wishlist · cover edition is a reference; confirm language and translation",
-    "note": "Búp sen xanh — Sơn Tùng. Please check edition, translator, and condition before buying. Budget not set yet.",
+    "condition": "Edited cover reference · confirm exact edition and lettering",
+    "note": "Búp sen xanh — Sơn Tùng. Please check edition, translator, and condition before buying. Budget not set yet. The cover preview is edited from your supplied reference; small lettering and details may differ. Check the seller’s actual cover before buying.",
     "url": "https://www.google.com/search?q=B%C3%BAp%20sen%20xanh%20Vi%E1%BB%87t%20Nam",
     "source": "https://openlibrary.org/search?q=B%C3%BAp%20sen%20xanh%20S%C6%A1n%20T%C3%B9ng",
     "author": "Sơn Tùng",
     "externalImage": false,
-    "coverSearch": {
-      "title": "Búp sen xanh",
-      "author": "Sơn Tùng"
-    },
-    "alternateTitle": ""
+    "coverSearch": null,
+    "alternateTitle": "",
+    "imageStatus": "Edited cover reference made from the user-supplied image; small text or details can differ from the original."
   },
   {
     "id": "spain-pedri-shirt",
@@ -1020,7 +1014,7 @@ const composition={
  'book-moral-animal':[85,6,110,-18,2], 'book-wholeness':[51,74,110,-9,3],
  'book-lieu-pham':[26,37,110,-26,2], 'book-quy-coc-tu':[16,57,110,18,8],
  'book-wealth-of-nations':[84,54,115,21,2], 'book-fountainhead':[63,47,105,-17,3],
- 'book-siddhartha':[8,91,120,-12,4], 'book-bup-sen-xanh':[57,13,105,26,2]
+ 'book-siddhartha':[8,91,120,-12,4], 'book-bup-sen-xanh':[90,11,110,-12,9]
 };
 function applyTurn(g,button,yaw,tilt=0){
  turns.set(g.id,{yaw,tilt});button.style.setProperty('--yaw',yaw+'deg');button.style.setProperty('--tilt',tilt+'deg');
