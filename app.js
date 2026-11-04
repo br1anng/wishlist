@@ -379,22 +379,25 @@ const gifts=[
   },
   {
     "id": "retro-barcelona-shirt",
-    "name": "Retro Barça shirt",
+    "name": "Retro Barça · burgundy & navy",
     "group": "style",
-    "image": "/assets/products/retro-barcelona-shirt-cutout.webp",
+    "image": "/assets/products/retro-barcelona-burgundy-cutout.webp",
     "photoClass": "cutout-photo",
     "price": 300000,
     "budget": "≈ 300.000 ₫",
     "category": "football / match-day main character",
-    "condition": "Photo reference: retro Barça 2001/02 style · ≈300k is a wishlist target",
-    "note": "Reference photo: Barça 2001/02-style home shirt. A retro reproduction or second-hand find; choose the season and size. The existing roughly 300k football-shirt budget is carried over to this wish; it is not a seller quote. Official or original vintage shirts may cost more.",
-    "url": "https://www.google.com/search?q=%C3%81o%20Barcelona%20retro%202001%202002%20300k",
-    "source": "https://github.com/mestafazegda/BHJerseys/blob/3b635cba2b47db3eb19c3ee215ede8103f56bb6e/images/shuffle-04.jpg",
+    "condition": "Your photo reference · burgundy/navy collared style · exact release to confirm",
+    "note": "The burgundy-and-navy striped polo-style Barça shirt from your reference photo, with the central crest and gold swoosh. Choose this colorway and collar. The cutout is derived from the worn photo; obscured areas and the cropped hem are reconstructed for the preview. Confirm the actual shirt, size and release with the seller. ≈300k remains your wishlist budget, not a verified offer.",
+    "url": "https://www.google.com/search?q=%C3%A1o%20Barcelona%20retro%20c%E1%BB%95%20polo%20s%E1%BB%8Dc%20%C4%91%E1%BB%8F%20burgundy%20xanh%20navy%20logo%20gi%E1%BB%AFa%20ng%E1%BB%B1c",
+    "source": "https://www.google.com/search?tbm=isch&q=%C3%A1o%20Barcelona%20retro%20c%E1%BB%95%20polo%20s%E1%BB%8Dc%20%C4%91%E1%BB%8F%20burgundy%20xanh%20navy%20logo%20gi%E1%BB%AFa%20ng%E1%BB%B1c",
     "budgetSource": {
       "type": "carried-over-user-budget",
       "checked": "2026-11-04",
       "note": "Existing user football-shirt target applied to this replacement wish; live retailer access blocked."
-    }
+    },
+    "sourceLabel": "Find this shirt style ↗",
+    "shopLabel": "find this burgundy/navy shirt ↗",
+    "referenceOrigin": "User-supplied photo in chat, 2026-11-04"
   },
   {
     "id": "retro-football-shirt",
@@ -817,7 +820,7 @@ function openGift(g,b){
  if(g.outfitReference&&/^\d+$/.test(g.outfitReference.pinId)){
   const ref=g.outfitReference,frame=document.createElement('iframe');frame.title=ref.title;frame.src='https://assets.pinterest.com/ext/embed.html?id='+ref.pinId;frame.loading='lazy';frame.referrerPolicy='no-referrer';frame.setAttribute('sandbox','allow-scripts allow-same-origin allow-popups');frameSlot.append(frame);$('#detail-outfit-link').href=ref.url;
  }
- $('#detail-source').href=g.source;$('#detail-source').textContent=g.image?'Reference source ↗':'Find the edition / source ↗';$('#detail-shop').href=g.url;$('#detail-shop').textContent=g.shopLabel||'tìm món này ở Việt Nam ↗';
+ $('#detail-source').href=g.source;$('#detail-source').textContent=g.sourceLabel||(g.image?'Reference source ↗':'Find the edition / source ↗');$('#detail-shop').href=g.url;$('#detail-shop').textContent=g.shopLabel||'tìm món này ở Việt Nam ↗';
  const links=$('#detail-links');links.replaceChildren();for(const ref of g.links||[]){const a=document.createElement('a');a.href=ref.url;a.textContent=ref.label;a.target='_blank';a.rel='noopener noreferrer';links.append(a);}
  detail.hidden=false;detail.classList.remove('visible');$('#overview').hidden=false;playground.classList.add('zoomed');placeDetail();clearTimeout(focusTimer);focusTimer=setTimeout(()=>{detail.classList.add('visible');$('#close').focus({preventScroll:true});},matchMedia('(prefers-reduced-motion: reduce)').matches?0:180);
 }

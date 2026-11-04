@@ -426,15 +426,15 @@
   },
   {
     "id": "retro-barcelona-shirt",
-    "model": "Retro Barça shirt",
+    "model": "Retro Barça · burgundy & navy",
     "group": "style",
-    "source": "https://github.com/mestafazegda/BHJerseys/blob/3b635cba2b47db3eb19c3ee215ede8103f56bb6e/images/shuffle-04.jpg",
-    "product_url": "https://www.google.com/search?q=%C3%81o%20Barcelona%20retro%202001%202002%20300k",
+    "source": "User-supplied photograph in chat, 2026-11-04",
+    "product_url": "https://www.google.com/search?q=%C3%A1o%20Barcelona%20retro%20c%E1%BB%95%20polo%20s%E1%BB%8Dc%20%C4%91%E1%BB%8F%20burgundy%20xanh%20navy%20logo%20gi%E1%BB%AFa%20ng%E1%BB%B1c",
     "budget_vnd": 300000,
     "budget_note": "Carried over user football-shirt target, not a live seller price",
     "image_url": null,
-    "file": "assets/products/retro-barcelona-shirt-cutout.webp",
-    "status": "Photo-derived transparent cutout; original source retained. Budget unverified."
+    "file": "assets/products/retro-barcelona-burgundy-cutout.webp",
+    "status": "ImageGen photo-derived transparent shirt preview based on user reference. Jewelry/person/background removed; obscured neckline areas and cropped hem reconstructed. Style reference only; exact release unverified. Prior 2001/02 source image remains in repository but is no longer the active preview."
   },
   {
     "id": "retro-football-shirt",

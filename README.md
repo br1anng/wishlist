@@ -85,3 +85,7 @@ Verified in Chromium at 1440px and 390px: 33 gifts on one canvas, fixed-position
 Replaced the modern Barcelona shirt wish with four separate wishes: Spain Pedri, Argentina Messi, retro Barça, and an open-choice retro football shirt. The collage now has 33 gifts. Each shirt carries over the existing approximately 300,000 VND target; these are not live offers. The retro Barça photo is a real 2001/02-style reference, with a photo-derived transparent cutout and original source retained. The other three have clearly labeled product-search links pending matching photos.
 
 Retried Google, Casio Vietnam, Fahasa, Kindle Hanoi and a Vietnamese football-shirt retailer. All were blocked with HTTP CONNECT 403. No full live-price update is claimed. See assets/products/price-review.json for the per-gift budget/unknown status and lookup links. Existing Casio LTP target remains below 1,000,000 VND.
+
+## Updated Barça reference — 4 November 2026
+
+The active retro Barça wish now uses the user-supplied burgundy/navy collared-shirt reference, replacing the earlier 2001/02-style preview. The image is a photo-derived transparent cutout: person, stadium and jewelry removed, with obscured neckline areas and the cropped hem reconstructed. It is a style preview, not exact-release verification. The 300,000 VND budget target remains unchanged. All 33 gifts remain on the same collage.
