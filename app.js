@@ -338,25 +338,83 @@ const gifts=[
     "alternateTitle": ""
   },
   {
+    "id": "spain-pedri-shirt",
+    "name": "Spain · Pedri shirt",
+    "group": "style",
+    "image": null,
+    "photoClass": "cutout-photo",
     "price": 300000,
     "budget": "≈ 300.000 ₫",
-    "photoClass": "cutout-photo",
-    "condition": "Fan shirt / second-hand · budget, not a live offer",
-    "id": "barcelona-shirt",
-    "name": "FC Barcelona shirt",
-    "image": "/assets/products/barcelona-shirt-cutout.webp",
     "category": "football / match-day main character",
-    "note": "Blaugrana, obviously. A fan shirt or second-hand find around 300k. Confirm the season, size, and condition with the seller.",
-    "url": "https://www.google.com/search?q=ao+bong+da+Barcelona+300k",
-    "source": "https://github.com/mestafazegda/BHJerseys/blob/3b635cba2b47db3eb19c3ee215ede8103f56bb6e/images/shuffle-01.jpg",
-    "x": 6,
-    "y": 14,
-    "size": 205,
-    "r": -14,
-    "mx": 0,
-    "my": 12,
-    "ms": 145,
-    "group": "style"
+    "condition": "Fan / retro reproduction / second-hand · budget target, not a verified shop price",
+    "note": "Pedri nameset · choose the season, size and player number before buying. The existing roughly 300k football-shirt budget is carried over to this wish; it is not a seller quote. Official or original vintage shirts may cost more.",
+    "url": "https://www.google.com/search?q=%C3%81o%20%C4%91%E1%BB%99i%20tuy%E1%BB%83n%20T%C3%A2y%20Ban%20Nha%20Pedri%20fan%20retro%20300k",
+    "source": "https://www.google.com/search?q=%C3%81o%20%C4%91%E1%BB%99i%20tuy%E1%BB%83n%20T%C3%A2y%20Ban%20Nha%20Pedri%20fan%20retro%20300k",
+    "linkOnly": true,
+    "budgetSource": {
+      "type": "carried-over-user-budget",
+      "checked": "2026-11-04",
+      "note": "Existing user football-shirt target applied to this replacement wish; live retailer access blocked."
+    }
+  },
+  {
+    "id": "argentina-messi-shirt",
+    "name": "Argentina · Messi shirt",
+    "group": "style",
+    "image": null,
+    "photoClass": "cutout-photo",
+    "price": 300000,
+    "budget": "≈ 300.000 ₫",
+    "category": "football / match-day main character",
+    "condition": "Fan / retro reproduction / second-hand · budget target, not a verified shop price",
+    "note": "Messi nameset · choose the season and size; check the number 10 and seller photos. The existing roughly 300k football-shirt budget is carried over to this wish; it is not a seller quote. Official or original vintage shirts may cost more.",
+    "url": "https://www.google.com/search?q=%C3%81o%20Argentina%20Messi%20s%E1%BB%91%2010%20fan%20300k",
+    "source": "https://www.google.com/search?q=%C3%81o%20Argentina%20Messi%20s%E1%BB%91%2010%20fan%20300k",
+    "linkOnly": true,
+    "budgetSource": {
+      "type": "carried-over-user-budget",
+      "checked": "2026-11-04",
+      "note": "Existing user football-shirt target applied to this replacement wish; live retailer access blocked."
+    }
+  },
+  {
+    "id": "retro-barcelona-shirt",
+    "name": "Retro Barça shirt",
+    "group": "style",
+    "image": "/assets/products/retro-barcelona-shirt-cutout.webp",
+    "photoClass": "cutout-photo",
+    "price": 300000,
+    "budget": "≈ 300.000 ₫",
+    "category": "football / match-day main character",
+    "condition": "Photo reference: retro Barça 2001/02 style · ≈300k is a wishlist target",
+    "note": "Reference photo: Barça 2001/02-style home shirt. A retro reproduction or second-hand find; choose the season and size. The existing roughly 300k football-shirt budget is carried over to this wish; it is not a seller quote. Official or original vintage shirts may cost more.",
+    "url": "https://www.google.com/search?q=%C3%81o%20Barcelona%20retro%202001%202002%20300k",
+    "source": "https://github.com/mestafazegda/BHJerseys/blob/3b635cba2b47db3eb19c3ee215ede8103f56bb6e/images/shuffle-04.jpg",
+    "budgetSource": {
+      "type": "carried-over-user-budget",
+      "checked": "2026-11-04",
+      "note": "Existing user football-shirt target applied to this replacement wish; live retailer access blocked."
+    }
+  },
+  {
+    "id": "retro-football-shirt",
+    "name": "Retro football shirt",
+    "group": "style",
+    "image": null,
+    "photoClass": "cutout-photo",
+    "price": 300000,
+    "budget": "≈ 300.000 ₫",
+    "category": "football / match-day main character",
+    "condition": "Fan / retro reproduction / second-hand · budget target, not a verified shop price",
+    "note": "Open choice of classic club or national-team shirt. Choose a design and size; keep separate from the specific retro Barça wish. The existing roughly 300k football-shirt budget is carried over to this wish; it is not a seller quote. Official or original vintage shirts may cost more.",
+    "url": "https://www.google.com/search?q=%C3%81o%20b%C3%B3ng%20%C4%91%C3%A1%20retro%20c%E1%BB%95%20%C4%91i%E1%BB%83n%20300k",
+    "source": "https://www.google.com/search?q=%C3%81o%20b%C3%B3ng%20%C4%91%C3%A1%20retro%20c%E1%BB%95%20%C4%91i%E1%BB%83n%20300k",
+    "linkOnly": true,
+    "budgetSource": {
+      "type": "carried-over-user-budget",
+      "checked": "2026-11-04",
+      "note": "Existing user football-shirt target applied to this replacement wish; live retailer access blocked."
+    }
   },
   {
     "price": 1000000,
@@ -617,7 +675,9 @@ let activeCategory='all',selected=null,previous=null,focusTimer,resizeTimer;
 const turns=new Map();
 // An art-directed composition: centers, widths, angles and depth, never rows.
 const composition={
- 'barcelona-shirt':[17,9,270,-24,4], 'quarter-zip':[55,25,270,22,6],
+ 'retro-barcelona-shirt':[17,9,270,-24,4],
+ 'spain-pedri-shirt':[14,36,155,17,9], 'argentina-messi-shirt':[62,64,160,-22,9],
+ 'retro-football-shirt':[79,76,150,15,9], 'quarter-zip':[55,25,270,22,6],
  'henley':[10,46,230,-18,5], 'loafers':[59,76,285,-25,7],
  'kindle':[65,8,155,18,3], 'le-male':[43,17,135,-11,5],
  'xbox':[77,43,245,32,3], 'naruto':[39,38,155,-14,7],
@@ -728,7 +788,7 @@ function updateView(){
  for(const g of gifts){const b=buttons.get(g.id),matches=ids.has(g.id);b.hidden=false;b.disabled=!matches;b.tabIndex=matches?0:-1;b.classList.toggle('muted',!matches);}
  for(const tab of document.querySelectorAll('.category-tab'))tab.setAttribute('aria-pressed',String(tab.dataset.category===activeCategory));
  $('#count').textContent=gifts.length;$('#empty').hidden=eligible.length>0;$('#scene-hint').hidden=eligible.length===0;
- $('#scene-result').textContent=eligible.length===gifts.length?'30 wishes · one big hint':eligible.length+' of 30 in the spotlight';
+ $('#scene-result').textContent=eligible.length===gifts.length?gifts.length+' wishes · one big hint':eligible.length+' of '+gifts.length+' in the spotlight';
  $('#price').style.setProperty('--range-progress',(max/MAX_BUDGET*100)+'%');$('#price-value').textContent=unlimited?'no limit, baby':'tối đa '+money(max);$('#price').setAttribute('aria-valuetext',unlimited?'No price limit':'Tối đa '+money(max));
  const unpriced=category.filter(g=>g.price===null).length;$('#budget-note').textContent=unlimited?unpriced+' món chưa đặt ngân sách':unpriced+' món chưa có ngân sách được làm mờ';
  $('#budget-title').textContent=unlimited?'financially irresponsible ♡':max<=30000?'tiny ninja money ☻':max<500000?'love on a budget ☻':max<1000000?'a lil treat territory':max<2000000?'okay, you really like me':'sugar partner energy ✦';

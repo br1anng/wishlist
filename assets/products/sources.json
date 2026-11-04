@@ -249,20 +249,6 @@
     "status": "exact title/author cover lookup when online; labeled title link otherwise"
   },
   {
-    "id": "barcelona-shirt",
-    "model": "FC Barcelona shirt",
-    "source": "https://github.com/mestafazegda/BHJerseys/blob/3b635cba2b47db3eb19c3ee215ede8103f56bb6e/images/shuffle-01.jpg",
-    "product_url": "https://www.google.com/search?q=ao+bong+da+Barcelona+300k",
-    "budget_vnd": 300000,
-    "budget_note": "Wishlist budget, not a live seller price",
-    "file": "barcelona-shirt-cutout.webp",
-    "sha256": "71192ddd014a1fbc212c4a9111c62fae0f08f1918e54a46228f749bf11941066",
-    "status": "local image; visually inspected",
-    "processing": "ImageGen background removal; original source retained",
-    "group": "style",
-    "image_url": "/assets/products/barcelona-shirt-cutout.webp"
-  },
-  {
     "id": "xbox",
     "model": "Xbox controller",
     "source": "https://github.com/Daniel-ma-X/Xbox-Controller-Shop/blob/cd8b030d5c2e63263d3b37a1137c4d0c893fb358/media/xbox-controller.png",
@@ -413,5 +399,53 @@
     "file": null,
     "group": "watches",
     "image_url": null
+  },
+  {
+    "id": "spain-pedri-shirt",
+    "model": "Spain · Pedri shirt",
+    "group": "style",
+    "source": "https://www.google.com/search?q=%C3%81o%20%C4%91%E1%BB%99i%20tuy%E1%BB%83n%20T%C3%A2y%20Ban%20Nha%20Pedri%20fan%20retro%20300k",
+    "product_url": "https://www.google.com/search?q=%C3%81o%20%C4%91%E1%BB%99i%20tuy%E1%BB%83n%20T%C3%A2y%20Ban%20Nha%20Pedri%20fan%20retro%20300k",
+    "budget_vnd": 300000,
+    "budget_note": "Carried over user football-shirt target, not a live seller price",
+    "image_url": null,
+    "file": null,
+    "status": "Exact shirt photo still needed; clearly labeled product link, no substitute image. Budget unverified."
+  },
+  {
+    "id": "argentina-messi-shirt",
+    "model": "Argentina · Messi shirt",
+    "group": "style",
+    "source": "https://www.google.com/search?q=%C3%81o%20Argentina%20Messi%20s%E1%BB%91%2010%20fan%20300k",
+    "product_url": "https://www.google.com/search?q=%C3%81o%20Argentina%20Messi%20s%E1%BB%91%2010%20fan%20300k",
+    "budget_vnd": 300000,
+    "budget_note": "Carried over user football-shirt target, not a live seller price",
+    "image_url": null,
+    "file": null,
+    "status": "Exact shirt photo still needed; clearly labeled product link, no substitute image. Budget unverified."
+  },
+  {
+    "id": "retro-barcelona-shirt",
+    "model": "Retro Barça shirt",
+    "group": "style",
+    "source": "https://github.com/mestafazegda/BHJerseys/blob/3b635cba2b47db3eb19c3ee215ede8103f56bb6e/images/shuffle-04.jpg",
+    "product_url": "https://www.google.com/search?q=%C3%81o%20Barcelona%20retro%202001%202002%20300k",
+    "budget_vnd": 300000,
+    "budget_note": "Carried over user football-shirt target, not a live seller price",
+    "image_url": null,
+    "file": "assets/products/retro-barcelona-shirt-cutout.webp",
+    "status": "Photo-derived transparent cutout; original source retained. Budget unverified."
+  },
+  {
+    "id": "retro-football-shirt",
+    "model": "Retro football shirt",
+    "group": "style",
+    "source": "https://www.google.com/search?q=%C3%81o%20b%C3%B3ng%20%C4%91%C3%A1%20retro%20c%E1%BB%95%20%C4%91i%E1%BB%83n%20300k",
+    "product_url": "https://www.google.com/search?q=%C3%81o%20b%C3%B3ng%20%C4%91%C3%A1%20retro%20c%E1%BB%95%20%C4%91i%E1%BB%83n%20300k",
+    "budget_vnd": 300000,
+    "budget_note": "Carried over user football-shirt target, not a live seller price",
+    "image_url": null,
+    "file": null,
+    "status": "Exact shirt photo still needed; clearly labeled product link, no substitute image. Budget unverified."
   }
 ]

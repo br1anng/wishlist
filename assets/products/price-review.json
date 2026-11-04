@@ -1,0 +1,279 @@
+{
+  "checked": "2026-11-04",
+  "currency": "VND",
+  "result": "Live price verification blocked by the active environment HTTP policy. No seller prices have been asserted.",
+  "blocked_sources": [
+    "https://www.google.com/search?q=Casio+LTP+V007D+1E+gi%C3%A1",
+    "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/",
+    "https://www.fahasa.com/on-writing-well.html",
+    "https://www.kindlehanoi.vn/",
+    "https://aobongda.net/"
+  ],
+  "response": "HTTP CONNECT 403 Forbidden",
+  "gifts": [
+    {
+      "id": "blokees-naruto",
+      "name": "Blokees Naruto",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=Blokees%20Naruto%20Vi%E1%BB%87t%20Nam"
+    },
+    {
+      "id": "blokees-spider",
+      "name": "Blokees Spider-Man",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=Blokees%20Spider-Man%20Vi%E1%BB%87t%20Nam"
+    },
+    {
+      "id": "diecast-rx7-niles",
+      "name": "Mazda RX-7 LBWK FD-NILES",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=Mini%20GT%20Mazda%20RX-7%20LBWK%20FD-NILES%201/64%20Vi%E1%BB%87t%20Nam"
+    },
+    {
+      "id": "diecast-kaido-r34",
+      "name": "Nissan Skyline GT-R R34",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=Kaido%20House%20Nissan%20Skyline%20GT-R%20R34%201/64%20Vi%E1%BB%87t%20Nam"
+    },
+    {
+      "id": "diecast-roxy",
+      "name": "Porsche 911 GT3 R · Roxy",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=Mini%20GT%20Porsche%20911%20GT3%20R%20%C2%B7%20Roxy%201/64%20Vi%E1%BB%87t%20Nam"
+    },
+    {
+      "id": "diecast-rexy",
+      "name": "Porsche 911 GT3 R · Rexy",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=Mini%20GT%20Porsche%20911%20GT3%20R%20%C2%B7%20Rexy%201/64%20Vi%E1%BB%87t%20Nam"
+    },
+    {
+      "id": "diecast-porsche-gt3r",
+      "name": "Porsche 911 GT3 R",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=Pop%20Race%20Porsche%20911%20GT3%20R%201/64%20Vi%E1%BB%87t%20Nam"
+    },
+    {
+      "id": "diecast-darwin-supra",
+      "name": "Darwin Pro Supra A90",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=Pop%20Race%20Darwin%20Pro%20Supra%20A90%201/64%20Vi%E1%BB%87t%20Nam"
+    },
+    {
+      "id": "naruto-minifigure",
+      "name": "Naruto mini figure / brick-compatible",
+      "budget_vnd": 30000,
+      "display": "≈ 30.000 ₫",
+      "status": "budget target; no verified seller quote",
+      "lookup_url": "https://www.google.com/search?q=minifigure%20Naruto%20lego%20t%C6%B0%C6%A1ng%20th%C3%ADch%2030000"
+    },
+    {
+      "id": "book-on-writing-well",
+      "name": "On Writing Well",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=On%20Writing%20Well%20Vi%E1%BB%87t%20Nam"
+    },
+    {
+      "id": "book-distinction",
+      "name": "Distinction: A Social Critique of the Judgement of Taste",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=Distinction%3A%20A%20Social%20Critique%20of%20the%20Judgement%20of%20Taste%20Vi%E1%BB%87t%20Nam"
+    },
+    {
+      "id": "book-moral-animal",
+      "name": "Một loài động vật có đạo đức",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=M%E1%BB%99t%20lo%C3%A0i%20%C4%91%E1%BB%99ng%20v%E1%BA%ADt%20c%C3%B3%20%C4%91%E1%BA%A1o%20%C4%91%E1%BB%A9c%20Vi%E1%BB%87t%20Nam"
+    },
+    {
+      "id": "book-wholeness",
+      "name": "Cái toàn thể và trật tự ẩn",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=C%C3%A1i%20to%C3%A0n%20th%E1%BB%83%20v%C3%A0%20tr%E1%BA%ADt%20t%E1%BB%B1%20%E1%BA%A9n%20Vi%E1%BB%87t%20Nam"
+    },
+    {
+      "id": "book-lieu-pham",
+      "name": "Liễu Phàm Tứ Huấn",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=Li%E1%BB%85u%20Ph%C3%A0m%20T%E1%BB%A9%20Hu%E1%BA%A5n%20Vi%E1%BB%87t%20Nam"
+    },
+    {
+      "id": "book-quy-coc-tu",
+      "name": "Quỷ Cốc Tử",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=Qu%E1%BB%B7%20C%E1%BB%91c%20T%E1%BB%AD%20Vi%E1%BB%87t%20Nam"
+    },
+    {
+      "id": "book-wealth-of-nations",
+      "name": "Của cải của các dân tộc",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=C%E1%BB%A7a%20c%E1%BA%A3i%20c%E1%BB%A7a%20c%C3%A1c%20d%C3%A2n%20t%E1%BB%99c%20Vi%E1%BB%87t%20Nam"
+    },
+    {
+      "id": "book-fountainhead",
+      "name": "Suối nguồn",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=Su%E1%BB%91i%20ngu%E1%BB%93n%20Vi%E1%BB%87t%20Nam"
+    },
+    {
+      "id": "book-siddhartha",
+      "name": "Câu chuyện dòng sông",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=C%C3%A2u%20chuy%E1%BB%87n%20d%C3%B2ng%20s%C3%B4ng%20Vi%E1%BB%87t%20Nam"
+    },
+    {
+      "id": "book-bup-sen-xanh",
+      "name": "Búp sen xanh",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=B%C3%BAp%20sen%20xanh%20Vi%E1%BB%87t%20Nam"
+    },
+    {
+      "id": "spain-pedri-shirt",
+      "name": "Spain · Pedri shirt",
+      "budget_vnd": 300000,
+      "display": "≈ 300.000 ₫",
+      "status": "budget target; no verified seller quote",
+      "lookup_url": "https://www.google.com/search?q=%C3%81o%20%C4%91%E1%BB%99i%20tuy%E1%BB%83n%20T%C3%A2y%20Ban%20Nha%20Pedri%20fan%20retro%20300k"
+    },
+    {
+      "id": "argentina-messi-shirt",
+      "name": "Argentina · Messi shirt",
+      "budget_vnd": 300000,
+      "display": "≈ 300.000 ₫",
+      "status": "budget target; no verified seller quote",
+      "lookup_url": "https://www.google.com/search?q=%C3%81o%20Argentina%20Messi%20s%E1%BB%91%2010%20fan%20300k"
+    },
+    {
+      "id": "retro-barcelona-shirt",
+      "name": "Retro Barça shirt",
+      "budget_vnd": 300000,
+      "display": "≈ 300.000 ₫",
+      "status": "budget target; no verified seller quote",
+      "lookup_url": "https://www.google.com/search?q=%C3%81o%20Barcelona%20retro%202001%202002%20300k"
+    },
+    {
+      "id": "retro-football-shirt",
+      "name": "Retro football shirt",
+      "budget_vnd": 300000,
+      "display": "≈ 300.000 ₫",
+      "status": "budget target; no verified seller quote",
+      "lookup_url": "https://www.google.com/search?q=%C3%81o%20b%C3%B3ng%20%C4%91%C3%A1%20retro%20c%E1%BB%95%20%C4%91i%E1%BB%83n%20300k"
+    },
+    {
+      "id": "xbox",
+      "name": "Xbox controller",
+      "budget_vnd": 1000000,
+      "display": "< 1.000.000 ₫",
+      "status": "budget target; no verified seller quote",
+      "lookup_url": "https://www.google.com/search?q=tay+cam+Xbox+cu+duoi+1+trieu"
+    },
+    {
+      "id": "kindle",
+      "name": "Kindle 4",
+      "budget_vnd": 1500000,
+      "display": "≈ 1.500.000 ₫",
+      "status": "budget target; no verified seller quote",
+      "lookup_url": "https://www.google.com/search?q=Kindle+4+cu+Viet+Nam"
+    },
+    {
+      "id": "le-male",
+      "name": "Le Male Le Parfum",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=Jean+Paul+Gaultier+Le+Male+Le+Parfum+Viet+Nam"
+    },
+    {
+      "id": "casio-ltp",
+      "name": "Casio LTP-V007D-1E",
+      "budget_vnd": 1000000,
+      "display": "< 1.000.000 ₫",
+      "status": "budget target; no verified seller quote",
+      "lookup_url": "https://www.casio.com/intl/watches/casio/product.LTP-V007D-1E/"
+    },
+    {
+      "id": "casio-mtp",
+      "name": "Casio MTP-1302D",
+      "budget_vnd": 2000000,
+      "display": "< 2.000.000 ₫",
+      "status": "budget target; no verified seller quote",
+      "lookup_url": "https://www.google.com/search?q=Casio+MTP+1302D+chinh+hang+Viet+Nam"
+    },
+    {
+      "id": "henley",
+      "name": "Henley shirt",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.instagram.com/create_classic_menswear/"
+    },
+    {
+      "id": "quarter-zip",
+      "name": "Quarter-zip shirt",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.instagram.com/create_classic_menswear/"
+    },
+    {
+      "id": "naruto",
+      "name": "Naruto · POP MART",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.popmart.com/us/pop-now/set/474"
+    },
+    {
+      "id": "loafers",
+      "name": "Penny loafers",
+      "budget_vnd": null,
+      "display": "Chưa đặt ngân sách",
+      "status": "not priced",
+      "lookup_url": "https://www.google.com/search?q=giay+loafer+nam+da"
+    },
+    {
+      "id": "casio-mq",
+      "name": "Casio MQ-24DA-2A",
+      "budget_vnd": 2000000,
+      "display": "< 2.000.000 ₫",
+      "status": "budget target; no verified seller quote",
+      "lookup_url": "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/"
+    }
+  ]
+}

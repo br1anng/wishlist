@@ -2,7 +2,7 @@
 
 Download this branch from GitHub, unzip it, and double-click **OPEN-WISHLIST.html** in Finder. If needed, right-click it and choose **Open With → Safari or Google Chrome**. No installation or server is required.
 
-The file contains the current 30-item wishlist and embedded local photos/styles. Some online book/figure references and Pinterest previews need Internet access. Open it from Finder rather than the chat app file viewer.
+The file contains the current 33-item wishlist and embedded local photos/styles. Some online book/figure references and Pinterest previews need Internet access. Open it from Finder rather than the chat app file viewer.
 
 ![Current wishlist design](PREVIEW.png)
 
@@ -10,11 +10,11 @@ The file contains the current 30-item wishlist and embedded local photos/styles.
 
 # Things to get me
 
-A personal floating wishlist with 30 wishes, one editorial collage, drag-to-turn photos, product-reference images, scene zoom, and a VND budget slider. Requires Node.js 18+; no dependencies. Run `npm start` (port 3000; override with `PORT`).
+A personal floating wishlist with 33 wishes, one editorial collage, drag-to-turn photos, product-reference images, scene zoom, and a VND budget slider. Requires Node.js 18+; no dependencies. Run `npm start` (port 3000; override with `PORT`).
 
 ## Collections
 
-All 30 gifts occupy a single art-directed canvas: varied sizes, angles and overlaps, with no pages or grid. Category and VND budget controls spotlight matching gifts without changing their positions. Unpriced wishes are dimmed for finite budgets. All active gifts are keyboard accessible.
+All 33 gifts occupy a single art-directed canvas: varied sizes, angles and overlaps, with no pages or grid. Category and VND budget controls spotlight matching gifts without changing their positions. Unpriced wishes are dimmed for finite budgets. All active gifts are keyboard accessible.
 
 Drag any gift horizontally to rotate its flat photograph, or use Left/Right arrow keys while focused. Home resets that gift; “face front” resets every photo. A short click opens the zoomed details. Touch users can still scroll vertically. These are playful photo rotations, not true multi-angle product photography or 3D models.
 
@@ -76,6 +76,12 @@ Casio LTP-V007D-1E is now budgeted below 1,000,000 VND, correcting the earlier 2
 
 ## Editorial update — 4 November 2026
 
-Added locally verified real English covers for The Wealth of Nations and The Fountainhead, bringing local images to 21 of 30 wishes. The remaining nine use online image references or clearly labeled product/title links. Direct retailer, cover and search access is still blocked by the environment; no product photo or missing edition was invented.
+Added locally verified real English covers for The Wealth of Nations and The Fountainhead, bringing local images to 21 of 33 wishes. The remaining twelve use online image references or clearly labeled product/title links. Direct retailer, cover and search access is still blocked by the environment; no product photo or missing edition was invented.
 
-Verified in Chromium at 1440px and 390px: 30 gifts on one canvas, fixed-position category/budget spotlighting, pointer rotation without accidental detail opening, keyboard rotation/reset, mobile horizontal overflow and detail-panel bounds.
+Verified in Chromium at 1440px and 390px: 33 gifts on one canvas, fixed-position category/budget spotlighting, pointer rotation without accidental detail opening, keyboard rotation/reset, mobile horizontal overflow and detail-panel bounds.
+
+## Football wishes and price review — 4 November 2026
+
+Replaced the modern Barcelona shirt wish with four separate wishes: Spain Pedri, Argentina Messi, retro Barça, and an open-choice retro football shirt. The collage now has 33 gifts. Each shirt carries over the existing approximately 300,000 VND target; these are not live offers. The retro Barça photo is a real 2001/02-style reference, with a photo-derived transparent cutout and original source retained. The other three have clearly labeled product-search links pending matching photos.
+
+Retried Google, Casio Vietnam, Fahasa, Kindle Hanoi and a Vietnamese football-shirt retailer. All were blocked with HTTP CONNECT 403. No full live-price update is claimed. See assets/products/price-review.json for the per-gift budget/unknown status and lookup links. Existing Casio LTP target remains below 1,000,000 VND.
