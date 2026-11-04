@@ -264,3 +264,10 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 33px
  .gift-art>.product-link-tag small { font-size: 7px; }
  .reset-turns { bottom: 73px; font-size: 14px; }
 }
+
+/* User-picked favorites remain visible on the shared editorial canvas. */
+.favorite-badge { position:absolute; top:-8px; right:-6px; z-index:2; padding:4px 8px; color:#7a163b; background:#ffc4da; border:1.5px solid var(--ink); border-radius:5px 9px 4px 7px; box-shadow:2px 2px 0 var(--ink); font:15px var(--hand); transform:rotate(9deg); pointer-events:none; }
+.detail-favorite { display:inline-block; margin-top:12px; padding:4px 9px; background:#ffc4da; border:1px solid var(--ink); border-radius:7px 4px 9px 5px; color:#7a163b; font:16px var(--hand); transform:rotate(-3deg); }
+.detail-favorite[hidden] { display:none; }
+.category-tab[data-category=favorites] { background:#ffc4da; }
+@media(max-width:650px) { .favorite-badge { font-size:11px; padding:3px 5px; top:-6px; right:-3px; } }

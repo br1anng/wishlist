@@ -7,7 +7,18 @@
     "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/",
     "https://www.fahasa.com/on-writing-well.html",
     "https://www.kindlehanoi.vn/",
-    "https://aobongda.net/"
+    "https://aobongda.net/",
+    "https://www.mykingdom.com.vn/products/do-choi-lap-rap-xe-dua-ferrari-sf-24-f1-lego-speed-champions-77242",
+    "https://shopee.vn/Lego-Lepin-20001-Siêu-Xe-Porsche-911-GT3-RS-i.86752477.1628207675?extraParams=%7B%22display_model_id%22%3A52118478471%2C%22model_selection_logic%22%3A3%7D&image_ids=864e00fe62c0c736aca7d5482cd8a317",
+    "https://shopee.vn/Non-LEgo-Ninjago-Rồng-trắng-lele31186-i.86752477.1906093178?extraParams=%7B%22display_model_id%22%3A72118469085%2C%22model_selection_logic%22%3A3%7D&image_ids=a72dc934e679318815e28842a20bd468",
+    "https://shopee.vn/bộ-lepin-07101-bộ-lắp-ráp-siêu-nhân-Lego-SUPER-ESCDRT-GIÚP-BÉ-PHÁT-TRIỂN-TRÍ-TUỆ-MỘT-CÁCH-TOÀN-DIỆN.-i.86752477.1624647819?extraParams=%7B%22display_model_id%22%3A62118460075%2C%22model_selection_logic%22%3A3%7D&image_ids=16fd7c8c47deeca096650d45d53f287e",
+    "https://shopee.vn/Bộ-Đồ-Chơi-lắp-Ráp-Lego-Xe-Super-Heroes-Genuine-Movie-The-Ultimate-Batmobile-70917-Lepin-07077-Siêu-Xe-Của-Người-Dơi-i.86752477.1673884184?extraParams=%7B%22display_model_id%22%3A42118488841%2C%22model_selection_logic%22%3A3%7D&image_ids=81f555ef8ff80304542a2ee0fc7b0bfb",
+    "https://shopee.vn/product/91626123/41326999550",
+    "https://saigonbrick.com.vn/san-pham/non-lego-dk-tec-creators-5007-dragon-ball-divine-dragon-7-vien-ngoc-rong-rong-tha-1826pcsn/",
+    "https://saigonbrick.com.vn/san-pham/non-lego-keeppley-k20508-naruto-and-hinata-wedding-banquet-tiec-cuoi-cua-naruto-va-hinata-355pcs/",
+    "https://www.mykingdom.com.vn/products/mo-hinh-marvel-cc-sieu-anh-hung-spiderman-blokees-81118",
+    "https://www.mykingdom.com.vn/products/mo-hinh-naruto-cc-nhan-vat-sasuke-uchiha-blokees-75614",
+    "https://www.mykingdom.com.vn/products/mo-hinh-tac-chien-iron-spiderman-tich-hop-be-anh-sang-zd-toy-1602-12"
   ],
   "response": "HTTP CONNECT 403 Forbidden",
   "gifts": [
@@ -21,11 +32,11 @@
     },
     {
       "id": "blokees-spider",
-      "name": "Blokees Spider-Man",
+      "name": "Blokees Marvel CC Spider-Man · 81118",
       "budget_vnd": null,
-      "display": "Chưa đặt ngân sách",
-      "status": "not priced",
-      "lookup_url": "https://www.google.com/search?q=Blokees%20Spider-Man%20Vi%E1%BB%87t%20Nam"
+      "display": "Giá chưa xác minh",
+      "status": "current shop price not verified",
+      "lookup_url": "https://www.mykingdom.com.vn/products/mo-hinh-marvel-cc-sieu-anh-hung-spiderman-blokees-81118"
     },
     {
       "id": "diecast-rx7-niles",
@@ -274,6 +285,86 @@
       "display": "< 2.000.000 ₫",
       "status": "budget target; no verified seller quote",
       "lookup_url": "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/"
+    },
+    {
+      "id": "lego-ferrari-sf24",
+      "name": "LEGO Speed Champions Ferrari SF-24 F1 · 77242",
+      "budget_vnd": null,
+      "display": "Giá chưa xác minh",
+      "status": "current shop price not verified",
+      "lookup_url": "https://www.mykingdom.com.vn/products/do-choi-lap-rap-xe-dua-ferrari-sf-24-f1-lego-speed-champions-77242"
+    },
+    {
+      "id": "lepin-porsche-20001",
+      "name": "LEPIN Porsche 911 GT3 RS · 20001",
+      "budget_vnd": null,
+      "display": "Giá chưa xác minh",
+      "status": "current shop price not verified",
+      "lookup_url": "https://shopee.vn/Lego-Lepin-20001-Siêu-Xe-Porsche-911-GT3-RS-i.86752477.1628207675?extraParams=%7B%22display_model_id%22%3A52118478471%2C%22model_selection_logic%22%3A3%7D&image_ids=864e00fe62c0c736aca7d5482cd8a317"
+    },
+    {
+      "id": "lele-white-dragon-31186",
+      "name": "LELE white dragon · 31186",
+      "budget_vnd": null,
+      "display": "Giá chưa xác minh",
+      "status": "current shop price not verified",
+      "lookup_url": "https://shopee.vn/Non-LEgo-Ninjago-Rồng-trắng-lele31186-i.86752477.1906093178?extraParams=%7B%22display_model_id%22%3A72118469085%2C%22model_selection_logic%22%3A3%7D&image_ids=a72dc934e679318815e28842a20bd468"
+    },
+    {
+      "id": "lepin-super-escrdt-07101",
+      "name": "LEPIN superhero building set · 07101",
+      "budget_vnd": null,
+      "display": "Giá chưa xác minh",
+      "status": "current shop price not verified",
+      "lookup_url": "https://shopee.vn/bộ-lepin-07101-bộ-lắp-ráp-siêu-nhân-Lego-SUPER-ESCDRT-GIÚP-BÉ-PHÁT-TRIỂN-TRÍ-TUỆ-MỘT-CÁCH-TOÀN-DIỆN.-i.86752477.1624647819?extraParams=%7B%22display_model_id%22%3A62118460075%2C%22model_selection_logic%22%3A3%7D&image_ids=16fd7c8c47deeca096650d45d53f287e"
+    },
+    {
+      "id": "lepin-ultimate-batmobile-07077",
+      "name": "LEPIN The Ultimate Batmobile · 07077",
+      "budget_vnd": null,
+      "display": "Giá chưa xác minh",
+      "status": "current shop price not verified",
+      "lookup_url": "https://shopee.vn/Bộ-Đồ-Chơi-lắp-Ráp-Lego-Xe-Super-Heroes-Genuine-Movie-The-Ultimate-Batmobile-70917-Lepin-07077-Siêu-Xe-Của-Người-Dơi-i.86752477.1673884184?extraParams=%7B%22display_model_id%22%3A42118488841%2C%22model_selection_logic%22%3A3%7D&image_ids=81f555ef8ff80304542a2ee0fc7b0bfb"
+    },
+    {
+      "id": "going-merry-one-piece",
+      "name": "Going Merry · One Piece pirate ship",
+      "budget_vnd": null,
+      "display": "Giá chưa xác minh",
+      "status": "current shop price not verified",
+      "lookup_url": "https://shopee.vn/product/91626123/41326999550"
+    },
+    {
+      "id": "dk-divine-dragon-5007",
+      "name": "DK TEC Divine Dragon · 5007",
+      "budget_vnd": null,
+      "display": "Giá chưa xác minh",
+      "status": "current shop price not verified",
+      "lookup_url": "https://saigonbrick.com.vn/san-pham/non-lego-dk-tec-creators-5007-dragon-ball-divine-dragon-7-vien-ngoc-rong-rong-tha-1826pcsn/"
+    },
+    {
+      "id": "keeppley-naruto-hinata-k20508",
+      "name": "Keeppley Naruto & Hinata wedding banquet · K20508",
+      "budget_vnd": null,
+      "display": "Giá chưa xác minh",
+      "status": "current shop price not verified",
+      "lookup_url": "https://saigonbrick.com.vn/san-pham/non-lego-keeppley-k20508-naruto-and-hinata-wedding-banquet-tiec-cuoi-cua-naruto-va-hinata-355pcs/"
+    },
+    {
+      "id": "blokees-sasuke-75614",
+      "name": "Blokees Naruto CC Sasuke Uchiha · 75614",
+      "budget_vnd": null,
+      "display": "Giá chưa xác minh",
+      "status": "current shop price not verified",
+      "lookup_url": "https://www.mykingdom.com.vn/products/mo-hinh-naruto-cc-nhan-vat-sasuke-uchiha-blokees-75614"
+    },
+    {
+      "id": "zd-iron-spider-1602-12",
+      "name": "ZD Toys Iron Spider with light-up base · 1602-12",
+      "budget_vnd": null,
+      "display": "Giá chưa xác minh",
+      "status": "current shop price not verified",
+      "lookup_url": "https://www.mykingdom.com.vn/products/mo-hinh-tac-chien-iron-spiderman-tich-hop-be-anh-sang-zd-toy-1602-12"
     }
   ]
 }

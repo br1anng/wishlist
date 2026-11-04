@@ -2,7 +2,7 @@
 
 Download this branch from GitHub, unzip it, and double-click **OPEN-WISHLIST.html** in Finder. If needed, right-click it and choose **Open With → Safari or Google Chrome**. No installation or server is required.
 
-The file contains the current 33-item wishlist and embedded local photos/styles. Some online book/figure references and Pinterest previews need Internet access. Open it from Finder rather than the chat app file viewer.
+The file contains the current 43-item wishlist and embedded local photos/styles. Some online book/figure references and Pinterest previews need Internet access. Open it from Finder rather than the chat app file viewer.
 
 ![Current wishlist design](PREVIEW.png)
 
@@ -10,11 +10,11 @@ The file contains the current 33-item wishlist and embedded local photos/styles.
 
 # Things to get me
 
-A personal floating wishlist with 33 wishes, one editorial collage, drag-to-turn photos, product-reference images, scene zoom, and a VND budget slider. Requires Node.js 18+; no dependencies. Run `npm start` (port 3000; override with `PORT`).
+A personal floating wishlist with 43 wishes, one editorial collage, drag-to-turn photos, product-reference images, scene zoom, and a VND budget slider. Requires Node.js 18+; no dependencies. Run `npm start` (port 3000; override with `PORT`).
 
 ## Collections
 
-All 33 gifts occupy a single art-directed canvas: varied sizes, angles and overlaps, with no pages or grid. Category and VND budget controls spotlight matching gifts without changing their positions. Unpriced wishes are dimmed for finite budgets. All active gifts are keyboard accessible.
+All 43 gifts occupy a single art-directed canvas: varied sizes, angles and overlaps, with no pages or grid. Category and VND budget controls spotlight matching gifts without changing their positions. Unpriced wishes are dimmed for finite budgets. All active gifts are keyboard accessible.
 
 Drag any gift horizontally to rotate its flat photograph, or use Left/Right arrow keys while focused. Home resets that gift; “face front” resets every photo. A short click opens the zoomed details. Touch users can still scroll vertically. These are playful photo rotations, not true multi-angle product photography or 3D models.
 
@@ -89,3 +89,11 @@ Retried Google, Casio Vietnam, Fahasa, Kindle Hanoi and a Vietnamese football-sh
 ## Updated Barça reference — 4 November 2026
 
 The active retro Barça wish now uses the user-supplied burgundy/navy collared-shirt reference, replacing the earlier 2001/02-style preview. The image is a photo-derived transparent cutout: person, stadium and jewelry removed, with obscured neckline areas and the cropped hem reconstructed. It is a style preview, not exact-release verification. The 300,000 VND budget target remains unchanged. All 33 gifts remain on the same collage.
+
+## Linked building sets and favorites — 4 November 2026
+
+Saved all 11 requested shop links. The existing Blokees Spider-Man wish now targets model 81118, replacing the previous generic 74801 reference. Ten other entries are added, bringing the collage to 43. Naruto & Hinata K20508 and Sasuke 75614 have visible favorite badges and a My faves spotlight tab. Non-LEGO brands are labeled individually. The numeric Shopee link 91626123/41326999550 is the Going Merry pirate ship from One Piece, identified by the user; exact brand/model are still unverified.
+
+All 11 shop requests failed with HTTP CONNECT 403 under the active cloud network policy. Their VND prices remain explicitly unverified and no uninspected photo was substituted or represented as a completed cutout. Listing/model references and Shopee image identifiers are recorded in assets/products/requested-listings.json; price status is recorded in price-review.json. No image edits were attempted without the actual source images.
+
+The environment draft now adds www.mykingdom.com.vn, mykingdom.com.vn, shopee.vn, www.shopee.vn, saigonbrick.com.vn, www.saigonbrick.com.vn, down-vn.img.susercontent.com, cf.shopee.vn, product.hstatic.net and theme.hstatic.net while preserving the existing domains. Backend save succeeded and requires_publish is true. This does not apply the policy. Review and save in Environment settings, then Publish, before retrying the listing requests.

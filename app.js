@@ -17,18 +17,29 @@ const gifts=[
   },
   {
     "id": "blokees-spider",
-    "name": "Blokees Spider-Man",
+    "name": "Blokees Marvel CC Spider-Man · 81118",
     "group": "figures",
-    "image": "https://cdn.brick4.com/upload/set/2024_08_26_14_26_42_94093800_96a8dd70218ce62205cde3df50a509e0.jpg",
+    "image": null,
     "photoClass": "cutout-photo",
     "price": null,
-    "budget": "Chưa đặt ngân sách",
-    "category": "figures / friendly neighborhood desk buddy",
-    "condition": "Blokees · Peter Parker reference, SKU 74801",
-    "note": "A Blokees Spider-Man for the desk. Peter Parker reference pictured; confirm the series and version before buying.",
-    "url": "https://www.google.com/search?q=Blokees%20Spider-Man%20Vi%E1%BB%87t%20Nam",
-    "source": "https://brick4.com/set/42174/",
-    "externalImage": true
+    "budget": "Giá chưa xác minh",
+    "category": "figures / desk heroes",
+    "condition": "Blokees · exact model 81118",
+    "note": "Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "url": "https://www.mykingdom.com.vn/products/mo-hinh-marvel-cc-sieu-anh-hung-spiderman-blokees-81118",
+    "source": "https://www.mykingdom.com.vn/products/mo-hinh-marvel-cc-sieu-anh-hung-spiderman-blokees-81118",
+    "sourceLabel": "Product listing ↗",
+    "shopLabel": "open this exact listing ↗",
+    "linkOnly": true,
+    "modelCode": "81118",
+    "brand": "Blokees",
+    "priceSource": {
+      "url": "https://www.mykingdom.com.vn/products/mo-hinh-marvel-cc-sieu-anh-hung-spiderman-blokees-81118",
+      "checked": "2026-11-04",
+      "status": "blocked",
+      "error": "HTTP CONNECT 403; no current price read"
+    },
+    "imageStatus": "Listing image unavailable; background cutout pending source access"
   },
   {
     "id": "diecast-rx7-niles",
@@ -667,17 +678,288 @@ const gifts=[
     "my": 91,
     "ms": 135,
     "group": "watches"
+  },
+  {
+    "id": "lego-ferrari-sf24",
+    "name": "LEGO Speed Champions Ferrari SF-24 F1 · 77242",
+    "group": "builds",
+    "image": null,
+    "photoClass": "cutout-photo",
+    "price": null,
+    "budget": "Giá chưa xác minh",
+    "category": "build it / tiny things, big happiness",
+    "condition": "LEGO · LEGO Speed Champions",
+    "note": "Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "url": "https://www.mykingdom.com.vn/products/do-choi-lap-rap-xe-dua-ferrari-sf-24-f1-lego-speed-champions-77242",
+    "source": "https://www.mykingdom.com.vn/products/do-choi-lap-rap-xe-dua-ferrari-sf-24-f1-lego-speed-champions-77242",
+    "sourceLabel": "Product listing ↗",
+    "shopLabel": "open this exact listing ↗",
+    "linkOnly": true,
+    "modelCode": "77242",
+    "brand": "LEGO",
+    "priceSource": {
+      "url": "https://www.mykingdom.com.vn/products/do-choi-lap-rap-xe-dua-ferrari-sf-24-f1-lego-speed-champions-77242",
+      "checked": "2026-11-04",
+      "status": "blocked",
+      "error": "HTTP CONNECT 403; no current price read"
+    },
+    "imageStatus": "Listing image unavailable; background cutout pending source access"
+  },
+  {
+    "id": "lepin-porsche-20001",
+    "name": "LEPIN Porsche 911 GT3 RS · 20001",
+    "group": "builds",
+    "image": null,
+    "photoClass": "cutout-photo",
+    "price": null,
+    "budget": "Giá chưa xác minh",
+    "category": "build it / tiny things, big happiness",
+    "condition": "LEPIN · not an official LEGO product",
+    "note": "LEPIN 20001 Porsche 911 GT3 RS. This wish links to the LEPIN product. Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "url": "https://shopee.vn/Lego-Lepin-20001-Siêu-Xe-Porsche-911-GT3-RS-i.86752477.1628207675?extraParams=%7B%22display_model_id%22%3A52118478471%2C%22model_selection_logic%22%3A3%7D&image_ids=864e00fe62c0c736aca7d5482cd8a317",
+    "source": "https://shopee.vn/Lego-Lepin-20001-Siêu-Xe-Porsche-911-GT3-RS-i.86752477.1628207675?extraParams=%7B%22display_model_id%22%3A52118478471%2C%22model_selection_logic%22%3A3%7D&image_ids=864e00fe62c0c736aca7d5482cd8a317",
+    "sourceLabel": "Product listing ↗",
+    "shopLabel": "open this exact listing ↗",
+    "linkOnly": true,
+    "modelCode": "20001",
+    "brand": "LEPIN",
+    "priceSource": {
+      "url": "https://shopee.vn/Lego-Lepin-20001-Siêu-Xe-Porsche-911-GT3-RS-i.86752477.1628207675?extraParams=%7B%22display_model_id%22%3A52118478471%2C%22model_selection_logic%22%3A3%7D&image_ids=864e00fe62c0c736aca7d5482cd8a317",
+      "checked": "2026-11-04",
+      "status": "blocked",
+      "error": "HTTP CONNECT 403; no current price read"
+    },
+    "imageStatus": "Listing image unavailable; background cutout pending source access",
+    "requestedImageId": "864e00fe62c0c736aca7d5482cd8a317"
+  },
+  {
+    "id": "lele-white-dragon-31186",
+    "name": "LELE white dragon · 31186",
+    "group": "builds",
+    "image": null,
+    "photoClass": "cutout-photo",
+    "price": null,
+    "budget": "Giá chưa xác minh",
+    "category": "build it / tiny things, big happiness",
+    "condition": "LELE · not an official LEGO product",
+    "note": "Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "url": "https://shopee.vn/Non-LEgo-Ninjago-Rồng-trắng-lele31186-i.86752477.1906093178?extraParams=%7B%22display_model_id%22%3A72118469085%2C%22model_selection_logic%22%3A3%7D&image_ids=a72dc934e679318815e28842a20bd468",
+    "source": "https://shopee.vn/Non-LEgo-Ninjago-Rồng-trắng-lele31186-i.86752477.1906093178?extraParams=%7B%22display_model_id%22%3A72118469085%2C%22model_selection_logic%22%3A3%7D&image_ids=a72dc934e679318815e28842a20bd468",
+    "sourceLabel": "Product listing ↗",
+    "shopLabel": "open this exact listing ↗",
+    "linkOnly": true,
+    "modelCode": "31186",
+    "brand": "LELE",
+    "priceSource": {
+      "url": "https://shopee.vn/Non-LEgo-Ninjago-Rồng-trắng-lele31186-i.86752477.1906093178?extraParams=%7B%22display_model_id%22%3A72118469085%2C%22model_selection_logic%22%3A3%7D&image_ids=a72dc934e679318815e28842a20bd468",
+      "checked": "2026-11-04",
+      "status": "blocked",
+      "error": "HTTP CONNECT 403; no current price read"
+    },
+    "imageStatus": "Listing image unavailable; background cutout pending source access",
+    "requestedImageId": "a72dc934e679318815e28842a20bd468"
+  },
+  {
+    "id": "lepin-super-escrdt-07101",
+    "name": "LEPIN superhero building set · 07101",
+    "group": "builds",
+    "image": null,
+    "photoClass": "cutout-photo",
+    "price": null,
+    "budget": "Giá chưa xác minh",
+    "category": "build it / tiny things, big happiness",
+    "condition": "LEPIN · not an official LEGO product",
+    "note": "Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "url": "https://shopee.vn/bộ-lepin-07101-bộ-lắp-ráp-siêu-nhân-Lego-SUPER-ESCDRT-GIÚP-BÉ-PHÁT-TRIỂN-TRÍ-TUỆ-MỘT-CÁCH-TOÀN-DIỆN.-i.86752477.1624647819?extraParams=%7B%22display_model_id%22%3A62118460075%2C%22model_selection_logic%22%3A3%7D&image_ids=16fd7c8c47deeca096650d45d53f287e",
+    "source": "https://shopee.vn/bộ-lepin-07101-bộ-lắp-ráp-siêu-nhân-Lego-SUPER-ESCDRT-GIÚP-BÉ-PHÁT-TRIỂN-TRÍ-TUỆ-MỘT-CÁCH-TOÀN-DIỆN.-i.86752477.1624647819?extraParams=%7B%22display_model_id%22%3A62118460075%2C%22model_selection_logic%22%3A3%7D&image_ids=16fd7c8c47deeca096650d45d53f287e",
+    "sourceLabel": "Product listing ↗",
+    "shopLabel": "open this exact listing ↗",
+    "linkOnly": true,
+    "modelCode": "07101",
+    "brand": "LEPIN",
+    "priceSource": {
+      "url": "https://shopee.vn/bộ-lepin-07101-bộ-lắp-ráp-siêu-nhân-Lego-SUPER-ESCDRT-GIÚP-BÉ-PHÁT-TRIỂN-TRÍ-TUỆ-MỘT-CÁCH-TOÀN-DIỆN.-i.86752477.1624647819?extraParams=%7B%22display_model_id%22%3A62118460075%2C%22model_selection_logic%22%3A3%7D&image_ids=16fd7c8c47deeca096650d45d53f287e",
+      "checked": "2026-11-04",
+      "status": "blocked",
+      "error": "HTTP CONNECT 403; no current price read"
+    },
+    "imageStatus": "Listing image unavailable; background cutout pending source access",
+    "requestedImageId": "16fd7c8c47deeca096650d45d53f287e"
+  },
+  {
+    "id": "lepin-ultimate-batmobile-07077",
+    "name": "LEPIN The Ultimate Batmobile · 07077",
+    "group": "builds",
+    "image": null,
+    "photoClass": "cutout-photo",
+    "price": null,
+    "budget": "Giá chưa xác minh",
+    "category": "build it / tiny things, big happiness",
+    "condition": "LEPIN · not an official LEGO product",
+    "note": "LEPIN 07077 listing with LEGO 70917 mentioned for comparison. This wish links to the LEPIN product. Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "url": "https://shopee.vn/Bộ-Đồ-Chơi-lắp-Ráp-Lego-Xe-Super-Heroes-Genuine-Movie-The-Ultimate-Batmobile-70917-Lepin-07077-Siêu-Xe-Của-Người-Dơi-i.86752477.1673884184?extraParams=%7B%22display_model_id%22%3A42118488841%2C%22model_selection_logic%22%3A3%7D&image_ids=81f555ef8ff80304542a2ee0fc7b0bfb",
+    "source": "https://shopee.vn/Bộ-Đồ-Chơi-lắp-Ráp-Lego-Xe-Super-Heroes-Genuine-Movie-The-Ultimate-Batmobile-70917-Lepin-07077-Siêu-Xe-Của-Người-Dơi-i.86752477.1673884184?extraParams=%7B%22display_model_id%22%3A42118488841%2C%22model_selection_logic%22%3A3%7D&image_ids=81f555ef8ff80304542a2ee0fc7b0bfb",
+    "sourceLabel": "Product listing ↗",
+    "shopLabel": "open this exact listing ↗",
+    "linkOnly": true,
+    "modelCode": "07077",
+    "brand": "LEPIN",
+    "priceSource": {
+      "url": "https://shopee.vn/Bộ-Đồ-Chơi-lắp-Ráp-Lego-Xe-Super-Heroes-Genuine-Movie-The-Ultimate-Batmobile-70917-Lepin-07077-Siêu-Xe-Của-Người-Dơi-i.86752477.1673884184?extraParams=%7B%22display_model_id%22%3A42118488841%2C%22model_selection_logic%22%3A3%7D&image_ids=81f555ef8ff80304542a2ee0fc7b0bfb",
+      "checked": "2026-11-04",
+      "status": "blocked",
+      "error": "HTTP CONNECT 403; no current price read"
+    },
+    "imageStatus": "Listing image unavailable; background cutout pending source access",
+    "requestedImageId": "81f555ef8ff80304542a2ee0fc7b0bfb"
+  },
+  {
+    "id": "going-merry-one-piece",
+    "name": "Going Merry · One Piece pirate ship",
+    "group": "builds",
+    "image": null,
+    "photoClass": "cutout-photo",
+    "price": null,
+    "budget": "Giá chưa xác minh",
+    "category": "build it / tiny things, big happiness",
+    "condition": "Building-set listing · brand and exact model to confirm",
+    "note": "Luffy’s Going Merry pirate ship from One Piece, identified by you. Confirm the exact kit, included figures, selected variant, stock, shipping and current VND price with the seller.",
+    "url": "https://shopee.vn/product/91626123/41326999550",
+    "source": "https://shopee.vn/product/91626123/41326999550",
+    "sourceLabel": "Product listing ↗",
+    "shopLabel": "open this exact listing ↗",
+    "linkOnly": true,
+    "modelCode": null,
+    "brand": null,
+    "priceSource": {
+      "url": "https://shopee.vn/product/91626123/41326999550",
+      "checked": "2026-11-04",
+      "status": "blocked",
+      "error": "HTTP CONNECT 403; no current price read"
+    },
+    "imageStatus": "Listing image unavailable; background cutout pending source access"
+  },
+  {
+    "id": "dk-divine-dragon-5007",
+    "name": "DK TEC Divine Dragon · 5007",
+    "group": "builds",
+    "image": null,
+    "photoClass": "cutout-photo",
+    "price": null,
+    "budget": "Giá chưa xác minh",
+    "category": "build it / tiny things, big happiness",
+    "condition": "DK TEC · not an official LEGO product",
+    "note": "DK TEC Creators Divine Dragon, model 5007, listed as 1826 pieces. Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "url": "https://saigonbrick.com.vn/san-pham/non-lego-dk-tec-creators-5007-dragon-ball-divine-dragon-7-vien-ngoc-rong-rong-tha-1826pcsn/",
+    "source": "https://saigonbrick.com.vn/san-pham/non-lego-dk-tec-creators-5007-dragon-ball-divine-dragon-7-vien-ngoc-rong-rong-tha-1826pcsn/",
+    "sourceLabel": "Product listing ↗",
+    "shopLabel": "open this exact listing ↗",
+    "linkOnly": true,
+    "modelCode": "5007",
+    "brand": "DK TEC",
+    "priceSource": {
+      "url": "https://saigonbrick.com.vn/san-pham/non-lego-dk-tec-creators-5007-dragon-ball-divine-dragon-7-vien-ngoc-rong-rong-tha-1826pcsn/",
+      "checked": "2026-11-04",
+      "status": "blocked",
+      "error": "HTTP CONNECT 403; no current price read"
+    },
+    "imageStatus": "Listing image unavailable; background cutout pending source access"
+  },
+  {
+    "id": "keeppley-naruto-hinata-k20508",
+    "name": "Keeppley Naruto & Hinata wedding banquet · K20508",
+    "group": "builds",
+    "image": null,
+    "photoClass": "cutout-photo",
+    "price": null,
+    "budget": "Giá chưa xác minh",
+    "category": "build it / tiny things, big happiness",
+    "condition": "Keeppley · not an official LEGO product",
+    "note": "A favorite because it is Naruto: Naruto & Hinata wedding banquet, Keeppley K20508, listed as 355 pieces. Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "url": "https://saigonbrick.com.vn/san-pham/non-lego-keeppley-k20508-naruto-and-hinata-wedding-banquet-tiec-cuoi-cua-naruto-va-hinata-355pcs/",
+    "source": "https://saigonbrick.com.vn/san-pham/non-lego-keeppley-k20508-naruto-and-hinata-wedding-banquet-tiec-cuoi-cua-naruto-va-hinata-355pcs/",
+    "sourceLabel": "Product listing ↗",
+    "shopLabel": "open this exact listing ↗",
+    "linkOnly": true,
+    "modelCode": "K20508",
+    "brand": "Keeppley",
+    "priceSource": {
+      "url": "https://saigonbrick.com.vn/san-pham/non-lego-keeppley-k20508-naruto-and-hinata-wedding-banquet-tiec-cuoi-cua-naruto-va-hinata-355pcs/",
+      "checked": "2026-11-04",
+      "status": "blocked",
+      "error": "HTTP CONNECT 403; no current price read"
+    },
+    "imageStatus": "Listing image unavailable; background cutout pending source access",
+    "favorite": true
+  },
+  {
+    "id": "blokees-sasuke-75614",
+    "name": "Blokees Naruto CC Sasuke Uchiha · 75614",
+    "group": "figures",
+    "image": null,
+    "photoClass": "cutout-photo",
+    "price": null,
+    "budget": "Giá chưa xác minh",
+    "category": "figures / desk heroes",
+    "condition": "Blokees · exact model 75614",
+    "note": "A favorite: Sasuke Uchiha from the Blokees Naruto CC series, model 75614. Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "url": "https://www.mykingdom.com.vn/products/mo-hinh-naruto-cc-nhan-vat-sasuke-uchiha-blokees-75614",
+    "source": "https://www.mykingdom.com.vn/products/mo-hinh-naruto-cc-nhan-vat-sasuke-uchiha-blokees-75614",
+    "sourceLabel": "Product listing ↗",
+    "shopLabel": "open this exact listing ↗",
+    "linkOnly": true,
+    "modelCode": "75614",
+    "brand": "Blokees",
+    "priceSource": {
+      "url": "https://www.mykingdom.com.vn/products/mo-hinh-naruto-cc-nhan-vat-sasuke-uchiha-blokees-75614",
+      "checked": "2026-11-04",
+      "status": "blocked",
+      "error": "HTTP CONNECT 403; no current price read"
+    },
+    "imageStatus": "Listing image unavailable; background cutout pending source access",
+    "favorite": true
+  },
+  {
+    "id": "zd-iron-spider-1602-12",
+    "name": "ZD Toys Iron Spider with light-up base · 1602-12",
+    "group": "figures",
+    "image": null,
+    "photoClass": "cutout-photo",
+    "price": null,
+    "budget": "Giá chưa xác minh",
+    "category": "figures / desk heroes",
+    "condition": "ZD Toys · exact model 1602-12",
+    "note": "Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
+    "url": "https://www.mykingdom.com.vn/products/mo-hinh-tac-chien-iron-spiderman-tich-hop-be-anh-sang-zd-toy-1602-12",
+    "source": "https://www.mykingdom.com.vn/products/mo-hinh-tac-chien-iron-spiderman-tich-hop-be-anh-sang-zd-toy-1602-12",
+    "sourceLabel": "Product listing ↗",
+    "shopLabel": "open this exact listing ↗",
+    "linkOnly": true,
+    "modelCode": "1602-12",
+    "brand": "ZD Toys",
+    "priceSource": {
+      "url": "https://www.mykingdom.com.vn/products/mo-hinh-tac-chien-iron-spiderman-tich-hop-be-anh-sang-zd-toy-1602-12",
+      "checked": "2026-11-04",
+      "status": "blocked",
+      "error": "HTTP CONNECT 403; no current price read"
+    },
+    "imageStatus": "Listing image unavailable; background cutout pending source access"
   }
 ];
 const $=selector=>document.querySelector(selector);
 const money=value=>new Intl.NumberFormat('vi-VN',{style:'currency',currency:'VND',maximumFractionDigits:0}).format(value);
-const groups=[['all','Everything'],['figures','Tiny people'],['diecast','1/64 garage'],['books','Books'],['style','Wear it'],['watches','Watches'],['tech','Tech & play']];
+const groups=[['all','Everything'],['favorites','My faves ♡'],['builds','Build it'],['figures','Tiny people'],['diecast','1/64 garage'],['books','Books'],['style','Wear it'],['watches','Watches'],['tech','Tech & play']];
 const MAX_BUDGET=5000000;
 const scene=$('#scene'),playground=$('.playground'),detail=$('#detail'),buttons=new Map();
 let activeCategory='all',selected=null,previous=null,focusTimer,resizeTimer;
 const turns=new Map();
 // An art-directed composition: centers, widths, angles and depth, never rows.
 const composition={
+ 'lego-ferrari-sf24':[34,58,150,-19,10], 'lepin-porsche-20001':[48,86,150,24,9],
+ 'lele-white-dragon-31186':[7,38,145,12,8], 'lepin-super-escrdt-07101':[43,32,140,18,8],
+ 'lepin-ultimate-batmobile-07077':[73,57,155,-16,10], 'going-merry-one-piece':[91,84,110,-14,8],
+ 'dk-divine-dragon-5007':[48,66,145,16,10], 'keeppley-naruto-hinata-k20508':[33,79,170,-12,12],
+ 'blokees-sasuke-75614':[73,16,150,14,11], 'zd-iron-spider-1602-12':[91,38,140,-16,9],
  'retro-barcelona-shirt':[17,9,270,-24,4],
  'spain-pedri-shirt':[14,36,155,17,9], 'argentina-messi-shirt':[62,64,160,-22,9],
  'retro-football-shirt':[79,76,150,15,9], 'quarter-zip':[55,25,270,22,6],
@@ -753,17 +1035,17 @@ async function lookUpCover(g){
 }
 for(const g of gifts){
  const button=document.createElement('button');button.className='gift '+(g.photoClass||'cutout-photo');button.dataset.id=g.id;button.dataset.price=g.price===null?'':g.price;button.hidden=true;
- button.setAttribute('aria-label',g.name+', '+g.budget+'. Click for details. Drag or use left and right arrows to turn the photo; Home resets it.');button.setAttribute('aria-controls','detail');button.setAttribute('aria-expanded','false');
+ button.setAttribute('aria-label',(g.favorite?'Favorite. ':'')+g.name+', '+g.budget+'. Click for details. Drag or use left and right arrows to turn the photo; Home resets it.');button.setAttribute('aria-controls','detail');button.setAttribute('aria-expanded','false');
  const inner=document.createElement('span');inner.className='gift-inner';
  const art=document.createElement('span');art.className='gift-art';inner.append(art);
  if(g.image)renderImage(g,art,g.image);else art.append(titleReference(g));
  enableTurning(g,button);
  const label=document.createElement('span');label.className='gift-label';label.textContent=g.name+' · '+g.budget;
- button.append(inner,label);button.onclick=()=>openGift(g,button);$('#gifts').append(button);buttons.set(g.id,button);
+ button.append(inner,label);if(g.favorite){const badge=document.createElement('span');badge.className='favorite-badge';badge.textContent='♥ fave';badge.setAttribute('aria-hidden','true');button.append(badge);button.classList.add('is-favorite');}button.onclick=()=>openGift(g,button);$('#gifts').append(button);buttons.set(g.id,button);
 }
 for(const[key,label]of groups){
  const button=document.createElement('button');button.className='category-tab';button.dataset.category=key;button.setAttribute('aria-pressed',String(key==='all'));
- button.textContent=label+' '+(key==='all'?gifts.length:gifts.filter(g=>g.group===key).length);
+ button.textContent=label+' '+(key==='all'?gifts.length:gifts.filter(g=>key==='favorites'?g.favorite:g.group===key).length);
  button.onclick=()=>{activeCategory=key;updateView();};$('#categories').append(button);
 }
 function layoutScene(){
@@ -785,7 +1067,7 @@ function layoutScene(){
 function updateView(){
  if(selected)closeDetail(false);
  const max=Number($('#price').value),unlimited=max===MAX_BUDGET;
- const category=gifts.filter(g=>activeCategory==='all'||g.group===activeCategory);
+ const category=gifts.filter(g=>activeCategory==='all'||(activeCategory==='favorites'?g.favorite:g.group===activeCategory));
  const eligible=category.filter(g=>unlimited||(g.price!==null&&g.price<=max));
  const ids=new Set(eligible.map(g=>g.id));
  for(const g of gifts){const b=buttons.get(g.id),matches=ids.has(g.id);b.hidden=false;b.disabled=!matches;b.tabIndex=matches?0:-1;b.classList.toggle('muted',!matches);}
@@ -815,7 +1097,7 @@ function openGift(g,b){
  if(selected===g){closeDetail();return;}const sceneRect=playground.getBoundingClientRect();if(Math.min(innerHeight,sceneRect.bottom)-Math.max(0,sceneRect.top)<360)window.scrollTo({top:window.scrollY+sceneRect.top,behavior:'instant'});selected=g;previous=b;
  for(const item of buttons.values()){item.classList.toggle('selected',item===b);item.setAttribute('aria-expanded',String(item===b));item.tabIndex=item===b?0:-1;}
  $('#detail-number').textContent='WISH '+String(gifts.indexOf(g)+1).padStart(2,'0')+' / '+gifts.length;
- $('#detail-title').textContent=g.name;$('#detail-category').textContent=g.category;$('#detail-price').textContent=g.budget;$('#detail-condition').textContent=g.condition;$('#detail-note').textContent=g.note;
+ $('#detail-favorite').hidden=!g.favorite;$('#detail-title').textContent=g.name;$('#detail-category').textContent=g.category;$('#detail-price').textContent=g.budget;$('#detail-condition').textContent=g.condition;$('#detail-note').textContent=g.note;
  const outfit=$('#detail-outfit'),frameSlot=$('#detail-outfit-frame');frameSlot.replaceChildren();outfit.hidden=!g.outfitReference;
  if(g.outfitReference&&/^\d+$/.test(g.outfitReference.pinId)){
   const ref=g.outfitReference,frame=document.createElement('iframe');frame.title=ref.title;frame.src='https://assets.pinterest.com/ext/embed.html?id='+ref.pinId;frame.loading='lazy';frame.referrerPolicy='no-referrer';frame.setAttribute('sandbox','allow-scripts allow-same-origin allow-popups');frameSlot.append(frame);$('#detail-outfit-link').href=ref.url;
