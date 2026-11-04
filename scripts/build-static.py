@@ -43,7 +43,7 @@ for name in ['headline-dog-reading.webp', 'headline-dog-bowl.webp']:
 (out / 'index.html').write_text(html)
 shutil.copyfile(root / 'style.css', out / 'style.css')
 (out / '.nojekyll').touch()
-for name in ['PatrickHand-OFL.txt', 'LilitaOne-OFL.txt']:
+for name in ['Newsreader-OFL.txt', 'IBMPlexMono-OFL.txt', 'LilitaOne-OFL.txt', 'PatrickHand-OFL.txt']:
     target = out / 'assets' / 'licenses' / name
     target.parent.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(root / 'assets' / name, target)

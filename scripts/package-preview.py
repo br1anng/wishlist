@@ -14,8 +14,10 @@ with ZipFile(archive_path,'w',ZIP_DEFLATED) as archive:
     archive.writestr('Things-to-get-me/READ-ME.txt',f'THINGS TO GET ME — {len(gifts)} WISHES\n\nUnzip this folder and open index.html from Finder/File Explorer in Chrome or Safari. The chat code viewer displays HTML as text.\n\nAll gifts share one editorial collage. Click for details, drag to turn the flat photo, and use category tabs to spotlight matches. There are no pages. Budgets are VND wishlist targets, not live seller prices. The small Naruto minifigure budget is about 30,000 VND. New wishes without a budget are labeled and dimmed by finite price filters.\n\nLocal product-reference images and styles are embedded. Online Blokees photos and some book covers need Internet access. If a cover cannot load, a clearly labeled title link is shown; no fictional edition cover is substituted. Shopping links also need Internet.\n\nRexy/Roxy references are user-approved Mini GT models. The separate Porsche GT3 R uses Mini GT #770 as a reference; the requested Pop Race release is not verified. Covers may show original-language editions; confirm translation and edition before buying.\n')
     archive.write(root/'assets/products/sources.json','Things-to-get-me/photo-sources.json')
     archive.write(root/'assets/products/price-review.json','Things-to-get-me/price-review.json')
-    archive.write(root/'assets/PatrickHand-OFL.txt','Things-to-get-me/PatrickHand-OFL.txt')
+    archive.write(root/'assets/Newsreader-OFL.txt','Things-to-get-me/Newsreader-OFL.txt')
+    archive.write(root/'assets/IBMPlexMono-OFL.txt','Things-to-get-me/IBMPlexMono-OFL.txt')
     archive.write(root/'assets/LilitaOne-OFL.txt','Things-to-get-me/LilitaOne-OFL.txt')
+    archive.write(root/'assets/PatrickHand-OFL.txt','Things-to-get-me/PatrickHand-OFL.txt')
     archive.write(root/'assets/products/kindle-dash-LICENSE.txt','Things-to-get-me/kindle-dash-LICENSE.txt')
 with ZipFile(archive_path) as archive:
     assert archive.testzip() is None

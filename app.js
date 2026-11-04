@@ -19,7 +19,7 @@ const gifts=[
     "id": "blokees-spider",
     "name": "Blokees Marvel CC Spider-Man · 81118",
     "group": "figures",
-    "image": null,
+    "image": "/assets/products/blokees-spider-81118-cutout.webp",
     "photoClass": "cutout-photo",
     "price": 499000,
     "budget": "499.000 ₫",
@@ -30,7 +30,6 @@ const gifts=[
     "source": "https://www.mykingdom.com.vn/products/mo-hinh-marvel-cc-sieu-anh-hung-spiderman-blokees-81118",
     "sourceLabel": "Product listing ↗",
     "shopLabel": "open this exact listing ↗",
-    "linkOnly": true,
     "modelCode": "81118",
     "brand": "Blokees",
     "priceSource": {
@@ -40,7 +39,9 @@ const gifts=[
       "url": "https://www.mykingdom.com.vn/products/mo-hinh-marvel-cc-sieu-anh-hung-spiderman-blokees-81118",
       "note": "Displayed screenshot price; availability and price may change. Shipping may be extra."
     },
-    "imageStatus": "Listing image unavailable; background cutout pending source access"
+    "imageStatus": "Local cutout of the retailer photo matching the user screenshot; white background removed, product pixels unchanged.",
+    "externalImage": false,
+    "imageSource": "https://www.mykingdom.com.vn/cdn/shop/files/mo-hinh-marvel-cc-sieu-anh-hung-spiderman-blokees-81118_3.jpg"
   },
   {
     "id": "diecast-rx7-niles",
@@ -236,15 +237,15 @@ const gifts=[
     "id": "book-lieu-pham",
     "name": "Liễu Phàm Tứ Huấn",
     "group": "books",
-    "image": "/assets/products/book-lieu-pham-reference.webp",
+    "image": "/assets/products/book-lieu-pham.webp",
     "photoClass": "book-photo",
     "price": 60000,
     "budget": "60.000 ₫",
     "category": "books / big brain shelf",
-    "condition": "Edited cover reference · confirm exact edition and lettering",
-    "note": "Liễu Phàm Tứ Huấn — Vietnamese 2025 reprint shown in your screenshot. The displayed sale price was 60,000 ₫ (75,000 ₫ regular); check the current price and edition at Fahasa. The cover preview is edited from your supplied reference; small lettering and details may differ. Check the seller’s actual cover before buying.",
+    "condition": "Retailer cover photo (Fahasa) · confirm edition before buying",
+    "note": "Liễu Phàm Tứ Huấn — Vietnamese 2025 reprint shown in your screenshot. The displayed sale price was 60,000 ₫ (75,000 ₫ regular); check the current price and edition at Fahasa.",
     "url": "https://www.google.com/search?q=Li%E1%BB%85u%20Ph%C3%A0m%20T%E1%BB%A9%20Hu%E1%BA%A5n%20Vi%E1%BB%87t%20Nam",
-    "source": "https://openlibrary.org/search?q=Li%E1%BB%85u%20Ph%C3%A0m%20T%E1%BB%A9%20Hu%E1%BA%A5n%20Vi%C3%AAn%20Li%E1%BB%85u%20Ph%C3%A0m",
+    "source": "https://cdn1.fahasa.com/media/catalog/product/l/i/lieu_pham_tu_huan_-_bia_1__tb_2025__0e9ef7256f1f450390e320e5fc843bf4.jpg",
     "author": "Viên Liễu Phàm",
     "externalImage": false,
     "coverSearch": null,
@@ -255,26 +256,28 @@ const gifts=[
       "price_vnd": 60000,
       "note": "Fahasa screenshot; live price and shipping not verified."
     },
-    "imageStatus": "Edited cover reference made from the user-supplied image; small text or details can differ from the original."
+    "imageStatus": "Local retailer image matching the user screenshot; cropped, pixels unchanged.",
+    "imageSource": "https://cdn1.fahasa.com/media/catalog/product/l/i/lieu_pham_tu_huan_-_bia_1__tb_2025__0e9ef7256f1f450390e320e5fc843bf4.jpg"
   },
   {
     "id": "book-quy-coc-tu",
     "name": "Quỷ Cốc Tử",
     "group": "books",
-    "image": "/assets/products/book-quy-coc-tu-reference.webp",
+    "image": "/assets/products/book-quy-coc-tu.webp",
     "photoClass": "book-photo",
     "price": null,
     "budget": "Chưa đặt ngân sách",
     "category": "books / big brain shelf",
-    "condition": "Edited cover reference · confirm exact edition and lettering",
-    "note": "Quỷ Cốc Tử — Quỷ Cốc Tử. Please check edition, translator, and condition before buying. Budget not set yet. The cover preview is edited from your supplied reference; small lettering and details may differ. Check the seller’s actual cover before buying.",
+    "condition": "Retailer cover photo (Fahasa) · confirm edition before buying",
+    "note": "Quỷ Cốc Tử — Quỷ Cốc Tử. Please check edition, translator, and condition before buying. Budget not set yet.",
     "url": "https://www.google.com/search?q=Qu%E1%BB%B7%20C%E1%BB%91c%20T%E1%BB%AD%20Vi%E1%BB%87t%20Nam",
-    "source": "https://openlibrary.org/search?q=Qu%E1%BB%B7%20C%E1%BB%91c%20T%E1%BB%AD%20Qu%E1%BB%B7%20C%E1%BB%91c%20T%E1%BB%AD",
+    "source": "https://cdn1.fahasa.com/media/catalog/product/8/9/8936228201641.jpg",
     "author": "Quỷ Cốc Tử",
     "externalImage": false,
     "coverSearch": null,
     "alternateTitle": "",
-    "imageStatus": "Edited cover reference made from the user-supplied image; small text or details can differ from the original."
+    "imageStatus": "Local retailer image matching the user screenshot; cropped, pixels unchanged.",
+    "imageSource": "https://cdn1.fahasa.com/media/catalog/product/8/9/8936228201641.jpg"
   },
   {
     "id": "book-wealth-of-nations",
@@ -334,20 +337,21 @@ const gifts=[
     "id": "book-bup-sen-xanh",
     "name": "Búp sen xanh",
     "group": "books",
-    "image": "/assets/products/book-bup-sen-xanh-reference.webp",
+    "image": "/assets/products/book-bup-sen-xanh.webp",
     "photoClass": "book-photo",
     "price": null,
     "budget": "Chưa đặt ngân sách",
     "category": "books / big brain shelf",
-    "condition": "Edited cover reference · confirm exact edition and lettering",
-    "note": "Búp sen xanh — Sơn Tùng. Please check edition, translator, and condition before buying. Budget not set yet. The cover preview is edited from your supplied reference; small lettering and details may differ. Check the seller’s actual cover before buying.",
+    "condition": "Retailer cover photo (Fahasa) · confirm edition before buying",
+    "note": "Búp sen xanh — Sơn Tùng. Please check edition, translator, and condition before buying. Budget not set yet.",
     "url": "https://www.google.com/search?q=B%C3%BAp%20sen%20xanh%20Vi%E1%BB%87t%20Nam",
-    "source": "https://openlibrary.org/search?q=B%C3%BAp%20sen%20xanh%20S%C6%A1n%20T%C3%B9ng",
+    "source": "https://cdn1.fahasa.com/media/catalog/product/b/u/bup-sen-xanh_bia_phien-ban-ky-niem-2020.jpg",
     "author": "Sơn Tùng",
     "externalImage": false,
     "coverSearch": null,
     "alternateTitle": "",
-    "imageStatus": "Edited cover reference made from the user-supplied image; small text or details can differ from the original."
+    "imageStatus": "Local retailer image matching the user screenshot; cropped, pixels unchanged.",
+    "imageSource": "https://cdn1.fahasa.com/media/catalog/product/b/u/bup-sen-xanh_bia_phien-ban-ky-niem-2020.jpg"
   },
   {
     "id": "spain-pedri-shirt",
@@ -664,7 +668,7 @@ const gifts=[
     "condition": "Green dial MQ-24DA-3A · retailer screenshot",
     "id": "casio-mq",
     "name": "Casio MQ-24DA-3A · green dial",
-    "image": null,
+    "image": "/assets/products/casio-mq-24da-3a-cutout.webp",
     "category": "watches / another little obsession",
     "note": "Your latest reference shows the green dial MQ-24DA-3A at 1,794,000 ₫. The earlier direct retailer link is for the blue 2A variant; use it to compare color options and confirm the model and price. Your target remains below 2,000,000 ₫.",
     "url": "https://www.google.com/search?q=Casio%20MQ-24DA-3A%20xanh%20l%C3%A1%20casio%20vietnam",
@@ -689,21 +693,22 @@ const gifts=[
       "url": "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/",
       "note": "Green MQ-24DA-3A price 1,794,000 VND visible in user screenshot; earlier URL points to blue 2A. Check actual retailer variant and current price."
     },
-    "imageStatus": "User screenshot received; an accurate cutout remains pending.",
-    "linkOnly": true,
+    "imageStatus": "Local cutout of the retailer photo matching the user screenshot; white background removed, product pixels unchanged.",
     "sourceLabel": "Find the green 3A ↗",
     "links": [
       {
         "label": "Earlier blue 2A retailer page ↗",
         "url": "https://www.casio-vietnam.vn/dong-ho-unisex-chinh-hang-casio-mq-24da-2a/"
       }
-    ]
+    ],
+    "externalImage": false,
+    "imageSource": "https://cdn.casio-vietnam.vn/wp-content/uploads/2026/05/MQ-24DA-3A.jpg"
   },
   {
     "id": "lego-ferrari-sf24",
     "name": "LEGO Speed Champions Ferrari SF-24 F1 · 77242",
     "group": "builds",
-    "image": null,
+    "image": "/assets/products/lego-ferrari-sf24-77242-cutout.webp",
     "photoClass": "cutout-photo",
     "price": 751200,
     "budget": "751.200 ₫",
@@ -714,7 +719,6 @@ const gifts=[
     "source": "https://www.mykingdom.com.vn/products/do-choi-lap-rap-xe-dua-ferrari-sf-24-f1-lego-speed-champions-77242",
     "sourceLabel": "Product listing ↗",
     "shopLabel": "open this exact listing ↗",
-    "linkOnly": true,
     "modelCode": "77242",
     "brand": "LEGO",
     "priceSource": {
@@ -724,19 +728,21 @@ const gifts=[
       "url": "https://www.mykingdom.com.vn/products/do-choi-lap-rap-xe-dua-ferrari-sf-24-f1-lego-speed-champions-77242",
       "note": "Displayed screenshot price; availability and price may change. Shipping may be extra."
     },
-    "imageStatus": "Listing image unavailable; background cutout pending source access"
+    "imageStatus": "Local cutout of the retailer photo matching the user screenshot; white background removed, product pixels unchanged.",
+    "externalImage": false,
+    "imageSource": "https://www.mykingdom.com.vn/cdn/shop/files/do-choi-lap-rap-xe-dua-ferrari-sf-24-f1-lego-speed-champions-77242.png"
   },
   {
     "id": "lepin-porsche-20001",
     "name": "LEPIN Porsche 911 GT3 RS · 20001",
     "group": "builds",
-    "image": "https://down-vn.img.susercontent.com/file/864e00fe62c0c736aca7d5482cd8a317",
+    "image": "/assets/products/lepin-porsche-20001-cutout.webp",
     "photoClass": "cutout-photo",
     "price": null,
     "budget": "Giá chưa xác minh",
     "category": "build it / tiny things, big happiness",
     "condition": "LEPIN · not an official LEGO product",
-    "note": "LEPIN 20001 Porsche 911 GT3 RS. This wish links to the LEPIN product. Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller. Seller photo is loaded online from the image ID in your Shopee link; if unavailable, use the product link. Some of the seller image background may still appear.",
+    "note": "LEPIN 20001 Porsche 911 GT3 RS. This wish links to the LEPIN product. Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
     "url": "https://shopee.vn/Lego-Lepin-20001-Siêu-Xe-Porsche-911-GT3-RS-i.86752477.1628207675?extraParams=%7B%22display_model_id%22%3A52118478471%2C%22model_selection_logic%22%3A3%7D&image_ids=864e00fe62c0c736aca7d5482cd8a317",
     "source": "https://shopee.vn/Lego-Lepin-20001-Siêu-Xe-Porsche-911-GT3-RS-i.86752477.1628207675?extraParams=%7B%22display_model_id%22%3A52118478471%2C%22model_selection_logic%22%3A3%7D&image_ids=864e00fe62c0c736aca7d5482cd8a317",
     "sourceLabel": "Product listing ↗",
@@ -749,22 +755,22 @@ const gifts=[
       "status": "blocked",
       "error": "HTTP CONNECT 403; no current price read"
     },
-    "imageStatus": "Direct seller image URL constructed from image ID supplied in the user’s Shopee link; requires Internet and has not been loaded in this restricted environment.",
+    "imageStatus": "Local cutout of the retailer photo matching the user screenshot; white background removed, product pixels unchanged.",
     "requestedImageId": "864e00fe62c0c736aca7d5482cd8a317",
-    "externalImage": true,
-    "imagePresentation": "light-background"
+    "externalImage": false,
+    "imageSource": "https://down-vn.img.susercontent.com/file/864e00fe62c0c736aca7d5482cd8a317"
   },
   {
     "id": "lele-white-dragon-31186",
     "name": "LELE white dragon · 31186",
     "group": "builds",
-    "image": "https://down-vn.img.susercontent.com/file/a72dc934e679318815e28842a20bd468",
+    "image": "/assets/products/lele-white-dragon-31186-cutout.webp",
     "photoClass": "cutout-photo",
     "price": null,
     "budget": "Giá chưa xác minh",
     "category": "build it / tiny things, big happiness",
     "condition": "LELE · not an official LEGO product",
-    "note": "Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller. Seller photo is loaded online from the image ID in your Shopee link; if unavailable, use the product link. Some of the seller image background may still appear.",
+    "note": "Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
     "url": "https://shopee.vn/Non-LEgo-Ninjago-Rồng-trắng-lele31186-i.86752477.1906093178?extraParams=%7B%22display_model_id%22%3A72118469085%2C%22model_selection_logic%22%3A3%7D&image_ids=a72dc934e679318815e28842a20bd468",
     "source": "https://shopee.vn/Non-LEgo-Ninjago-Rồng-trắng-lele31186-i.86752477.1906093178?extraParams=%7B%22display_model_id%22%3A72118469085%2C%22model_selection_logic%22%3A3%7D&image_ids=a72dc934e679318815e28842a20bd468",
     "sourceLabel": "Product listing ↗",
@@ -777,22 +783,22 @@ const gifts=[
       "status": "blocked",
       "error": "HTTP CONNECT 403; no current price read"
     },
-    "imageStatus": "Direct seller image URL constructed from image ID supplied in the user’s Shopee link; requires Internet and has not been loaded in this restricted environment.",
+    "imageStatus": "Local cutout of the retailer photo matching the user screenshot; white background removed, product pixels unchanged.",
     "requestedImageId": "a72dc934e679318815e28842a20bd468",
-    "externalImage": true,
-    "imagePresentation": "light-background"
+    "externalImage": false,
+    "imageSource": "https://down-vn.img.susercontent.com/file/a72dc934e679318815e28842a20bd468"
   },
   {
     "id": "lepin-super-escrdt-07101",
     "name": "LEPIN Hulkbuster building set · 07101",
     "group": "builds",
-    "image": "https://down-vn.img.susercontent.com/file/16fd7c8c47deeca096650d45d53f287e",
+    "image": "/assets/products/lepin-super-escort-07101-cutout.webp",
     "photoClass": "cutout-photo",
     "price": null,
     "budget": "Giá chưa xác minh",
     "category": "build it / tiny things, big happiness",
     "condition": "LEPIN 07101 · Hulkbuster-style building set · not official LEGO",
-    "note": "The LEPIN 07101 Hulkbuster-style build shown in your photo. Choose the correct listing variant; its screenshot does not show a price. Seller photo is loaded online from the image ID in your Shopee link; if unavailable, use the product link. Some of the seller image background may still appear.",
+    "note": "The LEPIN 07101 Hulkbuster-style build shown in your photo. Choose the correct listing variant; its screenshot does not show a price.",
     "url": "https://shopee.vn/bộ-lepin-07101-bộ-lắp-ráp-siêu-nhân-Lego-SUPER-ESCDRT-GIÚP-BÉ-PHÁT-TRIỂN-TRÍ-TUỆ-MỘT-CÁCH-TOÀN-DIỆN.-i.86752477.1624647819?extraParams=%7B%22display_model_id%22%3A62118460075%2C%22model_selection_logic%22%3A3%7D&image_ids=16fd7c8c47deeca096650d45d53f287e",
     "source": "https://shopee.vn/bộ-lepin-07101-bộ-lắp-ráp-siêu-nhân-Lego-SUPER-ESCDRT-GIÚP-BÉ-PHÁT-TRIỂN-TRÍ-TUỆ-MỘT-CÁCH-TOÀN-DIỆN.-i.86752477.1624647819?extraParams=%7B%22display_model_id%22%3A62118460075%2C%22model_selection_logic%22%3A3%7D&image_ids=16fd7c8c47deeca096650d45d53f287e",
     "sourceLabel": "Product listing ↗",
@@ -805,22 +811,22 @@ const gifts=[
       "status": "blocked",
       "error": "HTTP CONNECT 403; no current price read"
     },
-    "imageStatus": "Direct seller image URL constructed from image ID supplied in the user’s Shopee link; requires Internet and has not been loaded in this restricted environment.",
+    "imageStatus": "Local cutout of the retailer photo matching the user screenshot; white background removed, product pixels unchanged.",
     "requestedImageId": "16fd7c8c47deeca096650d45d53f287e",
-    "externalImage": true,
-    "imagePresentation": "light-background"
+    "externalImage": false,
+    "imageSource": "https://down-vn.img.susercontent.com/file/16fd7c8c47deeca096650d45d53f287e"
   },
   {
     "id": "lepin-ultimate-batmobile-07077",
     "name": "LEPIN The Ultimate Batmobile · 07077",
     "group": "builds",
-    "image": "https://down-vn.img.susercontent.com/file/81f555ef8ff80304542a2ee0fc7b0bfb",
+    "image": "/assets/products/lepin-batmobile-07077-cutout.webp",
     "photoClass": "cutout-photo",
     "price": null,
     "budget": "Giá chưa xác minh",
     "category": "build it / tiny things, big happiness",
     "condition": "LEPIN · not an official LEGO product",
-    "note": "LEPIN 07077 listing with LEGO 70917 mentioned for comparison. This wish links to the LEPIN product. Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller. Seller photo is loaded online from the image ID in your Shopee link; if unavailable, use the product link. Some of the seller image background may still appear.",
+    "note": "LEPIN 07077 listing with LEGO 70917 mentioned for comparison. This wish links to the LEPIN product. Exact shop link saved. Confirm the selected variant, stock, shipping and current VND price with the seller.",
     "url": "https://shopee.vn/Bộ-Đồ-Chơi-lắp-Ráp-Lego-Xe-Super-Heroes-Genuine-Movie-The-Ultimate-Batmobile-70917-Lepin-07077-Siêu-Xe-Của-Người-Dơi-i.86752477.1673884184?extraParams=%7B%22display_model_id%22%3A42118488841%2C%22model_selection_logic%22%3A3%7D&image_ids=81f555ef8ff80304542a2ee0fc7b0bfb",
     "source": "https://shopee.vn/Bộ-Đồ-Chơi-lắp-Ráp-Lego-Xe-Super-Heroes-Genuine-Movie-The-Ultimate-Batmobile-70917-Lepin-07077-Siêu-Xe-Của-Người-Dơi-i.86752477.1673884184?extraParams=%7B%22display_model_id%22%3A42118488841%2C%22model_selection_logic%22%3A3%7D&image_ids=81f555ef8ff80304542a2ee0fc7b0bfb",
     "sourceLabel": "Product listing ↗",
@@ -833,10 +839,10 @@ const gifts=[
       "status": "blocked",
       "error": "HTTP CONNECT 403; no current price read"
     },
-    "imageStatus": "Direct seller image URL constructed from image ID supplied in the user’s Shopee link; requires Internet and has not been loaded in this restricted environment.",
+    "imageStatus": "Local cutout of the retailer photo matching the user screenshot; white background removed, product pixels unchanged.",
     "requestedImageId": "81f555ef8ff80304542a2ee0fc7b0bfb",
-    "externalImage": true,
-    "imagePresentation": "light-background"
+    "externalImage": false,
+    "imageSource": "https://down-vn.img.susercontent.com/file/81f555ef8ff80304542a2ee0fc7b0bfb"
   },
   {
     "id": "going-merry-one-piece",
@@ -878,8 +884,8 @@ const gifts=[
     "id": "dk-divine-dragon-5007",
     "name": "DK TEC Divine Dragon · 5007",
     "group": "builds",
-    "image": null,
-    "photoClass": "cutout-photo",
+    "image": "/assets/products/dk-divine-dragon-5007.webp",
+    "photoClass": "print-photo",
     "price": null,
     "budget": "Giá chưa xác minh",
     "category": "build it / tiny things, big happiness",
@@ -897,8 +903,9 @@ const gifts=[
       "status": "blocked",
       "error": "HTTP CONNECT 403; no current price read"
     },
-    "imageStatus": "User screenshot received; an accurate cutout remains pending.",
-    "linkOnly": true
+    "imageStatus": "Local retailer image matching the user screenshot; cropped, pixels unchanged.",
+    "externalImage": false,
+    "imageSource": "https://saigonbrick.com.vn/wp-content/uploads/2023/08/DK5007-4.webp"
   },
   {
     "id": "keeppley-naruto-hinata-k20508",
@@ -931,7 +938,7 @@ const gifts=[
     "id": "blokees-sasuke-75614",
     "name": "Blokees Naruto CC Sasuke Uchiha · 75614",
     "group": "figures",
-    "image": null,
+    "image": "/assets/products/blokees-sasuke-75614-cutout.webp",
     "photoClass": "cutout-photo",
     "price": 499000,
     "budget": "499.000 ₫",
@@ -942,7 +949,6 @@ const gifts=[
     "source": "https://www.mykingdom.com.vn/products/mo-hinh-naruto-cc-nhan-vat-sasuke-uchiha-blokees-75614",
     "sourceLabel": "Product listing ↗",
     "shopLabel": "open this exact listing ↗",
-    "linkOnly": true,
     "modelCode": "75614",
     "brand": "Blokees",
     "priceSource": {
@@ -952,14 +958,16 @@ const gifts=[
       "url": "https://www.mykingdom.com.vn/products/mo-hinh-naruto-cc-nhan-vat-sasuke-uchiha-blokees-75614",
       "note": "Displayed screenshot price; availability and price may change. Shipping may be extra."
     },
-    "imageStatus": "Listing image unavailable; background cutout pending source access",
-    "favorite": true
+    "imageStatus": "Local cutout of the retailer photo matching the user screenshot; white background removed, product pixels unchanged.",
+    "favorite": true,
+    "externalImage": false,
+    "imageSource": "https://www.mykingdom.com.vn/cdn/shop/files/mo-hinh-naruto-cc-nhan-vat-sasuke-uchiha-blokees-75614_1.jpg"
   },
   {
     "id": "zd-iron-spider-1602-12",
     "name": "ZD Toys Iron Spider with light-up base · 1602-12",
     "group": "figures",
-    "image": null,
+    "image": "/assets/products/zd-iron-spider-1602-12-cutout.webp",
     "photoClass": "cutout-photo",
     "price": 699000,
     "budget": "699.000 ₫",
@@ -970,7 +978,6 @@ const gifts=[
     "source": "https://www.mykingdom.com.vn/products/mo-hinh-tac-chien-iron-spiderman-tich-hop-be-anh-sang-zd-toy-1602-12",
     "sourceLabel": "Product listing ↗",
     "shopLabel": "open this exact listing ↗",
-    "linkOnly": true,
     "modelCode": "1602-12",
     "brand": "ZD Toys",
     "priceSource": {
@@ -980,57 +987,40 @@ const gifts=[
       "url": "https://www.mykingdom.com.vn/products/mo-hinh-tac-chien-iron-spiderman-tich-hop-be-anh-sang-zd-toy-1602-12",
       "note": "Displayed screenshot price; availability and price may change. Shipping may be extra."
     },
-    "imageStatus": "Listing image unavailable; background cutout pending source access"
+    "imageStatus": "Local cutout of the retailer photo matching the user screenshot; white background removed, product pixels unchanged.",
+    "externalImage": false,
+    "imageSource": "https://www.mykingdom.com.vn/cdn/shop/files/1606-12.jpg"
   }
 ];
 const $=selector=>document.querySelector(selector);
 const money=value=>new Intl.NumberFormat('vi-VN',{style:'currency',currency:'VND',maximumFractionDigits:0}).format(value);
-const groups=[['all','Everything'],['favorites','My faves ♡'],['builds','Build it'],['figures','Tiny people'],['diecast','1/64 garage'],['books','Books'],['style','Wear it'],['watches','Watches'],['tech','Tech & play']];
+const groups=[['all','All'],['favorites','Faves ♡'],['builds','Build it'],['figures','Tiny people'],['diecast','1/64 garage'],['books','Books'],['style','Wear it'],['watches','Watches'],['tech','Tech & play']];
+const groupName=Object.fromEntries(groups);
 const MAX_BUDGET=5000000;
-const scene=$('#scene'),playground=$('.playground'),detail=$('#detail'),buttons=new Map();
-let activeCategory='all',selected=null,previous=null,focusTimer,resizeTimer;
+const reduceMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const canHover=matchMedia('(hover: hover)').matches;
+const scene=$('#scene'),giftsEl=$('#gifts'),playground=$('.playground'),detail=$('#detail'),callouts=$('#callouts'),buttons=new Map();
+let relayoutTimer,activeCategory='all',selected=null,previous=null,layoutWidth=0,layout=new Map(),frozen=null,calloutTimer,openedOnce=false;
 const turns=new Map();
-// An art-directed composition: centers, widths, angles and depth, never rows.
-const composition={
- 'lego-ferrari-sf24':[34,58,150,-19,10], 'lepin-porsche-20001':[48,86,150,24,9],
- 'lele-white-dragon-31186':[7,38,145,12,8], 'lepin-super-escrdt-07101':[43,32,140,18,8],
- 'lepin-ultimate-batmobile-07077':[73,57,155,-16,10], 'going-merry-one-piece':[85,83,220,-16,10],
- 'dk-divine-dragon-5007':[48,66,145,16,10], 'keeppley-naruto-hinata-k20508':[33,79,170,-12,12],
- 'blokees-sasuke-75614':[73,16,150,14,11], 'zd-iron-spider-1602-12':[91,38,140,-16,9],
- 'retro-barcelona-shirt':[17,9,270,-24,4],
- 'spain-pedri-shirt':[14,36,155,17,9], 'argentina-messi-shirt':[62,64,160,-22,9],
- 'retro-football-shirt':[79,76,150,15,9], 'quarter-zip':[55,25,270,22,6],
- 'henley':[10,46,230,-18,5], 'loafers':[59,76,285,-25,7],
- 'kindle':[65,8,155,18,3], 'le-male':[43,17,135,-11,5],
- 'xbox':[77,43,245,32,3], 'naruto':[39,38,155,-14,7],
- 'blokees-naruto':[8,27,170,24,6], 'blokees-spider':[82,21,140,-20,4],
- 'naruto-minifigure':[87,65,100,15,8],
- 'casio-ltp':[29,25,155,35,8], 'casio-mtp':[49,54,165,-26,6],
- 'casio-mq':[18,79,125,16,3],
- 'diecast-rx7-niles':[42,4,260,-20,4], 'diecast-kaido-r34':[12,66,235,20,6],
- 'diecast-roxy':[32,68,210,-20,5], 'diecast-rexy':[76,31,220,-15,8],
- 'diecast-porsche-gt3r':[29,49,245,27,2], 'diecast-darwin-supra':[73,88,235,-16,7],
- 'book-on-writing-well':[5,9,110,-8,2], 'book-distinction':[37,87,115,14,2],
- 'book-moral-animal':[85,6,110,-18,2], 'book-wholeness':[51,74,110,-9,3],
- 'book-lieu-pham':[26,37,110,-26,2], 'book-quy-coc-tu':[16,57,110,18,8],
- 'book-wealth-of-nations':[84,54,115,21,2], 'book-fountainhead':[63,47,105,-17,3],
- 'book-siddhartha':[8,91,120,-12,4], 'book-bup-sen-xanh':[90,11,110,-12,9]
-};
+
+// ── Turning (drag a photo sideways, or arrow keys) ─────────────────────────
 function applyTurn(g,button,yaw,tilt=0){
  turns.set(g.id,{yaw,tilt});button.style.setProperty('--yaw',yaw+'deg');button.style.setProperty('--tilt',tilt+'deg');
 }
 function enableTurning(g,button){
  let drag=null,suppressUntil=0;
  button.addEventListener('pointerdown',e=>{
-  if(e.button!==0||button.disabled)return;
-  const turn=turns.get(g.id)||{yaw:0,tilt:0};drag={id:e.pointerId,x:e.clientX,y:e.clientY,...turn,moved:false};button.setPointerCapture(e.pointerId);
+  if(e.button!==0||button.disabled||selected)return;
+  const turn=turns.get(g.id)||{yaw:0,tilt:0};drag={id:e.pointerId,x:e.clientX,y:e.clientY,...turn,moved:false};
  });
  button.addEventListener('pointermove',e=>{
+  if(canHover&&!drag){const r=button.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;
+   button.style.setProperty('--hy',((x-.5)*16).toFixed(2)+'deg');button.style.setProperty('--hx',((.5-y)*12).toFixed(2)+'deg');
+   button.style.setProperty('--mx',(x*100).toFixed(1)+'%');button.style.setProperty('--my',(y*100).toFixed(1)+'%');}
   if(!drag||e.pointerId!==drag.id)return;
   const dx=e.clientX-drag.x,dy=e.clientY-drag.y;
-  if(!drag.moved&&Math.hypot(dx,dy)<7)return;
-  drag.moved=true;button.classList.add('is-dragging');
-  applyTurn(g,button,drag.yaw+dx*1.5,Math.max(-40,Math.min(40,drag.tilt-dy*.35)));
+  if(!drag.moved){if(Math.hypot(dx,dy)<8)return;if(e.pointerType==='touch'&&Math.abs(dy)>Math.abs(dx)){drag=null;return;}drag.moved=true;button.classList.add('is-dragging');button.setPointerCapture(e.pointerId);}
+  applyTurn(g,button,drag.yaw+dx*1.4,Math.max(-35,Math.min(35,drag.tilt-dy*.3)));
  });
  const finish=e=>{
   if(!drag||e.pointerId!==drag.id)return;
@@ -1039,117 +1029,276 @@ function enableTurning(g,button){
   if(button.hasPointerCapture(e.pointerId))button.releasePointerCapture(e.pointerId);
  };
  button.addEventListener('pointerup',finish);button.addEventListener('pointercancel',finish);
+ button.addEventListener('pointerleave',()=>{button.style.setProperty('--hx','0deg');button.style.setProperty('--hy','0deg');});
  button.addEventListener('click',e=>{if(performance.now()<suppressUntil){e.preventDefault();e.stopImmediatePropagation();}},true);
  button.addEventListener('keydown',e=>{
-  if(e.key!=='ArrowLeft'&&e.key!=='ArrowRight'&&e.key!=='Home')return;
+  if(selected||(e.key!=='ArrowLeft'&&e.key!=='ArrowRight'&&e.key!=='Home'))return;
   e.preventDefault();const turn=turns.get(g.id)||{yaw:0,tilt:0};
   applyTurn(g,button,e.key==='Home'?0:turn.yaw+(e.key==='ArrowLeft'?-15:15),0);
  });
 }
+
+// ── Rendering one wish ─────────────────────────────────────────────────────
 function titleReference(g){
- const tag=document.createElement('span');tag.className=g.group==='books'?'book-title-card':'product-link-tag';
- const title=document.createElement('strong');title.textContent=g.name;tag.append(title);
- const subtitle=document.createElement('small');subtitle.textContent=g.author||'view the exact product ↗';tag.append(subtitle);
- const label=document.createElement('span');label.className='reference-label';label.textContent=g.group==='books'?'TITLE LINK · EDITION TO CHOOSE':'PRODUCT LINK';tag.append(label);return tag;
+ const tag=document.createElement('span');tag.className='paper-tag';
+ const label=document.createElement('small');label.textContent=g.group==='books'?'title link · edition to choose':'product link ↗';
+ const title=document.createElement('strong');title.textContent=g.name;
+ tag.append(label,title);
+ if(g.author){const by=document.createElement('small');by.style.color='var(--ink-3)';by.textContent=g.author;tag.append(by);}
+ return tag;
 }
+const isFlatBook=(g,url)=>g.group==='books'&&!/cutout/.test(url);
 function renderImage(g,container,url){
- const img=document.createElement('img');img.alt=g.name+(g.author?' — '+g.author:'');img.src=url;img.decoding='async';img.draggable=false;img.referrerPolicy='no-referrer';
- img.addEventListener('error',()=>{container.replaceChildren(titleReference(g));container.classList.add('has-title-reference');});
- container.replaceChildren(img);container.classList.remove('has-title-reference');
+ return new Promise(resolve=>{
+  const img=document.createElement('img');img.alt=g.name+(g.author?' — '+g.author:'');img.decoding='async';img.draggable=false;img.referrerPolicy='no-referrer';
+  const button=buttons.get(g.id);let done=false;
+  const finish=ar=>{if(done)return;done=true;resolve(ar);};
+  img.addEventListener('load',()=>{const ar=img.naturalWidth/img.naturalHeight||1;
+   if(isFlatBook(g,url)){const book=document.createElement('span');book.className='book';book.style.setProperty('--ar',ar);book.append(img);container.replaceChildren(book);}
+   else{container.replaceChildren(img);if(!/^https?:/.test(url)){const sheen=document.createElement('span');sheen.className='sheen';sheen.style.setProperty('--mask',`url("${url}")`);container.append(sheen);}}
+   finish(ar);});
+  img.addEventListener('error',()=>{container.replaceChildren(titleReference(g));finish(.78);});
+  setTimeout(()=>{if(!done){container.replaceChildren(titleReference(g));finish(.78);}},g.externalImage?3500:8000);
+  img.src=url;
+  if(button&&g.photoClass==='print-photo')button.classList.add('print');
+ });
 }
 const coverLookups=new Set();
 async function lookUpCover(g){
- if(!g.coverSearch||coverLookups.has(g.id))return;coverLookups.add(g.id);
+ if(!g.coverSearch||g.image||coverLookups.has(g.id))return;coverLookups.add(g.id);
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),7000);
  try{
   const q=new URLSearchParams({title:g.coverSearch.title,author:g.coverSearch.author,limit:'5',fields:'key,title,author_name,cover_i'});
   const response=await fetch('https://openlibrary.org/search.json?'+q,{signal:controller.signal});if(!response.ok)return;
-  const data=await response.json(),normalize=s=>String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/đ/g,'d').replace(/[^a-z0-9 ]/g,'').trim();
+  const data=await response.json(),normalize=s=>String(s).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/đ/g,'d').replace(/[^a-z0-9 ]/g,'').trim();
   const title=normalize(g.name),author=normalize(g.author);
   const match=(data.docs||[]).find(d=>d.cover_i&&normalize(d.title)===title&&(d.author_name||[]).some(a=>normalize(a)===author));
   if(match){g.resolvedCover='https://covers.openlibrary.org/b/id/'+match.cover_i+'-L.jpg?default=false';renderImage(g,buttons.get(g.id).querySelector('.gift-art'),g.resolvedCover);}
  }catch{}finally{clearTimeout(timer);}
 }
+
+const aspect=new Map();
+const ready=[];
 for(const g of gifts){
- const button=document.createElement('button');button.className='gift '+(g.photoClass||'cutout-photo')+(g.imagePresentation==='light-background'?' seller-photo':'');button.dataset.id=g.id;button.dataset.price=g.price===null?'':g.price;button.hidden=true;
- button.setAttribute('aria-label',(g.favorite?'Favorite. ':'')+g.name+', '+g.budget+'. Click for details. Drag or use left and right arrows to turn the photo; Home resets it.');button.setAttribute('aria-controls','detail');button.setAttribute('aria-expanded','false');
+ const button=document.createElement('button');button.className='gift';button.dataset.id=g.id;button.dataset.price=g.price===null?'':g.price;
+ button.setAttribute('aria-label',(g.favorite?'Favorite. ':'')+g.name+', '+g.budget+'. Open details. Drag sideways or use arrow keys to turn the photo.');button.setAttribute('aria-controls','detail');button.setAttribute('aria-expanded','false');
+ const enter=document.createElement('span');enter.className='gift-enter';
+ const float=document.createElement('span');float.className='gift-float';
  const inner=document.createElement('span');inner.className='gift-inner';
- const art=document.createElement('span');art.className='gift-art';inner.append(art);
- if(g.image)renderImage(g,art,g.image);else art.append(titleReference(g));
- enableTurning(g,button);
- const label=document.createElement('span');label.className='gift-label';label.textContent=g.name+' · '+g.budget;
- button.append(inner,label);if(g.favorite){const badge=document.createElement('span');badge.className='favorite-badge';badge.textContent='♥ fave';badge.setAttribute('aria-hidden','true');button.append(badge);button.classList.add('is-favorite');}button.onclick=()=>openGift(g,button);$('#gifts').append(button);buttons.set(g.id,button);
+ const art=document.createElement('span');art.className='gift-art';inner.append(art);float.append(inner);enter.append(float);
+ const label=document.createElement('span');label.className='gift-label';label.textContent=g.name.length>34?g.name.slice(0,32)+'…':g.name;
+ button.append(enter,label);
+ if(g.favorite){const dot=document.createElement('span');dot.className='fave-dot';dot.textContent='♥';dot.setAttribute('aria-hidden','true');inner.append(dot);}
+ button.onclick=()=>openGift(g);giftsEl.append(button);buttons.set(g.id,button);enableTurning(g,button);
+ ready.push(g.image?renderImage(g,art,g.image).then(ar=>aspect.set(g.id,ar)):(art.append(titleReference(g)),aspect.set(g.id,.78),Promise.resolve()));
 }
+// the two dog drawings float in the scene as quiet decoration
+const decor=[].map(d=>{
+ const el=document.createElement('span');el.className='decor';el.setAttribute('aria-hidden','true');
+ const float=document.createElement('span');float.className='gift-float';const img=document.createElement('img');img.src=d.src;img.alt='';float.append(img);el.append(float);giftsEl.append(el);return{...d,el};
+});
 for(const[key,label]of groups){
- const button=document.createElement('button');button.className='category-tab';button.dataset.category=key;button.setAttribute('aria-pressed',String(key==='all'));
- button.textContent=label+' '+(key==='all'?gifts.length:gifts.filter(g=>key==='favorites'?g.favorite:g.group===key).length);
- button.onclick=()=>{activeCategory=key;updateView();};$('#categories').append(button);
+ const count=key==='all'?gifts.length:gifts.filter(g=>key==='favorites'?g.favorite:g.group===key).length;
+ const chip=document.createElement('button');chip.className='chip';chip.dataset.category=key;chip.setAttribute('aria-pressed',String(key==='all'));
+ chip.innerHTML=`${label}<sup>${count}</sup>`;chip.onclick=()=>{activeCategory=key;updateView();const top=sceneTop();if(scrollY>top)scrollTo({top,behavior:reduceMotion?'instant':'smooth'});chip.scrollIntoView({behavior:reduceMotion?'instant':'smooth',inline:'center',block:'nearest'});};$('#categories').append(chip);
 }
-function layoutScene(){
- const w=playground.clientWidth,mobile=w<650,artTop=mobile?95:110,artHeight=w*(mobile?3.45:1.25),scale=w/(mobile?710:1120);
- playground.style.height=(artTop+artHeight+110)+'px';
- gifts.forEach((g,i)=>{
-  const b=buttons.get(g.id),slot=composition[g.id];
-  if(!slot)throw new Error('Missing composition: '+g.id);
-  const [cx,cy,size,angle,depth]=slot;
-  const width=size*scale,ratio=g.group==='books'?1.5:g.group==='diecast'?.64:g.group==='watches'?1.25:g.id==='le-male'?1.5:g.id==='kindle'?1.45:g.id==='loafers'?.65:1.12,height=width*ratio;
-  const a=Math.abs(angle)*Math.PI/180,halfX=(width*Math.cos(a)+height*Math.sin(a))/2,halfY=(height*Math.cos(a)+width*Math.sin(a))/2;
-  const x=Math.max(halfX+10,Math.min(w-halfX-10,w*cx/100));
-  const y=artTop+Math.max(halfY+10,Math.min(artHeight-halfY-10,artHeight*cy/100));
-  b.style.setProperty('--x',(x-width/2)+'px');b.style.setProperty('--y',(y-height/2)+'px');
-  b.style.setProperty('--size',width+'px');b.style.setProperty('--height',height+'px');b.style.setProperty('--depth',depth);
-  b.style.setProperty('--gift-wash',['#ffc4da','#ffeb83','#c3d4ff','#c6ebc9','#dfcff6','#ffd0ad'][i%6]);b.style.setProperty('--rotation',angle+'deg');b.style.setProperty('--delay',(-i*.7)+'s');b.style.setProperty('--duration',(5+i*.25)+'s');
+
+// ── Editorial composition: depth tiers, uneven scale, overlap, edge bleed ──
+function rng(seed){return()=>{seed|=0;seed=seed+0x6D2B79F5|0;let t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
+const HEROES=['going-merry-one-piece','quarter-zip','retro-barcelona-shirt','loafers','xbox','blokees-sasuke-75614','keeppley-naruto-hinata-k20508','lego-ferrari-sf24','zd-iron-spider-1602-12','le-male','diecast-rx7-niles','blokees-spider'];
+function tiers(){
+ const r=rng(43),rest=gifts.filter(g=>!HEROES.includes(g.id)).map(g=>[r(),g]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
+ const t=new Map(HEROES.map(id=>[id,'front']));rest.forEach((g,i)=>t.set(g.id,i%2?'back':'mid'));return t;
+}
+const tierOf=tiers();
+let layoutKey='';
+function layoutScene(force=false){
+ const W=playground.clientWidth,list=eligibleGifts(),key=W+'|'+list.map(g=>g.id).join(',');
+ if(!force&&key===layoutKey)return;layoutKey=key;
+ const desktop=W>=760,vh=innerHeight,seedText=activeCategory+list.length,r=rng([...seedText].reduce((h,c)=>Math.imul(h^c.charCodeAt(0),16777619),desktop?1906:2110));
+ const base={front:1,mid:.62,back:.42},bleed={front:.1,mid:.26,back:.36},pd={front:14,mid:7,back:3},pf={front:-.035,mid:0,back:.03};
+ const ids=new Set(list.map(g=>g.id));
+ const few=list.length<=10;
+ const items=list.map(g=>({g,tier:few?(tierOf.get(g.id)==='back'?'mid':tierOf.get(g.id)):tierOf.get(g.id),ar:aspect.get(g.id)||1})).concat(activeCategory==='all'&&list.length===gifts.length?decor.map(d=>({d,tier:'mid',ar:1})):[]);
+ for(const it of items){
+  const side=base[it.tier]*(it.d?.5:(it.g&&!it.g.image)?.62:.84+r()*.32),area=side*side*(it.g?.group==='books'?.72:1);
+  it.w=Math.sqrt(area*it.ar);it.h=Math.sqrt(area/it.ar);
+ }
+ // target height grows with the number of wishes; then scale everything to fill it densely
+ const n=list.length,H=desktop?vh*Math.max(.78,Math.min(1.3,n/43*1.3)):vh*Math.max(.82,Math.min(2.25,n/43*2.25)),H0=H-(desktop?0:20);
+ const area0=items.reduce((s,it)=>s+it.w*it.h,0),k=Math.sqrt(W*H0*(desktop?.62:few?.62:.92)/area0);
+ for(const it of items){it.w*=k;it.h*=k;const capH=desktop?vh*.44:vh*.36,capW=W*(desktop?.3:.74);
+  if(it.h>capH){it.w*=capH/it.h;it.h=capH;}if(it.w>capW){it.h*=capW/it.w;it.w=capW;}}
+ const order=['front','mid','back'],placed=[];
+ items.sort((a,b)=>order.indexOf(a.tier)-order.indexOf(b.tier)||r()-.5);
+ const fronts=items.filter(it=>it.tier==='front');
+ fronts.forEach((it,i)=>{it.band=(i+.5)/fronts.length;});
+ for(const it of items){
+  const bx=it.w*bleed[it.tier],minX=it.w/2-bx,maxX=W-it.w/2+bx;let best=null,bestScore=-Infinity;
+  for(let t=0;t<70;t++){
+   let cx=minX+r()*(maxX-minX),cy=it.h/2+r()*Math.max(1,H-it.h);
+   if(it.band!==undefined){cy=Math.max(it.h*.45,Math.min(H-it.h*.45,H*it.band+(r()-.5)*H/fronts.length*.8));const left=fronts.indexOf(it)%2===0;cx=desktop?minX+r()*(maxX-minX):(left?W*(.18+r()*.22):W*(.6+r()*.22));}
+   let score=Infinity;
+   for(const p of placed){const d=Math.hypot((cx-p.cx)/(it.w+p.w),(cy-p.cy)/(it.h+p.h))*2,want=p.tier===it.tier?1:.6;score=Math.min(score,d-want);}
+   if(it.d)score-=Math.abs(cy/H-(it.d.id==='dog-reading'?.03:.96))*4;
+   if(score>bestScore){bestScore=score;best={cx,cy};}
+  }
+  Object.assign(it,best);placed.push(it);
+ }
+ const zBase={back:1,mid:20,front:45};
+ for(const tier of order){placed.filter(p=>p.tier===tier).sort((a,b)=>a.cy-b.cy).forEach((p,i)=>p.z=zBase[tier]+i);}
+ scene.style.height=H+'px';
+ for(const g of gifts)buttons.get(g.id).classList.toggle('gone',!ids.has(g.id));
+ for(const d of decor)d.el.classList.toggle('gone',!placed.some(p=>p.d===d));
+ placed.forEach(it=>{
+  const el=it.g?buttons.get(it.g.id):it.d.el,book=it.g?.group==='books';
+  const maxRot={front:11,mid:18,back:24}[it.tier]*(book?.75:1),rot=(r()*2-1)*maxRot;
+  el.style.setProperty('--x',(it.cx-it.w/2).toFixed(1)+'px');el.style.setProperty('--y',(it.cy-it.h/2).toFixed(1)+'px');
+  el.style.setProperty('--w',it.w.toFixed(1)+'px');el.style.setProperty('--h',it.h.toFixed(1)+'px');el.style.setProperty('--z',it.z);
+  el.style.setProperty('--rot',rot.toFixed(1)+'deg');el.style.setProperty('--pd',pd[it.tier]);el.style.setProperty('--pf',pf[it.tier]);
+  el.style.setProperty('--amp',({front:6,mid:8,back:10}[it.tier]*(0.7+r()*.6)).toFixed(1)+'px');el.style.setProperty('--sway',(0.8+r()*1.8).toFixed(2));
+  el.style.setProperty('--dur',(7+r()*6).toFixed(2)+'s');el.style.setProperty('--delay',(-r()*12).toFixed(2)+'s');
+  el.style.setProperty('--enter',({back:0,mid:.18,front:.36}[it.tier]+r()*.55).toFixed(2)+'s');
+  el.dataset.tier=it.tier;
+  if(it.g)layout.set(it.g.id,{cx:it.cx,cy:it.cy,w:it.w,h:it.h,pd:pd[it.tier],pf:pf[it.tier]});
  });
+}
+
+// ── Living motion: scroll and pointer parallax ─────────────────────────────
+let target={x:0,y:0},current={x:0,y:0},rafOn=false;
+function tick(){
+ rafOn=false;if(selected)return;
+ current.x+=(target.x-current.x)*.08;current.y+=(target.y-current.y)*.08;
+ scene.style.setProperty('--px',current.x.toFixed(3));scene.style.setProperty('--py',current.y.toFixed(3));
+ scene.style.setProperty('--scroll-shift',Math.round(scrollY));
+ if(Math.abs(target.x-current.x)>.002||Math.abs(target.y-current.y)>.002)loop();
+}
+function loop(){if(!rafOn&&!reduceMotion){rafOn=true;requestAnimationFrame(tick);}}
+addEventListener('scroll',loop,{passive:true});
+if(canHover)addEventListener('pointermove',e=>{target.x=(e.clientX/innerWidth-.5)*2;target.y=(e.clientY/innerHeight-.5)*2;loop();},{passive:true});
+
+// ── Filters and budget ─────────────────────────────────────────────────────
+function eligibleGifts(){
+ const max=Number($('#price').value),unlimited=max===MAX_BUDGET;
+ return gifts.filter(g=>(activeCategory==='all'||(activeCategory==='favorites'?g.favorite:g.group===activeCategory))&&(unlimited||(g.price!==null&&g.price<=max)));
 }
 function updateView(){
  if(selected)closeDetail(false);
  const max=Number($('#price').value),unlimited=max===MAX_BUDGET;
  const category=gifts.filter(g=>activeCategory==='all'||(activeCategory==='favorites'?g.favorite:g.group===activeCategory));
- const eligible=category.filter(g=>unlimited||(g.price!==null&&g.price<=max));
- const ids=new Set(eligible.map(g=>g.id));
- for(const g of gifts){const b=buttons.get(g.id),matches=ids.has(g.id);b.hidden=false;b.disabled=!matches;b.tabIndex=matches?0:-1;b.classList.toggle('muted',!matches);}
- for(const tab of document.querySelectorAll('.category-tab'))tab.setAttribute('aria-pressed',String(tab.dataset.category===activeCategory));
- $('#count').textContent=gifts.length;$('#empty').hidden=eligible.length>0;$('#scene-hint').hidden=eligible.length===0;
- $('#scene-result').textContent=eligible.length===gifts.length?gifts.length+' wishes · one big hint':eligible.length+' of '+gifts.length+' in the spotlight';
- $('#price').style.setProperty('--range-progress',(max/MAX_BUDGET*100)+'%');$('#price-value').textContent=unlimited?'no limit, baby':'tối đa '+money(max);$('#price').setAttribute('aria-valuetext',unlimited?'No price limit':'Tối đa '+money(max));
- const unpriced=category.filter(g=>g.price===null).length,ranges=category.some(g=>g.priceRange);$('#budget-note').textContent=(unlimited?unpriced+' món chưa đặt ngân sách':unpriced+' món chưa có ngân sách được làm mờ')+(ranges?' · Khoảng giá được lọc theo mức cao nhất.':'');
- $('#budget-title').textContent=unlimited?'financially irresponsible ♡':max<=30000?'tiny ninja money ☻':max<500000?'love on a budget ☻':max<1000000?'a lil treat territory':max<2000000?'okay, you really like me':'sugar partner energy ✦';
- layoutScene();eligible.forEach(lookUpCover);
+ const eligible=eligibleGifts(),ids=new Set(eligible.map(g=>g.id));
+ for(const g of gifts){const b=buttons.get(g.id),on=ids.has(g.id);b.disabled=!on;b.tabIndex=on?0:-1;}
+ if(scene.classList.contains('live')){clearTimeout(relayoutTimer);relayoutTimer=setTimeout(()=>layoutScene(),90);}
+ for(const chip of document.querySelectorAll('.chip'))chip.setAttribute('aria-pressed',String(chip.dataset.category===activeCategory));
+ $('#count').textContent=eligible.length===gifts.length?gifts.length:eligible.length+' / '+gifts.length;
+ $('#kicker-state').textContent=eligible.length?'TAP TO EXPLORE':'NOTHING HERE';
+ $('#empty').hidden=eligible.length>0;
+ $('#price').style.setProperty('--range-progress',(max/MAX_BUDGET*100)+'%');
+ $('#price-value').textContent=unlimited?'NO LIMIT':'≤ '+money(max);$('#price').setAttribute('aria-valuetext',unlimited?'No price limit':'Tối đa '+money(max));
+ const unpriced=category.filter(g=>g.price===null).length,ranges=category.some(g=>g.priceRange);
+ $('#budget-note').textContent=(unlimited?unpriced+' món chưa đặt ngân sách':unpriced+' món chưa có ngân sách được làm mờ')+(ranges?' · Khoảng giá được lọc theo mức cao nhất.':'');
+ $('#budget-title').textContent=unlimited?'financially irresponsible':max<=30000?'tiny ninja money':max<500000?'love on a budget':max<1000000?'a lil treat territory':max<2000000?'okay, you really like me':'sugar partner energy';
+ eligible.forEach(lookUpCover);
 }
-function placeDetail(){
- if(!selected)return;
- const b=previous,w=playground.clientWidth,h=playground.clientHeight,mobile=w<650,sceneTop=playground.getBoundingClientRect().top;
- const viewTop=Math.max(0,Math.min(h,-sceneTop)),viewBottom=Math.max(viewTop,Math.min(h,window.innerHeight-sceneTop)),viewport=Math.max(180,viewBottom-viewTop);
- detail.style.maxHeight=(mobile?Math.min(470,viewport*.63):Math.min(620,viewport-90))+'px';
- const x=b.offsetLeft+b.offsetWidth/2,y=b.offsetTop+b.offsetHeight/2,scale=mobile?1.65:1.85,tx=w*(mobile?.69:.60),ty=viewTop+viewport*(mobile?.22:.40);
- scene.style.transform=`translate(${tx-x*scale}px,${ty-y*scale}px) scale(${scale})`;
- const cardWidth=detail.offsetWidth||260;detail.style.left=Math.max(12,Math.min(w-cardWidth-12,mobile?w*.07:w*.60-cardWidth-b.offsetWidth*scale*.47-28))+'px';
- detail.style.top=Math.min(h-detail.offsetHeight-80,mobile?viewTop+viewport*.33:Math.max(viewTop+60,ty-detail.offsetHeight*.40))+'px';
+
+// ── Zoom into one wish, with callouts and a glass sheet ────────────────────
+const desktopNow=()=>innerWidth>=760;
+function sceneOrigin(){const r=playground.getBoundingClientRect();return{left:r.left,top:r.top+parseFloat(getComputedStyle(playground).paddingTop)};}
+function frame(g){
+ const L=layout.get(g.id),o=frozen.origin,W=innerWidth,vh=innerHeight,desk=desktopNow();
+ const x=L.cx+frozen.px*L.pd,y=L.cy+frozen.scroll*L.pf+frozen.py*L.pd;
+ const sheetH=desk?0:Math.min(detail.offsetHeight||vh*.5,vh*.52)+10;
+ const boxW=desk?W*.42:W*.66,boxH=desk?vh*.66:(vh-sheetH)*.62,s=Math.max(1.05,Math.min(3.6,boxW/L.w,boxH/L.h));
+ const tx=desk?Math.min(W*.38,W-420-L.w*s/2):W/2,ty=desk?vh*.52:Math.max(vh*.08+L.h*s/2,(vh-sheetH)*.5);
+ return{s,T:{x:tx-o.left-x*s,y:ty-o.top-y*s},rect:{cx:tx,cy:ty,w:L.w*s,h:L.h*s}};
+}
+function fillDetail(g){
+ const list=eligibleGifts(),i=list.indexOf(g);
+ $('#detail-number').textContent='WISH '+String(i+1).padStart(2,'0');$('#detail-total').textContent='/ '+list.length;
+ $('#detail-group').textContent=groupName[g.group]||g.group;
+ $('#progress-bar').style.width=((i+1)/list.length*100)+'%';
+ $('#detail-price-label').textContent=g.priceType==='listing-range'?'01 · PRICE RANGE':g.priceSource?.status==='user-supplied screenshot'?'01 · SHOWN PRICE':'01 · BUDGET';$('#detail-favorite').hidden=!g.favorite;$('#detail-title').textContent=g.name;$('#detail-price').textContent=g.budget;$('#detail-condition').textContent=g.condition;$('#detail-note').textContent=g.note;
+ const outfit=$('#detail-outfit'),slot=$('#detail-outfit-frame');slot.replaceChildren();outfit.hidden=!g.outfitReference;
+ if(g.outfitReference&&/^\d+$/.test(g.outfitReference.pinId)){const ref=g.outfitReference,f=document.createElement('iframe');f.title=ref.title;f.src='https://assets.pinterest.com/ext/embed.html?id='+ref.pinId;f.loading='lazy';f.referrerPolicy='no-referrer';f.setAttribute('sandbox','allow-scripts allow-same-origin allow-popups');slot.append(f);$('#detail-outfit-link').href=ref.url;}
+ $('#detail-source').href=g.source;$('#detail-source').textContent=g.sourceLabel?'source ↗':'source ↗';
+ $('#detail-shop').href=g.url;$('#detail-shop').textContent=g.shopLabel||'tìm món này ở Việt Nam ↗';
+ const links=$('#detail-links');links.replaceChildren();for(const ref of g.links||[]){const a=document.createElement('a');a.href=ref.url;a.textContent=ref.label;a.target='_blank';a.rel='noopener noreferrer';links.append(a);}
+ detail.scrollTop=0;
+}
+function calloutData(g){
+ const first=g.author?['AUTHOR',g.author]:g.brand?['BRAND',g.brand+(g.modelCode?' · '+g.modelCode:'')]:g.scale?['SCALE',g.scale]:['CATEGORY',(g.category||'').split('/').pop().trim()||groupName[g.group]];
+ return[first,['BUDGET',g.budget]];
+}
+function drawCallouts(g,rect){
+ const W=innerWidth,vh=innerHeight,desk=desktopNow(),sheetTop=desk?vh:detail.getBoundingClientRect().top;
+ const pts=[{x:rect.cx-rect.w*.14,y:rect.cy-rect.h*.16},{x:rect.cx+rect.w*.12,y:rect.cy+rect.h*.2}];
+ const labels=[{x:desk?Math.max(24,rect.cx-rect.w/2-190):14,y:Math.max(desk?90:24,rect.cy-rect.h*.42),side:'left'},
+  {x:desk?Math.min(rect.cx+rect.w/2+30,W-560):W-14,y:Math.min(sheetTop-74,rect.cy+rect.h*.36),side:'right'}];
+ const svgNS='http://www.w3.org/2000/svg';callouts.replaceChildren();
+ calloutData(g).forEach(([key,value],i)=>{
+  const wrap=document.createElement('div');wrap.className='callout';
+  const label=document.createElement('div');label.className='callout-label'+(labels[i].side==='right'?' right':'');
+  label.innerHTML=`<b>0${i+1}</b><span></span><em></em>`;label.querySelector('span').textContent=key;label.querySelector('em').textContent=value;
+  const svg=document.createElementNS(svgNS,'svg'),line=document.createElementNS(svgNS,'line'),dot=document.createElementNS(svgNS,'circle');
+  wrap.append(svg,label);callouts.append(wrap);
+  const lw=label.offsetWidth,lh=label.offsetHeight,lx=labels[i].side==='right'?labels[i].x-lw:labels[i].x,ly=Math.max(10,labels[i].y);
+  label.style.left=lx+'px';label.style.top=ly+'px';
+  const ex=labels[i].side==='right'?lx:lx+lw,ey=ly+lh/2;
+  line.setAttribute('x1',ex);line.setAttribute('y1',ey);line.setAttribute('x2',pts[i].x);line.setAttribute('y2',pts[i].y);
+  line.style.setProperty('--len',Math.hypot(ex-pts[i].x,ey-pts[i].y).toFixed(0));
+  dot.setAttribute('cx',pts[i].x);dot.setAttribute('cy',pts[i].y);dot.setAttribute('r',3.5);svg.append(line,dot);
+ });
+ requestAnimationFrame(()=>callouts.classList.add('show'));
+}
+function openGift(g){
+ if(selected===g){closeDetail();return;}
+ if(!selected){
+  const st=getComputedStyle(scene);
+  frozen={origin:sceneOrigin(),px:parseFloat(st.getPropertyValue('--px'))||0,py:parseFloat(st.getPropertyValue('--py'))||0,scroll:parseFloat(st.getPropertyValue('--scroll-shift'))||0};
+  document.documentElement.classList.add('locked');document.body.classList.add('zoomed');
+ }
+ selected=g;const b=buttons.get(g.id);previous=b;openedOnce=true;$('#dock').classList.add('hide');
+ for(const[id,item]of buttons){item.classList.toggle('selected',item===b);item.setAttribute('aria-expanded',String(item===b));}
+ fillDetail(g);detail.hidden=false;
+ requestAnimationFrame(()=>{
+  const f=frame(g);scene.style.transform=`translate(${f.T.x.toFixed(1)}px,${f.T.y.toFixed(1)}px) scale(${f.s.toFixed(3)})`;
+  detail.classList.add('visible');callouts.classList.remove('show');clearTimeout(calloutTimer);
+  calloutTimer=setTimeout(()=>drawCallouts(g,f.rect),reduceMotion?0:780);
+  setTimeout(()=>$('#close').focus({preventScroll:true}),reduceMotion?0:300);
+ });
+}
+function step(dir){
+ if(!selected)return;const list=eligibleGifts();if(!list.length)return;
+ const i=list.indexOf(selected);openGift(list[(i+dir+list.length)%list.length]);
 }
 function closeDetail(restore=true){
- clearTimeout(focusTimer);$('#detail-outfit-frame').replaceChildren();$('#detail-outfit').hidden=true;detail.hidden=true;detail.classList.remove('visible');$('#overview').hidden=true;playground.classList.remove('zoomed');scene.style.transform='';
- for(const b of buttons.values()){b.classList.remove('selected');b.setAttribute('aria-expanded','false');b.tabIndex=b.disabled?-1:0;}selected=null;if(restore)previous?.focus({preventScroll:true});
+ clearTimeout(calloutTimer);callouts.classList.remove('show');setTimeout(()=>{if(!selected)callouts.replaceChildren();},400);
+ $('#detail-outfit-frame').replaceChildren();detail.classList.remove('visible');
+ setTimeout(()=>{if(!selected)detail.hidden=true;},600);
+ document.body.classList.remove('zoomed');document.documentElement.classList.remove('locked');scene.style.transform='';
+ for(const b of buttons.values()){b.classList.remove('selected');b.setAttribute('aria-expanded','false');}
+ selected=null;frozen=null;loop();if(restore)previous?.focus({preventScroll:true});
 }
-function openGift(g,b){
- if(selected===g){closeDetail();return;}const sceneRect=playground.getBoundingClientRect();if(Math.min(innerHeight,sceneRect.bottom)-Math.max(0,sceneRect.top)<360)window.scrollTo({top:window.scrollY+sceneRect.top,behavior:'instant'});selected=g;previous=b;
- for(const item of buttons.values()){item.classList.toggle('selected',item===b);item.setAttribute('aria-expanded',String(item===b));item.tabIndex=item===b?0:-1;}
- $('#detail-number').textContent='WISH '+String(gifts.indexOf(g)+1).padStart(2,'0')+' / '+gifts.length;
- $('#detail-favorite').hidden=!g.favorite;$('#detail-title').textContent=g.name;$('#detail-category').textContent=g.category;$('#detail-price').textContent=g.budget;$('#detail-price-label').textContent=g.priceType==='listing-range'?'khoảng giá · VND':g.priceSource?.status==='user-supplied screenshot'?'giá trong ảnh · VND':'ngân sách · VND';$('#detail-condition').textContent=g.condition;$('#detail-note').textContent=g.note;
- const outfit=$('#detail-outfit'),frameSlot=$('#detail-outfit-frame');frameSlot.replaceChildren();outfit.hidden=!g.outfitReference;
- if(g.outfitReference&&/^\d+$/.test(g.outfitReference.pinId)){
-  const ref=g.outfitReference,frame=document.createElement('iframe');frame.title=ref.title;frame.src='https://assets.pinterest.com/ext/embed.html?id='+ref.pinId;frame.loading='lazy';frame.referrerPolicy='no-referrer';frame.setAttribute('sandbox','allow-scripts allow-same-origin allow-popups');frameSlot.append(frame);$('#detail-outfit-link').href=ref.url;
- }
- $('#detail-source').href=g.source;$('#detail-source').textContent=g.sourceLabel||(g.image?'Reference source ↗':'Find the edition / source ↗');$('#detail-shop').href=g.url;$('#detail-shop').textContent=g.shopLabel||'tìm món này ở Việt Nam ↗';
- const links=$('#detail-links');links.replaceChildren();for(const ref of g.links||[]){const a=document.createElement('a');a.href=ref.url;a.textContent=ref.label;a.target='_blank';a.rel='noopener noreferrer';links.append(a);}
- detail.hidden=false;detail.classList.remove('visible');$('#overview').hidden=false;playground.classList.add('zoomed');placeDetail();clearTimeout(focusTimer);focusTimer=setTimeout(()=>{detail.classList.add('visible');$('#close').focus({preventScroll:true});},matchMedia('(prefers-reduced-motion: reduce)').matches?0:180);
-}
+
 $('#price').oninput=updateView;$('#reset').onclick=()=>{$('#price').value=MAX_BUDGET;updateView();};
-$('#budget-jump').onclick=()=>$('.budget').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'center'});
-$('#back-to-wishes').onclick=()=>playground.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
-$('#reset-turns').onclick=()=>{for(const g of gifts)applyTurn(g,buttons.get(g.id),0);toast('all photos facing front ☻');};
-$('#close').onclick=()=>closeDetail();$('#overview').onclick=()=>closeDetail();
-playground.addEventListener('click',e=>{if(selected&&!e.target.closest('button, a, .detail-card'))closeDetail();});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&selected)closeDetail();});
-window.addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{layoutScene();placeDetail();},100);});
-let toastTimer;function toast(text){$('#toast').textContent=text;$('#toast').classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('visible'),3500);}
-$('#share').onclick=async()=>{try{if(navigator.share)await navigator.share({title:'Things to get me',text:'a very subtle hint, actually ☻',url:location.href});else{await navigator.clipboard.writeText(location.href);toast('hint copied. send responsibly ☻');}}catch(e){if(e.name!=='AbortError')toast('Copy the page address to send this little hint.');}};
+$('#back-to-wishes').onclick=()=>scrollTo({top:sceneTop(),behavior:reduceMotion?'instant':'smooth'});
+$('#reset-turns').onclick=()=>{for(const g of gifts)applyTurn(g,buttons.get(g.id),0);toast('all photos facing front');};
+$('#close').onclick=()=>closeDetail();$('#veil').onclick=()=>closeDetail();
+$('#prev').onclick=()=>step(-1);$('#next').onclick=()=>step(1);
+$('#dock').onclick=()=>{const first=eligibleGifts().find(g=>tierOf.get(g.id)==='front')||eligibleGifts()[0];if(first)openGift(first);};
+document.addEventListener('keydown',e=>{if(!selected)return;if(e.key==='Escape')closeDetail();else if(e.key==='ArrowRight')step(1);else if(e.key==='ArrowLeft')step(-1);});
+let swipe=null;
+detail.addEventListener('touchstart',e=>{const t=e.touches[0];swipe={x:t.clientX,y:t.clientY};},{passive:true});
+detail.addEventListener('touchend',e=>{if(!swipe)return;const t=e.changedTouches[0],dx=t.clientX-swipe.x,dy=t.clientY-swipe.y;swipe=null;
+ if(Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy)*1.4)step(dx<0?1:-1);else if(dy>90&&detail.scrollTop<=0)closeDetail();},{passive:true});
+addEventListener('scroll',()=>{if(!openedOnce)$('#dock').classList.toggle('hide',scrollY>scene.offsetHeight*.75);},{passive:true});
+let resizeTimer;addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{
+ if(selected){const g=selected;closeDetail(false);layoutScene();openGift(g);}else layoutScene();},120);});
+let toastTimer;function toast(text){$('#toast').textContent=text;$('#toast').classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('visible'),3200);}
+$('#share').onclick=async()=>{try{if(navigator.share)await navigator.share({title:'Things to get me',text:'a very subtle hint, actually',url:location.href});else{await navigator.clipboard.writeText(location.href);toast('hint copied. send responsibly');}}catch(e){if(e.name!=='AbortError')toast('Copy the page address to send this little hint.');}};
+
+const sceneTop=()=>Math.max(0,playground.offsetTop-$('.masthead').offsetHeight);
+const heroEl=$('.hero');const markScrolled=()=>document.body.classList.toggle('scrolled',scrollY>heroEl.offsetHeight-40);addEventListener('scroll',markScrolled,{passive:true});markScrolled();
 updateView();
+scene.style.visibility='hidden';
+Promise.race([Promise.all(ready),new Promise(r=>setTimeout(r,4000))]).then(()=>{layoutScene(true);scene.style.visibility="";scene.classList.add("live");loop();});

@@ -123,3 +123,17 @@ Porsche 20001, LELE white dragon 31186, LEPIN Hulkbuster 07101 and LEPIN Batmobi
 ## Book cover references
 
 At the user’s request, the previously produced cover edits for Búp sen xanh, Liễu Phàm Tứ Huấn and Quỷ Cốc Tử are now included in the website and standalone HTML. They are edited from the supplied covers; small lettering and visual details may differ from the originals, so check the seller’s edition. Their existing prices and links are preserved.
+
+## Retailer photos for the screenshot wishes — 4 November 2026
+
+The 13 wishes from the user's screenshots now use local images taken from the retailers' own listing photos (MyKingdom, Shopee, SaigonBrick, Casio Vietnam, Fahasa): Blokees Spider-Man 81118 and Sasuke 75614, ZD Iron Spider, LEGO Ferrari SF-24, the green Casio MQ-24DA-3A, LEPIN Porsche 20001, Hulkbuster 07101 and Batmobile 07077, LELE white dragon 31186, DK Divine Dragon 5007, and the Fahasa covers of Liễu Phàm Tứ Huấn (2025 reprint), Quỷ Cốc Tử (Sbooks) and Búp sen xanh (Kim Đồng 2020). White backgrounds were removed by flood fill; product pixels are unchanged. These replace the online Shopee image links and the edited book-cover references, which stay in assets/products but are no longer used. Sources and hashes are in assets/products/sources.json. The Naruto minifigure, Spain Pedri shirt and retro football shirt still have no photo.
+
+## Editorial redesign — 4 November 2026
+
+Mobile-first rebuild after the "Shop the scene" reference (x.com/AshleyBirondo/status/2110022762136056305). The hand-drawn scrapbook styling is replaced by an editorial look: warm seamless paper, Newsreader italic headings with IBM Plex Mono labels (both OFL, embedded, with full Vietnamese coverage), and a dense floating cloud of wishes.
+
+- Composition is generated, not gridded: three depth tiers (front heroes, mid, blurred back), area-balanced sizes, uneven rotation, overlap and edge bleed. A category or budget filter re-flows only the matching wishes into a new cloud.
+- Every wish floats on its own rhythm; layers drift with scroll and, on desktop, with the pointer. Hovering tilts the photo and moves a light sheen over it. Drag-to-turn still works.
+- Tapping a wish zooms the camera onto it, frosts the rest, draws two callouts (brand/author, budget) and opens a glass sheet (bottom sheet on phones, side card on desktop) with prev/next, swipe, and a progress line.
+- Flat book covers render as 3D books with spine shading and page edges.
+- The original fun headline is kept as the opening hero: "Things to / get me" in Lilita One (cobalt and coral with the yellow marker), the Patrick Hand note, and the two user-supplied dog drawings bobbing on either side. Below it, the category chips stick to the top; once the hero scrolls away a small italic title joins them.
