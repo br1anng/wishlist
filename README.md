@@ -97,3 +97,9 @@ Saved all 11 requested shop links. The existing Blokees Spider-Man wish now targ
 All 11 shop requests failed with HTTP CONNECT 403 under the active cloud network policy. Their VND prices remain explicitly unverified and no uninspected photo was substituted or represented as a completed cutout. Listing/model references and Shopee image identifiers are recorded in assets/products/requested-listings.json; price status is recorded in price-review.json. No image edits were attempted without the actual source images.
 
 The environment draft now adds www.mykingdom.com.vn, mykingdom.com.vn, shopee.vn, www.shopee.vn, saigonbrick.com.vn, www.saigonbrick.com.vn, down-vn.img.susercontent.com, cf.shopee.vn, product.hstatic.net and theme.hstatic.net while preserving the existing domains. Backend save succeeded and requires_publish is true. This does not apply the policy. Review and save in Environment settings, then Publish, before retrying the listing requests.
+
+## Going Merry screenshot — 4 November 2026
+
+The user supplied a Shopee screenshot for Going Merry. It shows a listing-wide range of 785,000–1,659,000 VND, with Going Merry/Baratie and with/without-box variants. The site displays that full range and explicitly leaves the exact ship/box price unconfirmed. Finite budget filters use the upper endpoint (1,659,000 VND); this is a conservative filter ceiling, not a claimed exact seller price or user budget. The listing title says 1372 pieces.
+
+A transparent cutout is derived from the main ship photo in the screenshot, removing the background, detached sticker, UI and supporting hand. Small hull areas hidden by the hand may be reconstructed. This is the 22nd embedded local image; all 43 wishes remain. The other ten newly requested listing images/prices still require accessible source pages or screenshots.

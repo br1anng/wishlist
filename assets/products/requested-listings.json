@@ -1,6 +1,6 @@
 {
   "requested": "2026-11-04",
-  "status": "All eleven listing fetches denied by active network policy, HTTP CONNECT 403. Prices/photos/cutouts incomplete.",
+  "status": "Retailer-page access remains blocked. Going Merry now has user screenshot evidence for a listing price range and photo-derived cutout; the other ten requested listing photos/prices remain pending.",
   "items": [
     {
       "id": "lego-ferrari-sf24",
@@ -46,7 +46,13 @@
       "name": "Going Merry · One Piece pirate ship",
       "url": "https://shopee.vn/product/91626123/41326999550",
       "group": "builds",
-      "code": null
+      "code": null,
+      "price_range_vnd": {
+        "min": 785000,
+        "max": 1659000
+      },
+      "image_file": "assets/products/going-merry-cutout.webp",
+      "evidence": "User-supplied listing screenshot; exact Going Merry variant price not selected"
     },
     {
       "id": "dk-divine-dragon-5007",

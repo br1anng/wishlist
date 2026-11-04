@@ -524,15 +524,20 @@
     "id": "going-merry-one-piece",
     "model": "Going Merry · One Piece pirate ship",
     "group": "builds",
-    "source": "https://shopee.vn/product/91626123/41326999550",
+    "source": "User-supplied Shopee listing screenshot in chat, 2026-11-04",
     "product_url": "https://shopee.vn/product/91626123/41326999550",
     "budget_vnd": null,
-    "budget_note": "Current VND price not retrieved; do not substitute a budget or invented quote.",
+    "budget_note": "No user budget set. Screenshot listing range 785000–1659000 VND; exact Going Merry selection unconfirmed.",
     "image_url": null,
-    "file": null,
-    "status": "Listing blocked by current cloud HTTP policy (CONNECT 403); exact product image and background removal pending.",
+    "file": "assets/products/going-merry-cutout.webp",
+    "status": "Photo-derived transparent cutout from user-supplied listing screenshot; supporting hand removed and occluded hull areas reconstructed. Exact brand unverified.",
     "favorite": false,
-    "requested_image_id": null
+    "requested_image_id": null,
+    "price_range_vnd": {
+      "min": 785000,
+      "max": 1659000
+    },
+    "filter_ceiling_vnd": 1659000
   },
   {
     "id": "dk-divine-dragon-5007",

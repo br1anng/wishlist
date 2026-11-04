@@ -817,27 +817,37 @@ const gifts=[
     "id": "going-merry-one-piece",
     "name": "Going Merry · One Piece pirate ship",
     "group": "builds",
-    "image": null,
+    "image": "/assets/products/going-merry-cutout.webp",
     "photoClass": "cutout-photo",
-    "price": null,
-    "budget": "Giá chưa xác minh",
+    "price": 1659000,
+    "budget": "785.000–1.659.000 ₫",
     "category": "build it / tiny things, big happiness",
-    "condition": "Building-set listing · brand and exact model to confirm",
-    "note": "Luffy’s Going Merry pirate ship from One Piece, identified by you. Confirm the exact kit, included figures, selected variant, stock, shipping and current VND price with the seller.",
+    "condition": "Listing-wide price range · 1372 pieces in title · choose the ship and box option",
+    "note": "The screenshot shows 785,000–1,659,000 VND across the listing options, which include Going Merry (Tàu one piece), Baratie, and with/without-box choices. The exact Going Merry variant price is not selected or confirmed. Choose Tàu one piece and your box option on Shopee before buying. The budget filter uses the top of this range (1,659,000 VND), so it does not imply the ship is available at the lowest price. Photo-derived preview from your screenshot; the supporting hand was removed and small hidden hull areas may be reconstructed.",
     "url": "https://shopee.vn/product/91626123/41326999550",
     "source": "https://shopee.vn/product/91626123/41326999550",
     "sourceLabel": "Product listing ↗",
     "shopLabel": "open this exact listing ↗",
-    "linkOnly": true,
     "modelCode": null,
     "brand": null,
     "priceSource": {
       "url": "https://shopee.vn/product/91626123/41326999550",
-      "checked": "2026-11-04",
-      "status": "blocked",
-      "error": "HTTP CONNECT 403; no current price read"
+      "providedOn": "2026-11-04",
+      "status": "user-supplied screenshot",
+      "type": "listing-variant-range",
+      "min_vnd": 785000,
+      "max_vnd": 1659000,
+      "exactVariantPrice": null,
+      "note": "Visible listing range includes Going Merry/Baratie and box options. Not a fresh retailer-page verification."
     },
-    "imageStatus": "Listing image unavailable; background cutout pending source access"
+    "imageStatus": "Photo-derived transparent cutout from user-supplied listing screenshot; supporting hand removed and occluded hull areas reconstructed. Exact brand unverified.",
+    "priceRange": {
+      "min": 785000,
+      "max": 1659000,
+      "scope": "listing variants, not an exact Going Merry selection"
+    },
+    "priceType": "listing-range",
+    "pieceCount": 1372
   },
   {
     "id": "dk-divine-dragon-5007",
@@ -957,7 +967,7 @@ const turns=new Map();
 const composition={
  'lego-ferrari-sf24':[34,58,150,-19,10], 'lepin-porsche-20001':[48,86,150,24,9],
  'lele-white-dragon-31186':[7,38,145,12,8], 'lepin-super-escrdt-07101':[43,32,140,18,8],
- 'lepin-ultimate-batmobile-07077':[73,57,155,-16,10], 'going-merry-one-piece':[91,84,110,-14,8],
+ 'lepin-ultimate-batmobile-07077':[73,57,155,-16,10], 'going-merry-one-piece':[85,83,220,-16,10],
  'dk-divine-dragon-5007':[48,66,145,16,10], 'keeppley-naruto-hinata-k20508':[33,79,170,-12,12],
  'blokees-sasuke-75614':[73,16,150,14,11], 'zd-iron-spider-1602-12':[91,38,140,-16,9],
  'retro-barcelona-shirt':[17,9,270,-24,4],
@@ -1075,7 +1085,7 @@ function updateView(){
  $('#count').textContent=gifts.length;$('#empty').hidden=eligible.length>0;$('#scene-hint').hidden=eligible.length===0;
  $('#scene-result').textContent=eligible.length===gifts.length?gifts.length+' wishes · one big hint':eligible.length+' of '+gifts.length+' in the spotlight';
  $('#price').style.setProperty('--range-progress',(max/MAX_BUDGET*100)+'%');$('#price-value').textContent=unlimited?'no limit, baby':'tối đa '+money(max);$('#price').setAttribute('aria-valuetext',unlimited?'No price limit':'Tối đa '+money(max));
- const unpriced=category.filter(g=>g.price===null).length;$('#budget-note').textContent=unlimited?unpriced+' món chưa đặt ngân sách':unpriced+' món chưa có ngân sách được làm mờ';
+ const unpriced=category.filter(g=>g.price===null).length,ranges=category.some(g=>g.priceRange);$('#budget-note').textContent=(unlimited?unpriced+' món chưa đặt ngân sách':unpriced+' món chưa có ngân sách được làm mờ')+(ranges?' · Khoảng giá được lọc theo mức cao nhất.':'');
  $('#budget-title').textContent=unlimited?'financially irresponsible ♡':max<=30000?'tiny ninja money ☻':max<500000?'love on a budget ☻':max<1000000?'a lil treat territory':max<2000000?'okay, you really like me':'sugar partner energy ✦';
  layoutScene();eligible.forEach(lookUpCover);
 }
