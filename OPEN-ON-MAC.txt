@@ -1,0 +1,11 @@
+OPEN THIS WISHLIST ON YOUR MAC
+
+1. Download this branch as a ZIP from GitHub and unzip it.
+2. In Finder, open the extracted wishlist folder.
+3. Double-click OPEN-WISHLIST.html.
+
+If it opens in a text editor, right-click OPEN-WISHLIST.html and choose Open With > Safari or Google Chrome.
+
+No Terminal, Node.js, Python, installation, or local server is required. The photos and fonts saved in the file are embedded. Online book covers, Blokees images, Pinterest previews, and store links still require Internet access.
+
+Open the file from Finder, not the chat app source viewer. PREVIEW.png is a screenshot of the current design.
