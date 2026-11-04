@@ -137,6 +137,10 @@ body.zoomed .masthead{opacity:0;transform:translateY(-30px);pointer-events:none}
 #veil{position:absolute;inset:-150vh -150vw;z-index:60;pointer-events:none;opacity:0;transition:opacity .7s var(--ease-out);
  background:rgba(243,241,236,.42);-webkit-backdrop-filter:blur(9px) saturate(.9);backdrop-filter:blur(9px) saturate(.9)}
 body.zoomed #veil{opacity:1;pointer-events:auto}
+/* lift the whole scene above the headline hero while zoomed */
+.playground{z-index:4}
+body.zoomed .playground{z-index:35;overflow:visible}
+body.zoomed .hero{pointer-events:none}
 .gift.selected{z-index:70;transform:none}
 .gift.selected .gift-float{animation-play-state:paused}
 .gift.selected .gift-label{display:none}
